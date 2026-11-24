@@ -3005,6 +3005,47 @@
       "render_source_sha": "015c86c2e188c2d62a7851ebd723430313c8c8ab",
       "render_run_id": 45419450512,
       "updated_at": "2026-11-24T15:00:04.682599+00:00"
+    },
+    {
+      "id": "f3-industrial-v2-fractured-road",
+      "name": "不規則に割れ沈下したアスファルト路面V2",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 5d7df6e",
+      "status": "制作中",
+      "run_id": 45420391969,
+      "source_sha": "5d7df6eecbca5dd0ede6b45b4ff4cfed3e061012",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-v2-fractured-road/783e11e24b2f5bba2053c176583e5e0a11b9e11eb451e0a34a4501d96ba4f052.png",
+          "sha256": "783e11e24b2f5bba2053c176583e5e0a11b9e11eb451e0a34a4501d96ba4f052"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-v2-fractured-road/cc3ed7618e1fd3abfdd939ef2540484ef7724707e91ae9cbe2e68b90a3866ad0.png",
+          "sha256": "cc3ed7618e1fd3abfdd939ef2540484ef7724707e91ae9cbe2e68b90a3866ad0"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-v2-fractured-road/209949a7e4ed6c7ffafd13ec68e117b91b192f8148ffb6f3575c0798ca57f4d1.png",
+          "sha256": "209949a7e4ed6c7ffafd13ec68e117b91b192f8148ffb6f3575c0798ca57f4d1"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-v2-fractured-road/fbca70d04f331f148bedf527ac4ef382553f1a3e4af80fcd0fab335b6cd1d7c6.png",
+          "sha256": "fbca70d04f331f148bedf527ac4ef382553f1a3e4af80fcd0fab335b6cd1d7c6"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-v2-fractured-road/32f14bbb57b1250235135a7f1a96365d84d064c7b34d73ccc1e97276749ea05f.png",
+          "sha256": "32f14bbb57b1250235135a7f1a96365d84d064c7b34d73ccc1e97276749ea05f"
+        }
+      ],
+      "render_updated_at": "2026-11-24T15:11:34.557823+00:00",
+      "render_version": "個別PBR・構造検証 5d7df6e",
+      "render_source_sha": "5d7df6eecbca5dd0ede6b45b4ff4cfed3e061012",
+      "render_run_id": 45420391969,
+      "updated_at": "2026-11-24T15:11:34.557823+00:00"
     }
   ]
 }
