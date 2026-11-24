@@ -9,6 +9,8 @@ def ingest(registry, incoming):
     for manifest in manifests:
         folder=manifest.parent
         meta=json.loads(manifest.read_text(encoding="utf-8"))
+        if meta.get("id","").startswith(("gallery-test-","design-engine-test-")):
+            results.append((meta["id"],"skipped:test-fixture")); continue
         if meta.get("publication_cleared") is not True:
             results.append((meta.get("id","unknown"),"skipped:no-publication-clearance")); continue
         if meta.get("approval_state") not in ("NOT_APPROVED","APPROVED"):
