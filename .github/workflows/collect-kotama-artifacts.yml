@@ -44,12 +44,12 @@ jobs:
           if [ -n "${SOURCE_RUN_ID:-}" ]; then
             [[ "$SOURCE_RUN_ID" =~ ^[0-9]+$ ]] || { echo "::error::source_run_id must be numeric"; exit 1; }
             test "$(gh run view "$SOURCE_RUN_ID" -R koda24-cell/kotama-no-bouken --json conclusion --jq .conclusion)" = success
-            gh run download "$SOURCE_RUN_ID" -R koda24-cell/kotama-no-bouken --pattern 'gallery-*' --dir incoming
+            gh run download "$SOURCE_RUN_ID" -R koda24-cell/kotama-no-bouken --pattern 'gallery-production-*' --dir incoming
           else
             mapfile -t RUNS < <(gh run list -R koda24-cell/kotama-no-bouken --status success --limit 30 --json databaseId --jq '.[].databaseId')
             for id in "${RUNS[@]}"; do
               mkdir -p "incoming/run-$id"
-              if ! gh run download "$id" -R koda24-cell/kotama-no-bouken --pattern 'gallery-*' --dir "incoming/run-$id"; then
+              if ! gh run download "$id" -R koda24-cell/kotama-no-bouken --pattern 'gallery-production-*' --dir "incoming/run-$id"; then
                 echo "No downloadable artifact for run $id; continuing"
                 rmdir "incoming/run-$id" 2>/dev/null || true
               fi
