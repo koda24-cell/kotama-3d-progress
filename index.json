@@ -2966,47 +2966,6 @@
       "updated_at": "2026-11-24T15:00:04.682599+00:00"
     },
     {
-      "id": "f3-industrial-v2-fractured-road",
-      "name": "不規則に割れ沈下したアスファルト路面V2",
-      "floor": "第3層 遺跡都市",
-      "version": "個別PBR・構造検証 d8052bf",
-      "status": "制作中",
-      "run_id": 45422753105,
-      "source_sha": "d8052bf022724d20104b5ce848118fa63172b4ea",
-      "images": [
-        {
-          "view": "front",
-          "path": "renders/f3-industrial-v2-fractured-road/54610b340e18a29f0d4dbd3bd7a4077acee2c3feb2495638adca1592094be112.png",
-          "sha256": "54610b340e18a29f0d4dbd3bd7a4077acee2c3feb2495638adca1592094be112"
-        },
-        {
-          "view": "back",
-          "path": "renders/f3-industrial-v2-fractured-road/f9623eb2faf8c8f4f4197e4042b2de4ce18fa3b6bd4d4e49a486d7016e7e925a.png",
-          "sha256": "f9623eb2faf8c8f4f4197e4042b2de4ce18fa3b6bd4d4e49a486d7016e7e925a"
-        },
-        {
-          "view": "side",
-          "path": "renders/f3-industrial-v2-fractured-road/eb18da92beba9517bd4dbecf7ecb16ef80ccb8ed6f7ed1971f12d903a9926f59.png",
-          "sha256": "eb18da92beba9517bd4dbecf7ecb16ef80ccb8ed6f7ed1971f12d903a9926f59"
-        },
-        {
-          "view": "angle",
-          "path": "renders/f3-industrial-v2-fractured-road/8612c6dea7abedb8f41332afd2853457eecb54ec9c4ead294ac213124376ef15.png",
-          "sha256": "8612c6dea7abedb8f41332afd2853457eecb54ec9c4ead294ac213124376ef15"
-        },
-        {
-          "view": "top",
-          "path": "renders/f3-industrial-v2-fractured-road/1e7dbe76f6812ed714da33c56f4f1868f614768a73e1120df05b3f43c3d16d16.png",
-          "sha256": "1e7dbe76f6812ed714da33c56f4f1868f614768a73e1120df05b3f43c3d16d16"
-        }
-      ],
-      "render_updated_at": "2026-11-24T15:16:34.570301+00:00",
-      "render_version": "個別PBR・構造検証 d8052bf",
-      "render_source_sha": "d8052bf022724d20104b5ce848118fa63172b4ea",
-      "render_run_id": 45422753105,
-      "updated_at": "2026-11-24T15:16:34.570301+00:00"
-    },
-    {
       "id": "f3-industrial-v2-factory-bay",
       "name": "CC0工場窓枠を活かした崩落工業棟V2",
       "floor": "第3層 遺跡都市",
@@ -3087,6 +3046,47 @@
       "render_source_sha": "7f50b334d1c62f0213dbfd7010fc70e1712aee7d",
       "render_run_id": 45425172072,
       "updated_at": "2026-11-24T15:33:51.427070+00:00"
+    },
+    {
+      "id": "f3-industrial-v2-fractured-road",
+      "name": "不規則に割れ沈下したアスファルト路面V2",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 f9d88e4",
+      "status": "制作中",
+      "run_id": 45426982715,
+      "source_sha": "f9d88e4c3f61b261819ee90d817279e04bf5879e",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-v2-fractured-road/118332d6c5c232804dfda0d7466f69da032b99d51b5a139880aab6bc8ac9987a.png",
+          "sha256": "118332d6c5c232804dfda0d7466f69da032b99d51b5a139880aab6bc8ac9987a"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-v2-fractured-road/b399368f2d3e5ef5a0d6ae6b2bc316ff23fc41c63b1118e69ccdade2792ce654.png",
+          "sha256": "b399368f2d3e5ef5a0d6ae6b2bc316ff23fc41c63b1118e69ccdade2792ce654"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-v2-fractured-road/7caed2f0c232aae81559da07a725cd7978fafa1bbd168edf1d6c14701a6372bf.png",
+          "sha256": "7caed2f0c232aae81559da07a725cd7978fafa1bbd168edf1d6c14701a6372bf"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-v2-fractured-road/ac26e6e4289b49928ca296e7dda6e57d842159e29dd4c48ae0aa9ee7321f025b.png",
+          "sha256": "ac26e6e4289b49928ca296e7dda6e57d842159e29dd4c48ae0aa9ee7321f025b"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-v2-fractured-road/07b87d5020a4db1b556809e8ee5db0bcbaa0a53e4e3bc30f36368c60a5e5065a.png",
+          "sha256": "07b87d5020a4db1b556809e8ee5db0bcbaa0a53e4e3bc30f36368c60a5e5065a"
+        }
+      ],
+      "render_updated_at": "2026-11-24T15:39:55.875912+00:00",
+      "render_version": "個別PBR・構造検証 f9d88e4",
+      "render_source_sha": "f9d88e4c3f61b261819ee90d817279e04bf5879e",
+      "render_run_id": 45426982715,
+      "updated_at": "2026-11-24T15:39:55.875912+00:00"
     }
   ]
 }
