@@ -612,6 +612,47 @@
       "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
       "render_run_id": 45332418931,
       "updated_at": "2026-11-24T05:22:28.699814+00:00"
+    },
+    {
+      "id": "f3-industrial-grating-catwalk",
+      "name": "欠損グレーチング歩廊",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "status": "制作中",
+      "run_id": 45332418931,
+      "source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-grating-catwalk/438ab292109fb90378e5f1f2f7c396c7eccf2cb345a2bbb6f362bc76aa21602a.png",
+          "sha256": "438ab292109fb90378e5f1f2f7c396c7eccf2cb345a2bbb6f362bc76aa21602a"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-grating-catwalk/dcdacd7d2d2698bb62add39233a19d3e843625937b275fd56d0ffb6755669425.png",
+          "sha256": "dcdacd7d2d2698bb62add39233a19d3e843625937b275fd56d0ffb6755669425"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-grating-catwalk/88d477a85717d9d3281641c325c57174b21518ebebd54f9eda7a2910aab1ec69.png",
+          "sha256": "88d477a85717d9d3281641c325c57174b21518ebebd54f9eda7a2910aab1ec69"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-grating-catwalk/20fdcdc5f7b7c728e40f87887fa1ccf6bacc28ffb2529ffc299ed5ac3959cdc4.png",
+          "sha256": "20fdcdc5f7b7c728e40f87887fa1ccf6bacc28ffb2529ffc299ed5ac3959cdc4"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-grating-catwalk/2b78223ced780d11ee3fe9b9181c32cd1f38b597a83245b0b318d9d49b7673cc.png",
+          "sha256": "2b78223ced780d11ee3fe9b9181c32cd1f38b597a83245b0b318d9d49b7673cc"
+        }
+      ],
+      "render_updated_at": "2026-11-24T05:26:11.562717+00:00",
+      "render_version": "個別PBR・構造検証 18c5ea0",
+      "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "render_run_id": 45332418931,
+      "updated_at": "2026-11-24T05:26:11.562717+00:00"
     }
   ]
 }
