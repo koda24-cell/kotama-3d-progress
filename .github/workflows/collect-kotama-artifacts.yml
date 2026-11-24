@@ -1,0 +1,69 @@
+name: Collect Kotama 3D production artifacts
+on:
+  workflow_dispatch:
+    inputs:
+      source_run_id:
+        description: "Optional successful kotama-no-bouken Actions run ID (blank = discover recent successful runs)"
+        required: false
+        type: string
+  schedule:
+    - cron: "17 * * * *"
+permissions:
+  contents: write
+concurrency:
+  group: kotama-gallery-artifact-intake
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gallery data branch
+        uses: actions/checkout@v4
+        with:
+          ref: 3d-progress-data
+          fetch-depth: 0
+      - name: Validate source access
+        env:
+          SOURCE_REPO_READ_TOKEN: ${{ secrets.SOURCE_REPO_READ_TOKEN }}
+        run: |
+          test -n "$SOURCE_REPO_READ_TOKEN" || { echo "::error::Set SOURCE_REPO_READ_TOKEN with read access to koda24-cell/kotama-no-bouken Actions artifacts."; exit 1; }
+          gh auth status
+      - name: Discover and download source artifacts
+        env:
+          GH_TOKEN: ${{ secrets.SOURCE_REPO_READ_TOKEN }}
+          SOURCE_RUN_ID: ${{ inputs.source_run_id }}
+        run: |
+          set -euo pipefail
+          mkdir -p incoming
+          if [ -n "${SOURCE_RUN_ID:-}" ]; then
+            [[ "$SOURCE_RUN_ID" =~ ^[0-9]+$ ]] || { echo "::error::source_run_id must be numeric"; exit 1; }
+            gh run view "$SOURCE_RUN_ID" -R koda24-cell/kotama-no-bouken --json conclusion
+            gh run download "$SOURCE_RUN_ID" -R koda24-cell/kotama-no-bouken --dir incoming
+          else
+            mapfile -t RUNS < <(gh run list -R koda24-cell/kotama-no-bouken --status success --limit 30 --json databaseId --jq '.[].databaseId')
+            for id in "${RUNS[@]}"; do
+              mkdir -p "incoming/run-$id"
+              if ! gh run download "$id" -R koda24-cell/kotama-no-bouken --dir "incoming/run-$id"; then
+                echo "No downloadable artifact for run $id; continuing"
+                rmdir "incoming/run-$id" 2>/dev/null || true
+              fi
+            done
+          fi
+      - name: Install and run malware scanner
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y clamav
+          sudo freshclam || true
+          clamscan --recursive --infected --no-summary incoming
+      - name: Validate manifests and update append-only registry
+        run: |
+          python3 -m unittest discover -s tools/3d-progress -v
+          python3 tools/3d-progress/ingest_artifacts.py . incoming
+      - name: Commit verified registry changes
+        run: |
+          if git diff --quiet; then echo "No new verified assets."; exit 0; fi
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add index.json renders/
+          git commit -m "Collect verified Kotama 3D artifact checkpoints"
+          git push origin HEAD:3d-progress-data
