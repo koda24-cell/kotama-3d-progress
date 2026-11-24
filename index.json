@@ -530,6 +530,47 @@
       "render_source_sha": "0e85bfd39b776642cff4a2acedc493b5efa7272e",
       "render_run_id": 45331023029,
       "updated_at": "2026-11-24T05:16:49.081634+00:00"
+    },
+    {
+      "id": "f3-industrial-riveted-girder",
+      "name": "リベット付き腐食I桁",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 0e85bfd",
+      "status": "制作中",
+      "run_id": 45331023029,
+      "source_sha": "0e85bfd39b776642cff4a2acedc493b5efa7272e",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-riveted-girder/15214964a87cdc00fbdda59617c992f61b3eaa64e8be2d4cfbb714157ea8eb86.png",
+          "sha256": "15214964a87cdc00fbdda59617c992f61b3eaa64e8be2d4cfbb714157ea8eb86"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-riveted-girder/50c6d1c3d1730a62f863a1394303240ae69e76dd1682ae9764420a87590955ea.png",
+          "sha256": "50c6d1c3d1730a62f863a1394303240ae69e76dd1682ae9764420a87590955ea"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-riveted-girder/37735b2ab45185a3e7c1146d8adeebdb51102f0a86da15980a13456793890391.png",
+          "sha256": "37735b2ab45185a3e7c1146d8adeebdb51102f0a86da15980a13456793890391"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-riveted-girder/11646159e54fa45df463842f9b69b506100af2824787fbc0bcd025dd5e9b4ac4.png",
+          "sha256": "11646159e54fa45df463842f9b69b506100af2824787fbc0bcd025dd5e9b4ac4"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-riveted-girder/832ec69381a86b4e15260ffc67977cb69d9c097bfb2f5a76fbcacd126f677768.png",
+          "sha256": "832ec69381a86b4e15260ffc67977cb69d9c097bfb2f5a76fbcacd126f677768"
+        }
+      ],
+      "render_updated_at": "2026-11-24T05:18:43.301789+00:00",
+      "render_version": "個別PBR・構造検証 0e85bfd",
+      "render_source_sha": "0e85bfd39b776642cff4a2acedc493b5efa7272e",
+      "render_run_id": 45331023029,
+      "updated_at": "2026-11-24T05:18:43.301789+00:00"
     }
   ]
 }
