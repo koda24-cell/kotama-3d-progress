@@ -19,7 +19,11 @@ jobs:
         run: |
           gh run download 45326021754 -R koda24-cell/kotama-no-bouken --name gallery-production-45326021754-fixture --dir incoming
       - name: Validate source and import into isolated registry
+        env:
+          GH_TOKEN: ${{ secrets.SOURCE_REPO_READ_TOKEN || github.token }}
         run: |
+          export EXPECTED_SHA=$(gh api repos/koda24-cell/kotama-no-bouken/actions/runs/45326021754 --jq '.head_sha')
+          export EXPECTED_MERGE_SHA=$(gh api repos/koda24-cell/kotama-no-bouken/actions/runs/45326021754 --jq '.pull_requests[0].number // empty')
           python3 - <<'PY'
           import sys,json,hashlib,tempfile
           from pathlib import Path
@@ -28,7 +32,7 @@ jobs:
           p=next(Path('incoming').rglob('manifest.json'))
           m=json.loads(p.read_text())
           assert str(m['run_id'])=='45326021754'
-          assert m['source_sha']=='976239ebef811a50722eae9848498b2c930322c7'
+          assert m['source_sha']==__import__('os').environ['EXPECTED_SHA'], m['source_sha']
           assert m['id']=='gallery-test-fixture'
           for i in m['images']:
               assert hashlib.sha256((p.parent/i['file']).read_bytes()).hexdigest()==i['sha256']
