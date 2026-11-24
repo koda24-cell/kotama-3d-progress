@@ -1,0 +1,58 @@
+name: 3D gallery browser migration test
+on:
+  push:
+    branches: [feature/gallery-migration-20261124, main]
+    paths:
+      - index.html
+      - .github/workflows/gallery-browser-test.yml
+      - tools/3d-progress/**
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          npm install --no-save --prefix /tmp/gallery-test playwright
+          /tmp/gallery-test/node_modules/.bin/playwright install --with-deps chromium
+      - name: Test real data and refresh behavior
+        run: |
+          python3 -m http.server 8765 >/tmp/gallery-server.log 2>&1 &
+          NODE_PATH=/tmp/gallery-test/node_modules node <<'JS'
+          const {chromium}=require('playwright');
+          (async()=>{
+            const browser=await chromium.launch({headless:true});
+            try{
+              const page=await browser.newPage();
+              await page.goto('http://127.0.0.1:8765/index.html');
+              await page.waitForFunction(()=>document.querySelectorAll('article').length===14);
+              await page.locator('article img').first().scrollIntoViewIfNeeded();
+              await page.waitForFunction(()=>document.querySelector('article img').naturalWidth>0);
+              const data=await (await page.request.get('https://raw.githubusercontent.com/koda24-cell/kotama-3d-progress/3d-progress-data/index.json')).json();
+              const row=structuredClone(data.models[0]);
+              row.version='TEST-REFRESH';row.id='browser-test-new';row.name='Browser test';row.designs=row.images;row.images=[];row.status='設計中';row.design_version='D01';
+              await page.route('**/3d-progress-data/index.json?*',route=>route.fulfill({json:{...data,models:[...data.models,row]},headers:{'access-control-allow-origin':'*'}}));
+              await page.locator('#refresh').click();
+              await page.getByRole('heading',{name:'Browser test',exact:true}).waitFor();
+              const card=page.locator('article').filter({has:page.getByRole('heading',{name:'Browser test',exact:true})});
+              await page.locator('#kind').selectOption('design');
+              await card.getByRole('heading',{name:'設計図 D01'}).waitFor();
+              await card.locator('img').first().scrollIntoViewIfNeeded();
+              await card.locator('img').first().evaluate(img=>img.decode());
+              await card.locator('button').first().click();
+              await page.locator('#zoom[open]').waitFor();
+              await page.locator('#close').click();
+              await page.locator('#kind').selectOption('');
+              await page.unroute('**/3d-progress-data/index.json?*');
+              await page.locator('#refresh').click();
+              await page.getByRole('heading',{name:'Browser test',exact:true}).waitFor({state:'detached'});
+              await page.screenshot({path:'gallery-browser.png',fullPage:true});
+            }finally{await browser.close()}
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gallery-browser-proof
+          path: gallery-browser.png
+          retention-days: 14
