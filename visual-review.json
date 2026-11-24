@@ -615,7 +615,7 @@
             "sha256": "95b6100aff73104e85e5741f61c06037e0310b70d04e59458a9091bf4e075e37",
             "scores": {
               "silhouette": 0.4044,
-              "material": 0.3489,
+              "material": 0.3488,
               "lighting": 0.1289
             }
           }
@@ -732,7 +732,7 @@
             "sha256": "20fdcdc5f7b7c728e40f87887fa1ccf6bacc28ffb2529ffc299ed5ac3959cdc4",
             "scores": {
               "silhouette": 0.1993,
-              "material": 0.497,
+              "material": 0.4969,
               "lighting": 0.1657
             }
           }
@@ -887,7 +887,7 @@
             "view": "angle",
             "sha256": "84847954b6a43e4c7e8dcb403729c9e417919498f9af96b00ad514e9238c2367",
             "scores": {
-              "silhouette": 0.2237,
+              "silhouette": 0.2236,
               "material": 0.4315,
               "lighting": 0.1247
             }
