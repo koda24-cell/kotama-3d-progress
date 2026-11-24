@@ -1,7 +1,7 @@
 name: Actual render visual review
 on:
   pull_request:
-    paths: ['tools/3d-progress/visual_review.py', '.github/workflows/visual-review.yml', 'index.html']
+    paths: ['tools/3d-progress/**', '.github/workflows/visual-review.yml', 'index.html']
   push:
     branches: [main]
     paths: ['tools/3d-progress/visual_review.py', '.github/workflows/visual-review.yml']
@@ -11,6 +11,11 @@ on:
 permissions:
   contents: read
 jobs:
+  conflict-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python tools/3d-progress/test_publish_review.py
   review:
     runs-on: ubuntu-latest
     timeout-minutes: 45
@@ -29,12 +34,13 @@ jobs:
           name: visual-review
           path: visual-review.json
   publish:
-    needs: review
+    needs: [review, conflict-test]
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     permissions:
       contents: write
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - uses: actions/checkout@v4
         with:
           ref: 3d-progress-data
@@ -48,14 +54,4 @@ jobs:
           cd registry
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          for attempt in 1 2 3; do
-            git fetch origin 3d-progress-data
-            git reset --hard FETCH_HEAD
-            cp ../report/visual-review.json visual-review.json
-            git add visual-review.json
-            if git diff --cached --quiet; then exit 0; fi
-            git commit -m 'Update advisory visual review'
-            if git push origin HEAD:3d-progress-data; then exit 0; fi
-            sleep 3
-          done
-          exit 1
+          bash ../tools/3d-progress/publish_review.sh origin 3d-progress-data "$PWD/../report/visual-review.json"
