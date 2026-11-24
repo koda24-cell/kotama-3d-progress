@@ -3046,6 +3046,47 @@
       "render_source_sha": "d8052bf022724d20104b5ce848118fa63172b4ea",
       "render_run_id": 45422753105,
       "updated_at": "2026-11-24T15:16:34.570301+00:00"
+    },
+    {
+      "id": "f3-industrial-v2-factory-bay",
+      "name": "CC0工場窓枠を活かした崩落工業棟V2",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 81e69a8",
+      "status": "制作中",
+      "run_id": 45423622575,
+      "source_sha": "81e69a86713c15ce38074c2e21f2b63dd04ca24c",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-v2-factory-bay/3f003fc48223440a5ac6bf6a3e3853aa4e54c16d9d57e3576ceb1096e9452fe7.png",
+          "sha256": "3f003fc48223440a5ac6bf6a3e3853aa4e54c16d9d57e3576ceb1096e9452fe7"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-v2-factory-bay/e3f4fd04d57ef7015e82066c30ff6422e484ed23f75308b32c9904a9c3ec2a52.png",
+          "sha256": "e3f4fd04d57ef7015e82066c30ff6422e484ed23f75308b32c9904a9c3ec2a52"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-v2-factory-bay/87cd0e0b2658869fcae985709e43b4b73eca3bf5ac02b2205221d4699faab0ba.png",
+          "sha256": "87cd0e0b2658869fcae985709e43b4b73eca3bf5ac02b2205221d4699faab0ba"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-v2-factory-bay/df79e3bb6df4cd8ed24700b7e64d6af29e09a04b85ca05ee0536ec4e42f45392.png",
+          "sha256": "df79e3bb6df4cd8ed24700b7e64d6af29e09a04b85ca05ee0536ec4e42f45392"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-v2-factory-bay/d79db6b1655368d689a49a57336bbd6da044385e0581a28d5ecf58e6a5bb514b.png",
+          "sha256": "d79db6b1655368d689a49a57336bbd6da044385e0581a28d5ecf58e6a5bb514b"
+        }
+      ],
+      "render_updated_at": "2026-11-24T15:24:31.792109+00:00",
+      "render_version": "個別PBR・構造検証 81e69a8",
+      "render_source_sha": "81e69a86713c15ce38074c2e21f2b63dd04ca24c",
+      "render_run_id": 45423622575,
+      "updated_at": "2026-11-24T15:24:31.792109+00:00"
     }
   ]
 }
