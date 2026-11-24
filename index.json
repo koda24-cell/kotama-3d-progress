@@ -2846,42 +2846,42 @@
       "id": "f3-industrial-v2-courtyard-facade",
       "name": "崩落した集合住宅の立体ファサードV2",
       "floor": "第3層 遺跡都市",
-      "version": "個別PBR・構造検証 a7eddb8",
+      "version": "個別PBR・構造検証 677b99c",
       "status": "制作中",
-      "run_id": 45406178172,
-      "source_sha": "a7eddb84cc66a64a02e7f6a72828c1739f429943",
+      "run_id": 45407771986,
+      "source_sha": "677b99ca1f8c28120df310743ba9c01024613fcb",
       "images": [
         {
           "view": "front",
-          "path": "renders/f3-industrial-v2-courtyard-facade/85b98c29d9a45a35f1de618bd9946c9889655cad509a8341385ecf542b98d01d.png",
-          "sha256": "85b98c29d9a45a35f1de618bd9946c9889655cad509a8341385ecf542b98d01d"
+          "path": "renders/f3-industrial-v2-courtyard-facade/e950321df8240efe8b7fccd8231e5aad0d3469aeaeedfafc67e2289042b5bdac.png",
+          "sha256": "e950321df8240efe8b7fccd8231e5aad0d3469aeaeedfafc67e2289042b5bdac"
         },
         {
           "view": "back",
-          "path": "renders/f3-industrial-v2-courtyard-facade/e7ac7204970bb3206fdb0ce0e6c1a9e0b163db062f71957d1a3f3732eb1971ff.png",
-          "sha256": "e7ac7204970bb3206fdb0ce0e6c1a9e0b163db062f71957d1a3f3732eb1971ff"
+          "path": "renders/f3-industrial-v2-courtyard-facade/10160f9ecb996cc1cc5918dcfa338bf4a8f0233b5f99715e20a94009d14028f4.png",
+          "sha256": "10160f9ecb996cc1cc5918dcfa338bf4a8f0233b5f99715e20a94009d14028f4"
         },
         {
           "view": "side",
-          "path": "renders/f3-industrial-v2-courtyard-facade/a4ab64cf2de0dd94645a573fd13ab5b12f404e9521dd7a99d456537bb99416f8.png",
-          "sha256": "a4ab64cf2de0dd94645a573fd13ab5b12f404e9521dd7a99d456537bb99416f8"
+          "path": "renders/f3-industrial-v2-courtyard-facade/28a10de69b40dbcb82c59b95644cb08f321870ae278c700c3b8f273aef56935b.png",
+          "sha256": "28a10de69b40dbcb82c59b95644cb08f321870ae278c700c3b8f273aef56935b"
         },
         {
           "view": "angle",
-          "path": "renders/f3-industrial-v2-courtyard-facade/dc0ff783b6fbe8c868c512fa83841b17e04d305f06ba8fc9c93af5d99cc5a1e6.png",
-          "sha256": "dc0ff783b6fbe8c868c512fa83841b17e04d305f06ba8fc9c93af5d99cc5a1e6"
+          "path": "renders/f3-industrial-v2-courtyard-facade/5d3a9d63b80d2eacf67c202f348dfb5020b1c0f5312de43658957d741942c61b.png",
+          "sha256": "5d3a9d63b80d2eacf67c202f348dfb5020b1c0f5312de43658957d741942c61b"
         },
         {
           "view": "top",
-          "path": "renders/f3-industrial-v2-courtyard-facade/d6fe909ccf9e95919dc423a58abf27a710241bd59892859d6b40240fba54cde1.png",
-          "sha256": "d6fe909ccf9e95919dc423a58abf27a710241bd59892859d6b40240fba54cde1"
+          "path": "renders/f3-industrial-v2-courtyard-facade/109410bcd7d437ad5b739dc92cd1bd29ab236ca44353817ba7318bbd9f7ecb28.png",
+          "sha256": "109410bcd7d437ad5b739dc92cd1bd29ab236ca44353817ba7318bbd9f7ecb28"
         }
       ],
-      "render_updated_at": "2026-11-24T13:50:10.678963+00:00",
-      "render_version": "個別PBR・構造検証 a7eddb8",
-      "render_source_sha": "a7eddb84cc66a64a02e7f6a72828c1739f429943",
-      "render_run_id": 45406178172,
-      "updated_at": "2026-11-24T13:50:10.678963+00:00"
+      "render_updated_at": "2026-11-24T14:00:09.639326+00:00",
+      "render_version": "個別PBR・構造検証 677b99c",
+      "render_source_sha": "677b99ca1f8c28120df310743ba9c01024613fcb",
+      "render_run_id": 45407771986,
+      "updated_at": "2026-11-24T14:00:09.639326+00:00"
     }
   ]
 }
