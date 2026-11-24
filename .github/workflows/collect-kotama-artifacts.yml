@@ -64,9 +64,10 @@ jobs:
         run: |
           python3 -c 'import json,os,datetime; from pathlib import Path; Path("registry/collection-status.json").write_text(json.dumps(dict(result=os.environ["COLLECTION_RESULT"],updated_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),run_id=os.environ["GITHUB_RUN_ID"])))'
       - name: Commit verified registry changes
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        if: always() && github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         working-directory: registry
         run: |
+          if [ "${{ job.status }}" != success ]; then git restore -- index.json renders/; git clean -fd -- renders/; fi
           if [ -z "$(git status --porcelain -- index.json renders/ collection-status.json)" ]; then echo "No new verified assets."; exit 0; fi
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
