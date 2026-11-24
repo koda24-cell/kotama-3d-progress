@@ -653,6 +653,47 @@
       "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
       "render_run_id": 45332418931,
       "updated_at": "2026-11-24T05:26:11.562717+00:00"
+    },
+    {
+      "id": "f3-industrial-service-stair",
+      "name": "崩れた工場保守階段",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "status": "制作中",
+      "run_id": 45332418931,
+      "source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-service-stair/ada1e26e95960ee77417985369bc18172cdfec75a3bbd38d102a53f6d4875b45.png",
+          "sha256": "ada1e26e95960ee77417985369bc18172cdfec75a3bbd38d102a53f6d4875b45"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-service-stair/2b2a85d8444bfd982c873f29e75fbcfa504d57d6764c2c7983a819cee2fc2a28.png",
+          "sha256": "2b2a85d8444bfd982c873f29e75fbcfa504d57d6764c2c7983a819cee2fc2a28"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-service-stair/374e4549b933300f8068f486d006838a31c5496e12c7869a580386b6490e908c.png",
+          "sha256": "374e4549b933300f8068f486d006838a31c5496e12c7869a580386b6490e908c"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-service-stair/23513c9217b212ba3b5d649a004219982209edabca4d2f2a9b9333b56a313e23.png",
+          "sha256": "23513c9217b212ba3b5d649a004219982209edabca4d2f2a9b9333b56a313e23"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-service-stair/b8fd4c16b8b7edab2825a3870ae9c83183093dd548301291d5c918df2561c3a4.png",
+          "sha256": "b8fd4c16b8b7edab2825a3870ae9c83183093dd548301291d5c918df2561c3a4"
+        }
+      ],
+      "render_updated_at": "2026-11-24T05:28:58.783878+00:00",
+      "render_version": "個別PBR・構造検証 18c5ea0",
+      "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "render_run_id": 45332418931,
+      "updated_at": "2026-11-24T05:28:58.783878+00:00"
     }
   ]
 }
