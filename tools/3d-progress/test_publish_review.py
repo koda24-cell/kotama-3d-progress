@@ -53,7 +53,7 @@ fi
             print(result.stdout,result.stderr)
             self.assertEqual(result.stdout.count("publication attempt"),3)
             self.assertEqual(int(counter.read_text()),conflicts)
-            self.assertEqual(result.stderr.count("[rejected]"),conflicts)
+            self.assertEqual(result.stderr.count("[rejected]") + result.stderr.count("[remote rejected]"),conflicts)
             git(rival,"pull","--ff-only","origin","data")
             self.assertEqual((rival/"index.json").read_text(),"original registry")
             self.assertEqual((rival/"concurrent.txt").read_text().strip(),str(conflicts))
