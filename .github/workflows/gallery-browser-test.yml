@@ -6,6 +6,8 @@ on:
       - index.html
       - .github/workflows/gallery-browser-test.yml
       - tools/3d-progress/**
+  pull_request:
+    branches: [main]
 permissions:
   contents: read
 jobs:
