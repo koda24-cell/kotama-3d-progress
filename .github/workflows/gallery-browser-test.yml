@@ -45,6 +45,16 @@ jobs:
               await page.locator('#zoom[open]').waitFor();
               await page.locator('#close').click();
               await page.locator('#kind').selectOption('compare');
+              await page.locator('#search').fill('browser-test-new');
+              await page.getByRole('heading',{name:'Browser test',exact:true}).waitFor();
+              if(await page.locator('article').count()!==1)throw Error('search filter did not isolate model');
+              await page.locator('#search').fill('');
+              await page.locator('#statusFilter').selectOption('設計中');
+              await page.getByRole('heading',{name:'Browser test',exact:true}).waitFor();
+              if(await page.locator('article').count()!==1)throw Error('status filter did not isolate model');
+              await page.locator('#statusFilter').selectOption('');
+              await page.locator('#sort').selectOption('name');
+              await page.locator('#sort').selectOption('newest');
               const compareCard=page.locator('article').filter({has:page.getByRole('heading',{name:'Compare test',exact:true})});
               await compareCard.getByRole('heading',{name:'設計図と実レンダリングの比較'}).waitFor();
               if(await compareCard.locator('.compare-grid').first().locator('.compare-pane').count()!==2)throw Error('comparison panes missing');
