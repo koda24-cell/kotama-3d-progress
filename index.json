@@ -2841,6 +2841,47 @@
       "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
       "render_run_id": 45372771290,
       "updated_at": "2026-11-24T13:36:34.773540+00:00"
+    },
+    {
+      "id": "f3-industrial-v2-courtyard-facade",
+      "name": "崩落した集合住宅の立体ファサードV2",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 a7eddb8",
+      "status": "制作中",
+      "run_id": 45406178172,
+      "source_sha": "a7eddb84cc66a64a02e7f6a72828c1739f429943",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-v2-courtyard-facade/85b98c29d9a45a35f1de618bd9946c9889655cad509a8341385ecf542b98d01d.png",
+          "sha256": "85b98c29d9a45a35f1de618bd9946c9889655cad509a8341385ecf542b98d01d"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-v2-courtyard-facade/e7ac7204970bb3206fdb0ce0e6c1a9e0b163db062f71957d1a3f3732eb1971ff.png",
+          "sha256": "e7ac7204970bb3206fdb0ce0e6c1a9e0b163db062f71957d1a3f3732eb1971ff"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-v2-courtyard-facade/a4ab64cf2de0dd94645a573fd13ab5b12f404e9521dd7a99d456537bb99416f8.png",
+          "sha256": "a4ab64cf2de0dd94645a573fd13ab5b12f404e9521dd7a99d456537bb99416f8"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-v2-courtyard-facade/dc0ff783b6fbe8c868c512fa83841b17e04d305f06ba8fc9c93af5d99cc5a1e6.png",
+          "sha256": "dc0ff783b6fbe8c868c512fa83841b17e04d305f06ba8fc9c93af5d99cc5a1e6"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-v2-courtyard-facade/d6fe909ccf9e95919dc423a58abf27a710241bd59892859d6b40240fba54cde1.png",
+          "sha256": "d6fe909ccf9e95919dc423a58abf27a710241bd59892859d6b40240fba54cde1"
+        }
+      ],
+      "render_updated_at": "2026-11-24T13:50:10.678963+00:00",
+      "render_version": "個別PBR・構造検証 a7eddb8",
+      "render_source_sha": "a7eddb84cc66a64a02e7f6a72828c1739f429943",
+      "render_run_id": 45406178172,
+      "updated_at": "2026-11-24T13:50:10.678963+00:00"
     }
   ]
 }
