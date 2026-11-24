@@ -2,14 +2,14 @@
   "method": "openai/clip-vit-base-patch32",
   "advisory": true,
   "execution": {
-    "event": "push",
-    "run_id": "45354663397",
+    "event": "schedule",
+    "run_id": "45472947809",
     "run_attempt": "1",
     "source_sha": "83f2ba40752bb58a924ebd844cb5ec076afdbe82",
-    "evaluated_at": "2026-11-24T08:17:23.304461+00:00",
-    "registry_sha256": "f0dbc937f6e58cf15b3aef6f0384560a69db48a16d6c53bc4173bddcea610b73",
-    "models": 29,
-    "views": 87,
+    "evaluated_at": "2026-11-24T19:43:38.035692+00:00",
+    "registry_sha256": "ae922d14356156976b0339b617882db340d4114a071956b88aeeffec6e690bda",
+    "models": 63,
+    "views": 297,
     "compared_models": 0
   },
   "models": [
@@ -989,84 +989,6 @@
       "comparison": []
     },
     {
-      "id": "f3-industrial-flanged-pipe",
-      "version": "個別PBR・構造検証 18c5ea0",
-      "current": {
-        "views": [
-          {
-            "view": "front",
-            "sha256": "1305ef2926d56a0b8a477cca61af3c37936bfe377302e296f3c46b3f5ea3fdb2",
-            "scores": {
-              "silhouette": 0.3506,
-              "material": 0.2182,
-              "lighting": 0.0998
-            }
-          },
-          {
-            "view": "side",
-            "sha256": "39c0694a686b195836168b61f327b569804d34e532db6c3b692c3d8ec85b5e92",
-            "scores": {
-              "silhouette": 0.3145,
-              "material": 0.4435,
-              "lighting": 0.085
-            }
-          },
-          {
-            "view": "angle",
-            "sha256": "e60bca0ab7cdc0d0247a0c1457104b9e7221d27aea950026c8a439eca3f22912",
-            "scores": {
-              "silhouette": 0.2654,
-              "material": 0.4389,
-              "lighting": 0.1204
-            }
-          }
-        ],
-        "missing": []
-      },
-      "previous_version": null,
-      "previous": null,
-      "comparison": []
-    },
-    {
-      "id": "f3-industrial-pipe-rack",
-      "version": "個別PBR・構造検証 18c5ea0",
-      "current": {
-        "views": [
-          {
-            "view": "front",
-            "sha256": "c3d8d0a8dcc55c4c321579417d78d806230ce2c92cdc3e230811409a86324077",
-            "scores": {
-              "silhouette": 0.2729,
-              "material": 0.5283,
-              "lighting": 0.1369
-            }
-          },
-          {
-            "view": "side",
-            "sha256": "8ef2a50b7721c91959c7d583f574b81868d449261e2ac7d0b8f93d51969ab031",
-            "scores": {
-              "silhouette": 0.299,
-              "material": 0.3426,
-              "lighting": 0.1106
-            }
-          },
-          {
-            "view": "angle",
-            "sha256": "64b1a5f3f9771a30636b832108f89f0e65bed80a2b264831a3a87cc89ac615d4",
-            "scores": {
-              "silhouette": 0.3032,
-              "material": 0.2847,
-              "lighting": 0.1079
-            }
-          }
-        ],
-        "missing": []
-      },
-      "previous_version": null,
-      "previous": null,
-      "comparison": []
-    },
-    {
       "id": "f3-industrial-roller-shutter",
       "version": "個別PBR・構造検証 18c5ea0",
       "current": {
@@ -1135,6 +1057,2382 @@
               "silhouette": 0.0998,
               "material": 0.3568,
               "lighting": 0.1679
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-heaved-asphalt",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "6f06d09c61be1916ba287cd3c6593338cc25c0a39bef48a1aea40d0a57af13a7",
+            "scores": {
+              "silhouette": 0.5468,
+              "material": 0.2588,
+              "lighting": 0.0964
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "09dcfc6e4ba059f3d702bec00442cba6e8b42912b32db338d0a32c236c721cca",
+            "scores": {
+              "silhouette": 0.1386,
+              "material": 0.5082,
+              "lighting": 0.1654
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "c4c41d47bf0e3e3fc6451d7a399411a2ce5b3ed120b1b2ff68a69e746f700005",
+            "scores": {
+              "silhouette": 0.4938,
+              "material": 0.2941,
+              "lighting": 0.1791
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-drain-channel",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "951bad76edd81daef0dcbc82fc434a1f21a6246f8a795c00b9971e2717eb04ff",
+            "scores": {
+              "silhouette": 0.4789,
+              "material": 0.1759,
+              "lighting": 0.0683
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "916912adc370d92a65553b4392e15e4c19b59d048d94dd082825fc40db9c4d17",
+            "scores": {
+              "silhouette": 0.3265,
+              "material": 0.2384,
+              "lighting": 0.26
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "b90178bf37e3b0bea82cc482f80215912da653c6f0060f4bc1c5d61e6d826753",
+            "scores": {
+              "silhouette": 0.3685,
+              "material": 0.5712,
+              "lighting": 0.2032
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-flanged-pipe",
+      "version": "個別PBR・構造検証 b777bf0",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "378b312b8f22d58726296478b55eecf70547086978cceb207b6eb098239c80f5",
+            "scores": {
+              "silhouette": 0.3083,
+              "material": 0.2643,
+              "lighting": 0.0943
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "2af631dab56e773a96bf5b7f3a74b67ca0460fc33173e3a3addde8fe06fe382c",
+            "scores": {
+              "silhouette": 0.3362,
+              "material": 0.4446,
+              "lighting": 0.0901
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "8c2ea5020261297b3b96d4538440330fa78b8cbdff1c0494e2c0be632527043b",
+            "scores": {
+              "silhouette": 0.1852,
+              "material": 0.4906,
+              "lighting": 0.1195
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-pipe-rack",
+      "version": "個別PBR・構造検証 b777bf0",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "3af328447daae42c34d2e69c61507d8600efcd8de5c3fddf969b87e2b1ba6489",
+            "scores": {
+              "silhouette": 0.2024,
+              "material": 0.4451,
+              "lighting": 0.1448
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "ba756c774d503dfa7d53f6379b25caeff5547f34de92d91a5c6071c12bba4cb7",
+            "scores": {
+              "silhouette": 0.484,
+              "material": 0.2834,
+              "lighting": 0.1252
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "fa28509ea29810280b98964594c4d39c9a9fb3bfffb95583a5295aac0018b57a",
+            "scores": {
+              "silhouette": 0.3334,
+              "material": 0.2737,
+              "lighting": 0.1117
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-factory-door",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "b2e6c4f18ef484a93f3d5b42acd147ff9cc2e979941dc2a8299e346ba9b645dc",
+            "scores": {
+              "silhouette": 0.2358,
+              "material": 0.1791,
+              "lighting": 0.0646
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "d032e397f8a543ee5f268177cc7b4ac89d153b982b1e4baf97ae2b665ff13480",
+            "scores": {
+              "silhouette": 0.4607,
+              "material": 0.3513,
+              "lighting": 0.0574
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "105f5441b2eebad4eb053bdf2a8e6abcb20fee91cf0704c16c6773a18b93804c",
+            "scores": {
+              "silhouette": 0.1977,
+              "material": 0.4981,
+              "lighting": 0.1473
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-ivy-pocket",
+      "version": "個別PBR・構造検証 89e5719",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "1201e2b64186585b0481eae46f0ae1e8be16018ef363297f296a92860f997b55",
+            "scores": {
+              "silhouette": 0.076,
+              "material": 0.3334,
+              "lighting": 0.1466
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "a9cb4b89cb3db0a9d62ec90a71c2b601a04496703b1460ce21672cb72dc654c9",
+            "scores": {
+              "silhouette": 0.4723,
+              "material": 0.2875,
+              "lighting": 0.155
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "9969ea89f2a86a0b26945b7914f9c476d3f836a8d16feb33acdde6aa44d5ad02",
+            "scores": {
+              "silhouette": 0.2421,
+              "material": 0.2858,
+              "lighting": 0.1391
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-rebar-rubble",
+      "version": "個別PBR・構造検証 624388b",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "be379476590b244efbf1ea3c7d36db25bfb54ddbb9e9f196d02c38b358704fa3",
+            "scores": {
+              "silhouette": 0.4827,
+              "material": 0.6016,
+              "lighting": 0.0235
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "0e848e454f3c6dc07e71e71e3fae983174344a81800c3bbb507d3a4d17fabbee",
+            "scores": {
+              "silhouette": 0.0928,
+              "material": 0.6636,
+              "lighting": 0.0279
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "c4f93101d6c29559d53ecac7ad91f4b93c49637d85c7a8f8a0da9b0369a5d0c9",
+            "scores": {
+              "silhouette": 0.0808,
+              "material": 0.5547,
+              "lighting": 0.0235
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-native-ruinedbuilding",
+      "version": "個別PBR・構造検証 624388b",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "d4164ea54d39ebb54c13edad7f7a4b67149d5df6285e5928eb7ded0752d2ac9d",
+            "scores": {
+              "silhouette": 0.0464,
+              "material": 0.6494,
+              "lighting": 0.1724
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "3648a29cbda9999916f1a0c5eba6ec34a9100c7642788cee86ec6c80fa967c64",
+            "scores": {
+              "silhouette": 0.0578,
+              "material": 0.547,
+              "lighting": 0.125
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "db2a795931a70b9a60e283e8be78c888f197103e549b62e606d15582c0a9c390",
+            "scores": {
+              "silhouette": 0.0334,
+              "material": 0.6985,
+              "lighting": 0.2516
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-native-collapsedoverpass",
+      "version": "個別PBR・構造検証 624388b",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "66165077a06db5081c7c2a4c3b402fb8dbc4c688c748da69fea8385e6782c5be",
+            "scores": {
+              "silhouette": 0.0527,
+              "material": 0.2062,
+              "lighting": 0.0995
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "1c16aed572586d4b15aee1b1c521588e15d7fdb7c238d937840284d1b122ff4f",
+            "scores": {
+              "silhouette": 0.0639,
+              "material": 0.4359,
+              "lighting": 0.0542
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "7cff58cc67a48a800b51cf4ba9a3f0f57ba54751f17eaf7cf00ba2f82bd3394a",
+            "scores": {
+              "silhouette": 0.0594,
+              "material": 0.5809,
+              "lighting": 0.212
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-native-utilitypole",
+      "version": "個別PBR・構造検証 624388b",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "95e87a7983fd1cee4472840559c99adc01149763f943f1ca198ba45467b58535",
+            "scores": {
+              "silhouette": 0.2617,
+              "material": 0.3708,
+              "lighting": 0.0868
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "2d8abc33f46c43add74a1224970acbb27e7dc15b11a6a7aa8d2ef8378976d8d5",
+            "scores": {
+              "silhouette": 0.5114,
+              "material": 0.4718,
+              "lighting": 0.0598
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "38026523dff5f7bd6945c7eb363ea5cd4045b77510dfc6d1911f289e37dbc988",
+            "scores": {
+              "silhouette": 0.292,
+              "material": 0.6328,
+              "lighting": 0.1009
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-native-steelwreck",
+      "version": "個別PBR・構造検証 624388b",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "18fa8bd3808466783a5dc8ea66c8a0b0f0315e771e7eba2e759aa6aad2d3fc23",
+            "scores": {
+              "silhouette": 0.0998,
+              "material": 0.2388,
+              "lighting": 0.0622
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "cd3cf71e4b2f57de70406d1777ab429715758c6571f4127109c1e06230d2dbbf",
+            "scores": {
+              "silhouette": 0.067,
+              "material": 0.5981,
+              "lighting": 0.0689
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "2e1a8ff79aa3cc64310e0e98187cff0e2166cc296668b1683569244b37045781",
+            "scores": {
+              "silhouette": 0.0425,
+              "material": 0.3789,
+              "lighting": 0.0833
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-native-abandonedtransitstop",
+      "version": "個別PBR・構造検証 624388b",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "1c3cdfe8311d203f710810c50e0c50f74438f305b04a4a496507966886a7cbec",
+            "scores": {
+              "silhouette": 0.2278,
+              "material": 0.3779,
+              "lighting": 0.1981
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "eca67828167a1e2274e608b581f3e18f94bc1749d7054946838898c638cd8e99",
+            "scores": {
+              "silhouette": 0.1468,
+              "material": 0.2257,
+              "lighting": 0.0969
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "638d5160b0eaf991dad7031d76bbcf8686b75e458d55f22d793a7a535e2c21cc",
+            "scores": {
+              "silhouette": 0.1185,
+              "material": 0.5062,
+              "lighting": 0.181
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-column-joint-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "61c3a240853fa20ee5bc064958ee3133c7662ae4a0ea12669e7f250c464f0918",
+            "scores": {
+              "silhouette": 0.182,
+              "material": 0.0577,
+              "lighting": 0.0348
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "bfa8700a0d95f427726a9c42a5ce130e8d07503bdb73a2dc8b044851d6d36154",
+            "scores": {
+              "silhouette": 0.2144,
+              "material": 0.0742,
+              "lighting": 0.0552
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "5d32adb59bb7220cca164dc9ce53a08244792859377c9971176304461896dd1a",
+            "scores": {
+              "silhouette": 0.429,
+              "material": 0.1744,
+              "lighting": 0.0737
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "38e11949f8879b77b9a4f5387747bd80038b8c4db518f76b5e1a9b816f512116",
+            "scores": {
+              "silhouette": 0.1873,
+              "material": 0.0677,
+              "lighting": 0.0369
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "fb9ff5bc88e38cc4c26f515cadd014cc2784b5079a5aa388b11e25260b5b6510",
+            "scores": {
+              "silhouette": 0.1904,
+              "material": 0.0721,
+              "lighting": 0.0427
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "5b2f923f3db304870c173328cd51a3fdfc383afc7a854c716aab15dbdf947c44",
+            "scores": {
+              "silhouette": 0.3652,
+              "material": 0.2074,
+              "lighting": 0.0831
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "c9d21b5f1ea7bea3d9ee40b7beee51db71177f67810d1a2a49e585bf2e4ce20a",
+            "scores": {
+              "silhouette": 0.1368,
+              "material": 0.0813,
+              "lighting": 0.0404
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "329711cb67a6e90eb7fb0e314d4197108391349441141e83ee19fbd3d19327b0",
+            "scores": {
+              "silhouette": 0.1507,
+              "material": 0.0862,
+              "lighting": 0.0568
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "fa56faad4a1d2db278742cb2d72997fa9cca3b0b327565b84277f421e77434a0",
+            "scores": {
+              "silhouette": 0.3267,
+              "material": 0.2251,
+              "lighting": 0.1074
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-retaining-wall-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "f4547cd95701a38506ea8d2a7e95afc22714793f11a7a45a3f004703a04dda81",
+            "scores": {
+              "silhouette": 0.1319,
+              "material": 0.2394,
+              "lighting": 0.0392
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "0bffa330c05db84f3e9eed923e374669c87999d6695f420c687d524ea07819b4",
+            "scores": {
+              "silhouette": 0.0904,
+              "material": 0.1093,
+              "lighting": 0.0386
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "b46a7672c87184d3166d45c20f45c403094891e86339671fd5f02b24fa1ea638",
+            "scores": {
+              "silhouette": 0.1875,
+              "material": 0.2541,
+              "lighting": 0.0788
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "d2b1fdd9a2d67b9ce54a1367b6093f61e743dc975184d44325e18a2af2b1d394",
+            "scores": {
+              "silhouette": 0.2333,
+              "material": 0.212,
+              "lighting": 0.0389
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "a9638bc13cf511afa93ff90c7c80b62d7d17a77f373cfc39e81490e1862e11c9",
+            "scores": {
+              "silhouette": 0.0807,
+              "material": 0.0871,
+              "lighting": 0.0309
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "114c4326458fd3fc4d49962d6af1546f0016675a03f564c02541831fac3f30f5",
+            "scores": {
+              "silhouette": 0.2326,
+              "material": 0.2441,
+              "lighting": 0.0755
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "a7cf8430c66dfe0af1c8724a5bac6ba93dbd8c3818a1400ef306cc1ba7727642",
+            "scores": {
+              "silhouette": 0.1703,
+              "material": 0.3084,
+              "lighting": 0.053
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "adca903c407c1e71395e97734f8aeff599e95ac9c046974f7a63ac6a115fce45",
+            "scores": {
+              "silhouette": 0.1361,
+              "material": 0.2816,
+              "lighting": 0.0922
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "53dc203e3a24c9b44df96cf83ff43ad61e0bb95360cde9405936d20ec012da9c",
+            "scores": {
+              "silhouette": 0.2705,
+              "material": 0.2267,
+              "lighting": 0.0524
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-riveted-girder-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "e9340e9a88a13ffb0df58bfe4073716be551c363a1fa156b0d4a21a312e96d81",
+            "scores": {
+              "silhouette": 0.0931,
+              "material": 0.0879,
+              "lighting": 0.0386
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "c0a02d8f83d14ae5509fd9bbb5e1d2fe89b6e883604ceb74297e29175f25abee",
+            "scores": {
+              "silhouette": 0.1359,
+              "material": 0.0315,
+              "lighting": 0.0167
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "95e9eafa210f7712a55321dd55718ea4dc9aefe1214bd9898da1ab6adaddf178",
+            "scores": {
+              "silhouette": 0.1068,
+              "material": 0.1293,
+              "lighting": 0.0381
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "bc569b359e40ad1b836e7958e01d9a29d3eadc67195d8faa50b7b0867f719f7e",
+            "scores": {
+              "silhouette": 0.0935,
+              "material": 0.0894,
+              "lighting": 0.0392
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "6d3dae6bc9ba13fe833912e2fb1b0a867db40704d77832cd798b97e720057e41",
+            "scores": {
+              "silhouette": 0.1363,
+              "material": 0.0311,
+              "lighting": 0.0163
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "b51da775c2327453c352d79cb5b81d37493ca1f8375380ebdd1482b6760b97e3",
+            "scores": {
+              "silhouette": 0.1049,
+              "material": 0.1274,
+              "lighting": 0.0379
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "300e4bab120e245cd29c0093dc45bf80e891d3d1bb1e83a893b4e81f7763660c",
+            "scores": {
+              "silhouette": 0.0931,
+              "material": 0.1057,
+              "lighting": 0.0466
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "edc70c5c7703319ea19ca3307e5fab0ddfb22fd9c09c920e57d9d7f12e0a40bf",
+            "scores": {
+              "silhouette": 0.1404,
+              "material": 0.0287,
+              "lighting": 0.0151
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "9a862690003d46b9a57408c2f72ac072a308af47f8405e7e6ff0fb41392c5c13",
+            "scores": {
+              "silhouette": 0.0945,
+              "material": 0.1157,
+              "lighting": 0.0368
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-buckled-portal-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "a6af4e55bed537e7ceb85a4ea8883cdb9fa3714678909c06e19ed796c5fdac5e",
+            "scores": {
+              "silhouette": 0.0828,
+              "material": 0.1767,
+              "lighting": 0.0819
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "034d290f7b89248f052d8de30cc30d908a1d3c7f81900b1cad1031481395d1db",
+            "scores": {
+              "silhouette": 0.114,
+              "material": 0.1105,
+              "lighting": 0.0454
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "5d9e5b0a34323961762d854c8362d30ad2ef807df3fb18e78c89319e3451bae5",
+            "scores": {
+              "silhouette": 0.1195,
+              "material": 0.2805,
+              "lighting": 0.1141
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "32646ea4071c5612ce7ecb52ea0c437f06a18cb2e4d7ea785ce7b336833cdea0",
+            "scores": {
+              "silhouette": 0.0798,
+              "material": 0.1701,
+              "lighting": 0.0828
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "d20a6fc23f67da73c2a90f3c918a3969289ba0052a2a58429fbb62efd6c8944a",
+            "scores": {
+              "silhouette": 0.1091,
+              "material": 0.1046,
+              "lighting": 0.0452
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "d0e747cd7c2601801e01a14f44d6ef3faa40110c01b4a4032047feac7bcd8202",
+            "scores": {
+              "silhouette": 0.116,
+              "material": 0.2799,
+              "lighting": 0.1136
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "e61bc96e4c574d250582952b5b41b47890d8b878e1fa9488c3952964637540eb",
+            "scores": {
+              "silhouette": 0.083,
+              "material": 0.1686,
+              "lighting": 0.083
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "8d2ec0cea7eadb61054f060187a1073b6e1f8910317d1eb222d0083b7a5947dd",
+            "scores": {
+              "silhouette": 0.1258,
+              "material": 0.0935,
+              "lighting": 0.0342
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "d0b54cb6df835e949387e8623be67d62285b2d1770a08dbdf2be604e996bf69c",
+            "scores": {
+              "silhouette": 0.1163,
+              "material": 0.2493,
+              "lighting": 0.1057
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-bridge-abutment-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "3e5b2ada80a89ded482fe9dac35186f56f0f0c6e42eef9c750b84343566cef1d",
+            "scores": {
+              "silhouette": 0.335,
+              "material": 0.1391,
+              "lighting": 0.0539
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "40d7a2c7fdb3266cd599eee462f9ac023d07a760102db9de9d7680129d87ab92",
+            "scores": {
+              "silhouette": 0.3774,
+              "material": 0.0551,
+              "lighting": 0.0201
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "cdfbec0dd1e7e81bfec16d0912d3284e10f0765783e8e1923baeff06ac89795a",
+            "scores": {
+              "silhouette": 0.3588,
+              "material": 0.2818,
+              "lighting": 0.1098
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "7cb407eeebdf5c2d6f2e9706f817474692c88103c35d3fb9393f5d6bd2d21c8b",
+            "scores": {
+              "silhouette": 0.3234,
+              "material": 0.1358,
+              "lighting": 0.0529
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "1f2e82d01801117de6db8aa7d5a2306310f4ef0cd61886be5b9cfcad65fa6199",
+            "scores": {
+              "silhouette": 0.3936,
+              "material": 0.0531,
+              "lighting": 0.0209
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "a063953c90392a2d8ed4f04e3e7d379b6b3b53ac7aa1fff0989d8e1071f21edb",
+            "scores": {
+              "silhouette": 0.3527,
+              "material": 0.2897,
+              "lighting": 0.119
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "2571e57c44ccb96079664da50fa691a4583a8ca7eea9b56aa145b7b0c5d6c6e8",
+            "scores": {
+              "silhouette": 0.2685,
+              "material": 0.1027,
+              "lighting": 0.047
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "440c90043eb84973569d250f161f7ae7e0c2293f0976d497d8d92878fba2b29a",
+            "scores": {
+              "silhouette": 0.5286,
+              "material": 0.0444,
+              "lighting": 0.0244
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "d3d8b0c2ecd6a18173cbf4f4ac145da520e961c2b11e520822f986448f2625f8",
+            "scores": {
+              "silhouette": 0.3265,
+              "material": 0.3224,
+              "lighting": 0.1415
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-broken-signal-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "32ad9247205eed2028e8e1befa91d7262e5996e3af7090c886c1830cab835b50",
+            "scores": {
+              "silhouette": 0.0641,
+              "material": 0.0582,
+              "lighting": 0.0465
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "bbe58d4d326cb4fa422fe4141e331fc28b63174c073b6f0bb8ea64df5b041a37",
+            "scores": {
+              "silhouette": 0.0727,
+              "material": 0.0457,
+              "lighting": 0.0399
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "c77e1acb775370e6819fa7778334b43269d0096c61a8bc729dc49588f5c13a22",
+            "scores": {
+              "silhouette": 0.0691,
+              "material": 0.0561,
+              "lighting": 0.0605
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "aa0bad16a5aa034dcc74368e62d227d098eb53b2d953a54297eff26e59960a88",
+            "scores": {
+              "silhouette": 0.0793,
+              "material": 0.074,
+              "lighting": 0.0576
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "43c9b894559654c7c4da67ff0bfab5d63e6b5dad3d1b51e8adbea698e864afe3",
+            "scores": {
+              "silhouette": 0.0557,
+              "material": 0.0425,
+              "lighting": 0.0365
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "03b417989fef29bf591941d3b42e29339e6ec0d0a7357e5663a986b0bc981b04",
+            "scores": {
+              "silhouette": 0.0795,
+              "material": 0.0568,
+              "lighting": 0.0628
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "d07efd787b99447e156a037bef4309a0a980885dfdb0aa39d16400751a5bc8a3",
+            "scores": {
+              "silhouette": 0.0481,
+              "material": 0.0466,
+              "lighting": 0.0365
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "be7e021170fdcea8c0b37dc72049ecbc76b4b47c863267e2c2d49dc80e966cec",
+            "scores": {
+              "silhouette": 0.041,
+              "material": 0.0658,
+              "lighting": 0.0499
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "3af5d9d17d1b79f423ffcc3bfac564a2b592f67159ff2713ef35f52488b0f0d5",
+            "scores": {
+              "silhouette": 0.045,
+              "material": 0.045,
+              "lighting": 0.062
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-broken-streetlamp-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "8a25cbd06db9e9c0b5268ef3e87aa209534c67fce6cc926cea870037751be36c",
+            "scores": {
+              "silhouette": 0.2829,
+              "material": 0.444,
+              "lighting": 0.3477
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "627663d2463dc1713929399441a26dbada33b3c79d3f1a1376cdbb37446278cf",
+            "scores": {
+              "silhouette": 0.0488,
+              "material": 0.0917,
+              "lighting": 0.0634
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "af8c70f90e8b0c9e4a7aa2b557bc1565cb2056d54a93af97b6e17b2126554aaf",
+            "scores": {
+              "silhouette": 0.2452,
+              "material": 0.277,
+              "lighting": 0.2377
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "d2371b127ee95df1a35ef5e608f89a8da9eae20cb9b8fabc6d09f3ede82a0603",
+            "scores": {
+              "silhouette": 0.2835,
+              "material": 0.4617,
+              "lighting": 0.3829
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "b68920cc080134c3c84afed17b0cf276097a92637ff00e8248bc34c9f025e2f7",
+            "scores": {
+              "silhouette": 0.0363,
+              "material": 0.0478,
+              "lighting": 0.0501
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "22c1e5fd22262ee2b8ffaa9d11bfaaf4540d0e3f4eda01f3083946c090bf2dee",
+            "scores": {
+              "silhouette": 0.2625,
+              "material": 0.2873,
+              "lighting": 0.2436
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "1c9c7c114fc091ca6d5d5ddfdcedc2d7ec33f32d15c965a119168dd294229d1d",
+            "scores": {
+              "silhouette": 0.0841,
+              "material": 0.0957,
+              "lighting": 0.0968
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "01fb5ccbe75a168063150af548cf4481801787b458d54d6ebe5a48960607e4ed",
+            "scores": {
+              "silhouette": 0.0475,
+              "material": 0.0535,
+              "lighting": 0.0484
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "7ce670d52bfbe28323dcd4931467ce46ecc580aa3159ccb8ddf01b3280eee4b3",
+            "scores": {
+              "silhouette": 0.1819,
+              "material": 0.1545,
+              "lighting": 0.0851
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-control-cabinet-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "2b61f7924937f8f79ed7e09a6d867484ac22514a2882e94371821fb46d096058",
+            "scores": {
+              "silhouette": 0.208,
+              "material": 0.1001,
+              "lighting": 0.064
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "f85e210155717b8bf890e67b3c1eb0d602a160a1d58c07848aa9395eb8615074",
+            "scores": {
+              "silhouette": 0.2147,
+              "material": 0.0345,
+              "lighting": 0.0281
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "bdced7821125861b87795d3da89014aa579f34f174e42d3de485a2da14e153a1",
+            "scores": {
+              "silhouette": 0.1965,
+              "material": 0.5013,
+              "lighting": 0.1617
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "9b5a97bb8c8c987ec5ab7ab411279bb9b2d378e98534fa9c08b4a87c5b06327e",
+            "scores": {
+              "silhouette": 0.2101,
+              "material": 0.0984,
+              "lighting": 0.0615
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "94e98a8ec85a3529d80dab5491d6177111c9ed15af8800be09d0edee10a9174b",
+            "scores": {
+              "silhouette": 0.2333,
+              "material": 0.0344,
+              "lighting": 0.0272
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "71a6d549626bdc413a74edfea749606816841b5c142dc8d2953af0fb5d52804a",
+            "scores": {
+              "silhouette": 0.1973,
+              "material": 0.5129,
+              "lighting": 0.1745
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "49457d624d7ff018ee0bb39688f1ec0cfb18746cc37dc3685a07a77a0d012710",
+            "scores": {
+              "silhouette": 0.2393,
+              "material": 0.1011,
+              "lighting": 0.0666
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "6e7e4656b6902fe062432b24d8eabb525ea7fb5e4e082cf3468b0481aeaacb91",
+            "scores": {
+              "silhouette": 0.1453,
+              "material": 0.0337,
+              "lighting": 0.0265
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "80fa8e97d8787c96adb59f8d3f2bc58effdbd9b9879f8ec6c5daa778a67718f1",
+            "scores": {
+              "silhouette": 0.1742,
+              "material": 0.3463,
+              "lighting": 0.1173
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-drain-channel-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "d7680eb97e584525f76efb6c3755a8f442e0a50c0726708eae5ef7d5ce894134",
+            "scores": {
+              "silhouette": 0.2621,
+              "material": 0.1484,
+              "lighting": 0.0802
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "4ac751e4a34b6144cfcb8bc2fc2fb9329b0ad8b433ef90d81add11599b9b4a2b",
+            "scores": {
+              "silhouette": 0.0939,
+              "material": 0.0303,
+              "lighting": 0.018
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "1e7c77ad981447cad0028d798c13b8561de315c5cae1d81fa92bbe0702b051e2",
+            "scores": {
+              "silhouette": 0.3142,
+              "material": 0.1316,
+              "lighting": 0.133
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "9d25bba4bcfc10ad77e4f275e49ffa2f3ad50b3f4551316fd2cfe001dd9a2368",
+            "scores": {
+              "silhouette": 0.263,
+              "material": 0.1481,
+              "lighting": 0.0805
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "33151722257f36a8a12809d193b6c286554e564f27ab7d6e3250aaa0fcc6c3c9",
+            "scores": {
+              "silhouette": 0.0955,
+              "material": 0.0303,
+              "lighting": 0.018
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "cb6213601ea982448e14e42af9d68d40f6e389d979f8be95de046b1192578213",
+            "scores": {
+              "silhouette": 0.3132,
+              "material": 0.1315,
+              "lighting": 0.1334
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "640d974fad2d14cc413371c337ee39c4a446408d86fda14f47296520de82282e",
+            "scores": {
+              "silhouette": 0.2764,
+              "material": 0.1534,
+              "lighting": 0.0729
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "f43812c6491213dd6ecbd7a848a9bf6e40f5c27f0316c4c3ae54b6c79dad32f8",
+            "scores": {
+              "silhouette": 0.0979,
+              "material": 0.0479,
+              "lighting": 0.0171
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "656e6bf982ec34a97d58c1fbb4f3d80c10444d4b2dc99b1aafec04a5c5a14d89",
+            "scores": {
+              "silhouette": 0.3094,
+              "material": 0.1387,
+              "lighting": 0.1362
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-factory-door-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "5f87a413b8b499323b69cee6e95326aee6e29d58c1dbdd0af364706d6b791a09",
+            "scores": {
+              "silhouette": 0.2433,
+              "material": 0.0205,
+              "lighting": 0.0167
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "9b3324aac8a62ed7c608994f9969c9b4ee8e10b53ce03c150d04a4ec11df7c37",
+            "scores": {
+              "silhouette": 0.2078,
+              "material": 0.0723,
+              "lighting": 0.0542
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "154410787eb3a476d15a30dceb138de64acdd18e52c20769c92be99e66441418",
+            "scores": {
+              "silhouette": 0.2767,
+              "material": 0.1067,
+              "lighting": 0.103
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "b111843ecd6c3c62ec2d23ac45e43497f6c343217afd8e36b994f8827a0f5651",
+            "scores": {
+              "silhouette": 0.2468,
+              "material": 0.0218,
+              "lighting": 0.0168
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "dfba39f6636fb0b590c23bf93fe3807eb4c4f989381ca48a02cc20ce5f17c1a8",
+            "scores": {
+              "silhouette": 0.2028,
+              "material": 0.0716,
+              "lighting": 0.0541
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "d8df4b842e61f38efc9dec950a222fe48e29261986d3e946fd23e081c6e7d4cf",
+            "scores": {
+              "silhouette": 0.2701,
+              "material": 0.1032,
+              "lighting": 0.1034
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "e687f163d02eb6f5f0345fd29a935c44ee68417d6029ec4bb83fc6105544ead2",
+            "scores": {
+              "silhouette": 0.2159,
+              "material": 0.041,
+              "lighting": 0.0288
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "ab02a6d12c9d74afa20a8f0ff6b5e794710b8ab52f135aa7e99c8a54e26ce0b4",
+            "scores": {
+              "silhouette": 0.2291,
+              "material": 0.0706,
+              "lighting": 0.0587
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "785b3bc8e830f90367cf8bb9c412f6f4e2033a44390e7243e7ebd9ae733ac5c2",
+            "scores": {
+              "silhouette": 0.2789,
+              "material": 0.0946,
+              "lighting": 0.1007
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-flanged-pipe-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "d362a137221aebd1dfb6795e80a8f88b303ee168a770d8c79a2b3cd29868ee57",
+            "scores": {
+              "silhouette": 0.1986,
+              "material": 0.3203,
+              "lighting": 0.1297
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "f96db233b388f06a69df825beda08e9e2f1cdb4408415d262c377635db303cf4",
+            "scores": {
+              "silhouette": 0.0647,
+              "material": 0.4566,
+              "lighting": 0.2502
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "1939cdee5c5b057e28528b279b27511faaa6860a781e34557252cb8705c3a1f3",
+            "scores": {
+              "silhouette": 0.2679,
+              "material": 0.4019,
+              "lighting": 0.1753
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "af9c3cb634066b7e7341065864e0cf57a52e7e654ff6f988e372d270ba311eb5",
+            "scores": {
+              "silhouette": 0.2083,
+              "material": 0.4186,
+              "lighting": 0.1149
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "b832935c78093515b121cf32fd197c38d754e21c37e8a0940c1e00c745806c2a",
+            "scores": {
+              "silhouette": 0.082,
+              "material": 0.4406,
+              "lighting": 0.2316
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "e443e1960db6d32216c08ad38a1a3271a872bab694be41be4f9d8fa6d892a5ab",
+            "scores": {
+              "silhouette": 0.2436,
+              "material": 0.4182,
+              "lighting": 0.1681
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "6de3455b6b1a53f939eb8adb982aac86650493d6d8831240495ec51ed7a183d1",
+            "scores": {
+              "silhouette": 0.2214,
+              "material": 0.5445,
+              "lighting": 0.1687
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "8e2a4874e02a4002c7c20e65a0ba5ef772f602a7bec38261877b5ff40700228c",
+            "scores": {
+              "silhouette": 0.1056,
+              "material": 0.2915,
+              "lighting": 0.1611
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "70c912d6ecf0aa9ae4589fdc46fe0564f6db102967d7174e41ebaad360e7e1a6",
+            "scores": {
+              "silhouette": 0.28,
+              "material": 0.6195,
+              "lighting": 0.288
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-grating-catwalk-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "a7bebdf3cec6cb210400d64abdd563a8d1bd6f69dc2c906e4ad6fdfb2dd21931",
+            "scores": {
+              "silhouette": 0.0589,
+              "material": 0.1645,
+              "lighting": 0.1766
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "adcd8b640166e8e97daffff468c21903666f098ae89815225c54be296c7e86da",
+            "scores": {
+              "silhouette": 0.1093,
+              "material": 0.1154,
+              "lighting": 0.0579
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "0b6ee5861b6315cf8cfdcb8d2ff12bb8cc5dc681f6436e563d9c35237ac19026",
+            "scores": {
+              "silhouette": 0.0822,
+              "material": 0.2558,
+              "lighting": 0.2145
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "a589bde278592531e7b84683828e513220f18677ab3069c26447ce41167a046f",
+            "scores": {
+              "silhouette": 0.0552,
+              "material": 0.165,
+              "lighting": 0.172
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "44de2b6f4bac73b9f6e1bb692c367e49d6e1c07f6fdae1a6e5dc6ccac11c2af5",
+            "scores": {
+              "silhouette": 0.1101,
+              "material": 0.1152,
+              "lighting": 0.0568
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "d668ba71eb091caa03eafdda2e235ac62833c7eb6169299286790f28642cdc18",
+            "scores": {
+              "silhouette": 0.0838,
+              "material": 0.2556,
+              "lighting": 0.2142
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "d1c8ebb6c4b16e8ab3401c9554b479ac940e90bc3bd5a1753c0e74f5d08f6290",
+            "scores": {
+              "silhouette": 0.0633,
+              "material": 0.156,
+              "lighting": 0.1748
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "52d97baf5e2957211b9a9d3cde76e9056287a75cdd22d2e9e1a2932491c2de58",
+            "scores": {
+              "silhouette": 0.1112,
+              "material": 0.1154,
+              "lighting": 0.0569
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "bbaef570d3889f621d871d9b6100a6276fd53c0c4de9402ea681898d0ee9ba5e",
+            "scores": {
+              "silhouette": 0.0838,
+              "material": 0.2546,
+              "lighting": 0.2144
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-heaved-asphalt-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "a51b61a8e38e7f0bf7c1395974c606d660d5de7cf68bda49fe073f8fb3fece30",
+            "scores": {
+              "silhouette": 0.28,
+              "material": 0.1144,
+              "lighting": 0.0713
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "16530d893f81bc0a9d7fca9ebd238d1e19be136fe4370cd17bd3d793882bf858",
+            "scores": {
+              "silhouette": 0.1257,
+              "material": 0.0693,
+              "lighting": 0.1939
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "e6177cc2c2d34f7585a5163b0fc42874f1277f74f96e44e7a243d0ee5a9169b6",
+            "scores": {
+              "silhouette": 0.4076,
+              "material": 0.0818,
+              "lighting": 0.0955
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "09881a8cbacbd4784f354bc0e67669bbe934542c9491dfc93078ebdb3bfc03ef",
+            "scores": {
+              "silhouette": 0.2834,
+              "material": 0.1158,
+              "lighting": 0.0704
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "9d058527a3f80784f11288d970f96d62e20c5a981cb78e26332b4aafc0d482b0",
+            "scores": {
+              "silhouette": 0.1331,
+              "material": 0.0715,
+              "lighting": 0.2027
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "f7ffaeda14e09c87edfe7927f9b67d8247c24695fc0c9c97d2fa8e97db947f0c",
+            "scores": {
+              "silhouette": 0.4062,
+              "material": 0.0811,
+              "lighting": 0.096
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "018a56fa7c902d380d8a65136546435570ae6262558075ce4de21934760f7cbb",
+            "scores": {
+              "silhouette": 0.3066,
+              "material": 0.0979,
+              "lighting": 0.0664
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "1ad7d75a2046966ab6480702cfd99bc45fb0591844ea76227095a567b230429d",
+            "scores": {
+              "silhouette": 0.2293,
+              "material": 0.1144,
+              "lighting": 0.1767
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "7ec370a21e130128a468a6ed7fddb925893a9f5d24d78ec86b95a8a8ccd56ca0",
+            "scores": {
+              "silhouette": 0.4326,
+              "material": 0.1119,
+              "lighting": 0.121
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-landing-railing-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "eccea25f82b75dfe4af406987cf3778c147e408d6d58b9ac63778c7a78b24140",
+            "scores": {
+              "silhouette": 0.2012,
+              "material": 0.4574,
+              "lighting": 0.2316
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "cd50e052b7ddbb090592f181f093d6b52c64282e0df19e401c714130b5005dac",
+            "scores": {
+              "silhouette": 0.1874,
+              "material": 0.2425,
+              "lighting": 0.1321
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "169bea195a7aab615560b774a7fd984cbc68e5eab9efc0a08ea81c3c1c3ced5d",
+            "scores": {
+              "silhouette": 0.0935,
+              "material": 0.406,
+              "lighting": 0.2414
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "22f1e9a398c0f9f36c277bb2bb1f9f6eb1018456d430fff378ba5892e0589390",
+            "scores": {
+              "silhouette": 0.202,
+              "material": 0.4546,
+              "lighting": 0.243
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "254234f7cc15b9f2782c8f74940bd6638cbe2cc7517e4ee3f02416a47071b2bf",
+            "scores": {
+              "silhouette": 0.1968,
+              "material": 0.2466,
+              "lighting": 0.1365
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "06abf2d030706ad587464ed439bfc84dd262d01ab70945664a514d78b967c1e8",
+            "scores": {
+              "silhouette": 0.1013,
+              "material": 0.3967,
+              "lighting": 0.2456
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "8b972d2c7bb9628f6f546bc5805ffa99fa81bd8d5da26e009ff7842b8e0f6151",
+            "scores": {
+              "silhouette": 0.2256,
+              "material": 0.5158,
+              "lighting": 0.2784
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "eda3817502939f30d16a5cbe135b37d687c7ef3a2abfb2754f7d241cbebbd4c0",
+            "scores": {
+              "silhouette": 0.1992,
+              "material": 0.2511,
+              "lighting": 0.1232
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "9fbd1b58c77d9317a37f6d744a8f286f7aace35eaeb615273367ac4c370ea916",
+            "scores": {
+              "silhouette": 0.1487,
+              "material": 0.4475,
+              "lighting": 0.2913
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-pipe-rack-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "7e4045e7d040c6cd4bac859607d30735f30cd215b9c35d8b03ee9820d25e569a",
+            "scores": {
+              "silhouette": 0.2314,
+              "material": 0.0886,
+              "lighting": 0.1014
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "d00316c41d3fc124726f3d40dd314aa7517a052db6897f170026ad5294944752",
+            "scores": {
+              "silhouette": 0.036,
+              "material": 0.1085,
+              "lighting": 0.0572
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "6648161b9275f631680b68cd6f7430fe02e95ef06bbbae5bf57379510b551c48",
+            "scores": {
+              "silhouette": 0.2082,
+              "material": 0.2157,
+              "lighting": 0.1716
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "eb54a8f80a7f6e6bfe1e4b087c481b1bd009fbbca145869eab3d90c39a84e443",
+            "scores": {
+              "silhouette": 0.2381,
+              "material": 0.1054,
+              "lighting": 0.0969
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "69d857e8eb27bacac87bd3ae4aa5c7d139802c72d537f2177d1f8ecb04de6ada",
+            "scores": {
+              "silhouette": 0.0365,
+              "material": 0.1107,
+              "lighting": 0.0585
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "53ee2100e04acd06a0dbc6ee92b905dc3227be6f25fce7ae9bbd860fbc6578cd",
+            "scores": {
+              "silhouette": 0.2074,
+              "material": 0.2179,
+              "lighting": 0.1611
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "dad9c923d89c234b4891c3fd4cad3a7b18aa1cd641230e13c13ea250d7fa2f05",
+            "scores": {
+              "silhouette": 0.2135,
+              "material": 0.1705,
+              "lighting": 0.0958
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "55ec0daa13e85f40256736ff4412167baf0bbe8880b5a481400bb40b886473b7",
+            "scores": {
+              "silhouette": 0.0402,
+              "material": 0.0833,
+              "lighting": 0.0516
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "1a62c5b7afb2c573fd48ebdd7c8edb3dd6c5ec5ff542e8a1b8e06102961796ac",
+            "scores": {
+              "silhouette": 0.2539,
+              "material": 0.2528,
+              "lighting": 0.141
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-rebar-rubble-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "0cb570cd2519c88057635c25781b336cd536341a90ff0b8ef22889f9251db2cb",
+            "scores": {
+              "silhouette": 0.1193,
+              "material": 0.144,
+              "lighting": 0.0145
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "76e349fff7f31b01dd19c1269f4b0f69ebdc19b7395e66edfc19dadb07177599",
+            "scores": {
+              "silhouette": 0.3498,
+              "material": 0.2741,
+              "lighting": 0.0363
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "392dfdfaac3474735d3848c7a99bc91677e4fa7f20dd5e51f8c83af2cb1012df",
+            "scores": {
+              "silhouette": 0.1502,
+              "material": 0.1388,
+              "lighting": 0.0163
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "db896fdd37db07bf9ecbd947e56517c2ba4fa3adcc057211babf1e32281221c1",
+            "scores": {
+              "silhouette": 0.079,
+              "material": 0.1908,
+              "lighting": 0.0183
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "89a4ec3bd79918c32db49cd42c67b7716df927f6c00d97e3c6d007b733e09934",
+            "scores": {
+              "silhouette": 0.2709,
+              "material": 0.2862,
+              "lighting": 0.0397
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "1c35b0c01164345c46767cfc0be0430c043c60dd5b4fddb971d7d91a30549d11",
+            "scores": {
+              "silhouette": 0.1467,
+              "material": 0.1567,
+              "lighting": 0.0188
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "1725cb1291aff96dda7ace401904916647cb649c0aff7e5393d01269ed75cacd",
+            "scores": {
+              "silhouette": 0.2512,
+              "material": 0.1788,
+              "lighting": 0.0251
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "9a2f95fec9646c02be795ac6e0fe00b68efe81e10593246fdd0d614109e003a7",
+            "scores": {
+              "silhouette": 0.2588,
+              "material": 0.4223,
+              "lighting": 0.032
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "50c27aec38a7f75505756a290ae64f6b1c7cf09b1b314cf7ce4d975984cfb17d",
+            "scores": {
+              "silhouette": 0.1811,
+              "material": 0.2322,
+              "lighting": 0.0316
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-roller-shutter-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "6c6b32147e63f219145ab5475c889d4f4222f18d3b0888d591d516964d480668",
+            "scores": {
+              "silhouette": 0.1098,
+              "material": 0.0624,
+              "lighting": 0.1023
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "505ceb6312b3bec93acff751a50703c5d66bd40b54bf1bd8dadccd73fba68520",
+            "scores": {
+              "silhouette": 0.1125,
+              "material": 0.0603,
+              "lighting": 0.0249
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "a8d9f5f72ecbfdfcf64faa10481c57ee1ba7dae17b684062750f9d9944cbd820",
+            "scores": {
+              "silhouette": 0.2144,
+              "material": 0.069,
+              "lighting": 0.0709
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "d37677f0cc3dcc1f1a4a4ce016556cd77e324e3b03b638b351d8e8b42b35e763",
+            "scores": {
+              "silhouette": 0.1179,
+              "material": 0.0683,
+              "lighting": 0.122
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "a59b9e94e32126d97bd6717c4d8d8f0c29c8a97c00b18f1f922f7ac93de346bc",
+            "scores": {
+              "silhouette": 0.1126,
+              "material": 0.0601,
+              "lighting": 0.0248
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "4687a6bd8e1adb559936a5fc372fa28803c787407a2410748d59017438bbe267",
+            "scores": {
+              "silhouette": 0.1991,
+              "material": 0.0747,
+              "lighting": 0.0774
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "9d3f88e19d450ebce03c92496a065b1bf03299492777f40b7d0429a360576f0b",
+            "scores": {
+              "silhouette": 0.1083,
+              "material": 0.068,
+              "lighting": 0.1342
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "1f456cca49b01a1705daa3e3fe3cff8eea6198aaed609e4051a30e089a8317e5",
+            "scores": {
+              "silhouette": 0.1121,
+              "material": 0.0609,
+              "lighting": 0.0253
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "ed65e20ca18dc222064cec78aecb0e48fe33fbd0327b5fe756f1e406f2ff369a",
+            "scores": {
+              "silhouette": 0.1938,
+              "material": 0.0841,
+              "lighting": 0.0824
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-service-stair-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "905ac9e24de8299e8df574dae8788357482b33123aa467b4353f324a8b80ad46",
+            "scores": {
+              "silhouette": 0.0903,
+              "material": 0.2155,
+              "lighting": 0.0653
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "3ca9c18b893bbd4cd4a9ff874fa5df050ad2eb6c7b1014e85667a517bc8d596e",
+            "scores": {
+              "silhouette": 0.0392,
+              "material": 0.2336,
+              "lighting": 0.1318
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "56a3c3b256d0c7ce615d5ea774f44023f49a0d6b36373f07db70b2aca43e793f",
+            "scores": {
+              "silhouette": 0.0373,
+              "material": 0.1504,
+              "lighting": 0.1452
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "51952db3031d8c0ceef7d809162f54469cfc1bd56a73a7f42a1d530c1b0fc528",
+            "scores": {
+              "silhouette": 0.0927,
+              "material": 0.2223,
+              "lighting": 0.0664
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "4861b8e58abc9d1a0a1ba71f5d7965f30d100137b22eb04b64b5b98acd8a9c1a",
+            "scores": {
+              "silhouette": 0.0416,
+              "material": 0.2446,
+              "lighting": 0.1376
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "41d283e1a174a2015eea2ccfe27a3193fe60c4bab746d4f88a6125495058ef2b",
+            "scores": {
+              "silhouette": 0.0381,
+              "material": 0.1505,
+              "lighting": 0.143
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "489931455bfc0b09c018b4a12a2c34c92dacd61e4a0666c4ab01d826fd439661",
+            "scores": {
+              "silhouette": 0.0984,
+              "material": 0.2312,
+              "lighting": 0.0591
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "99b87df6456b27ccfa7963f71acae11eb3d97a788d65c6e340e0e0f5af66e2af",
+            "scores": {
+              "silhouette": 0.0378,
+              "material": 0.1731,
+              "lighting": 0.1482
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "f08a8b0cd23700815e589ff19fed486018d3554ba5a6d6e289e84d19bde8cd4c",
+            "scores": {
+              "silhouette": 0.037,
+              "material": 0.146,
+              "lighting": 0.1422
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v2-service-tower",
+      "version": "個別PBR・構造検証 4149167",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "8626ac032eeb921eac5ac3fafbfcd82870cfd0eba6d102bc9c3b36fd32ec9394",
+            "scores": {
+              "silhouette": 0.4468,
+              "material": 0.464,
+              "lighting": 0.163
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "0ef2c60a6a146c259c018508d57284fdfcf98f0d1cf952f8e4e475ee254a9d46",
+            "scores": {
+              "silhouette": 0.5358,
+              "material": 0.2825,
+              "lighting": 0.1677
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "c86aca1988799b70fbe130531e98f11f5b476fbae703d2be6f461f7b7d310fd1",
+            "scores": {
+              "silhouette": 0.5045,
+              "material": 0.4623,
+              "lighting": 0.1367
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v2-fern-colony",
+      "version": "個別PBR・構造検証 3d4b001",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "35b108b96358ab499be559a761b6ad706ea69da87210750b880eb2e88c2c906b",
+            "scores": {
+              "silhouette": 0.1651,
+              "material": 0.3958,
+              "lighting": 0.1258
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "6852b1fd9a368e3540fe1fe34dcaebd4f097510145f06b57614e9c28b1ba563c",
+            "scores": {
+              "silhouette": 0.1256,
+              "material": 0.7418,
+              "lighting": 0.2048
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "037cf536b4aec02a2e71c6bc60610203428e6d4e805a783b06aa18d994684e96",
+            "scores": {
+              "silhouette": 0.198,
+              "material": 0.4294,
+              "lighting": 0.148
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v2-truss-bridge",
+      "version": "個別PBR・構造検証 015c86c",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "71b662caf01de933f2479aab2baae1d5b48a9f0fb5c84292d0e6bcdd4c1ce3a6",
+            "scores": {
+              "silhouette": 0.1301,
+              "material": 0.4544,
+              "lighting": 0.2249
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "b352673e192b7548e317ebf0be077d8d747b2135c1d7d212ee8235a01285ae86",
+            "scores": {
+              "silhouette": 0.4314,
+              "material": 0.4068,
+              "lighting": 0.1298
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "dbb99cc59827c2e7a1c57f6ca92b34262323ffe2378ea43a80db7fbf4534fe7f",
+            "scores": {
+              "silhouette": 0.2712,
+              "material": 0.4643,
+              "lighting": 0.1896
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v2-factory-bay",
+      "version": "個別PBR・構造検証 81e69a8",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "3f003fc48223440a5ac6bf6a3e3853aa4e54c16d9d57e3576ceb1096e9452fe7",
+            "scores": {
+              "silhouette": 0.3697,
+              "material": 0.4535,
+              "lighting": 0.1382
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "87cd0e0b2658869fcae985709e43b4b73eca3bf5ac02b2205221d4699faab0ba",
+            "scores": {
+              "silhouette": 0.7378,
+              "material": 0.2731,
+              "lighting": 0.1105
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "df79e3bb6df4cd8ed24700b7e64d6af29e09a04b85ca05ee0536ec4e42f45392",
+            "scores": {
+              "silhouette": 0.2761,
+              "material": 0.4275,
+              "lighting": 0.2414
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v2-courtyard-facade",
+      "version": "個別PBR・構造検証 7f50b33",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "8cf981b2225d5a0a791d6a1f896a6c752172eb0f15e0a178789cb2053be1104e",
+            "scores": {
+              "silhouette": 0.2753,
+              "material": 0.2209,
+              "lighting": 0.0857
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "530e44d2cf20f456e1dc65d08e72082baae9d1e09af8c22a56214248c83831c1",
+            "scores": {
+              "silhouette": 0.5205,
+              "material": 0.3316,
+              "lighting": 0.0659
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "8edd0b4d3f662f5ad584f924a42d2b0fd570deef45ff6e9588c83468474eeabc",
+            "scores": {
+              "silhouette": 0.1933,
+              "material": 0.4568,
+              "lighting": 0.1929
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v2-fractured-road",
+      "version": "個別PBR・構造検証 f9d88e4",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "118332d6c5c232804dfda0d7466f69da032b99d51b5a139880aab6bc8ac9987a",
+            "scores": {
+              "silhouette": 0.2579,
+              "material": 0.179,
+              "lighting": 0.059
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "7caed2f0c232aae81559da07a725cd7978fafa1bbd168edf1d6c14701a6372bf",
+            "scores": {
+              "silhouette": 0.1803,
+              "material": 0.1827,
+              "lighting": 0.0658
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "ac26e6e4289b49928ca296e7dda6e57d842159e29dd4c48ae0aa9ee7321f025b",
+            "scores": {
+              "silhouette": 0.2027,
+              "material": 0.1726,
+              "lighting": 0.1248
             }
           }
         ],
