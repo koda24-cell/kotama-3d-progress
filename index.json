@@ -1232,42 +1232,247 @@
       "id": "f3-industrial-ivy-pocket",
       "name": "鉄と石を覆う蔦・シダの群落",
       "floor": "第3層 遺跡都市",
-      "version": "個別PBR・構造検証 18c5ea0",
+      "version": "個別PBR・構造検証 89e5719",
       "status": "制作中",
-      "run_id": 45332418931,
-      "source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "run_id": 45363706593,
+      "source_sha": "89e5719795ed97ee6075c642ffed377bf0fbf949",
       "images": [
         {
           "view": "front",
-          "path": "renders/f3-industrial-ivy-pocket/1818c2bda65e822f6b91e7c0b5bc482998094935e5989da1e224b04cd93c2351.png",
-          "sha256": "1818c2bda65e822f6b91e7c0b5bc482998094935e5989da1e224b04cd93c2351"
+          "path": "renders/f3-industrial-ivy-pocket/1201e2b64186585b0481eae46f0ae1e8be16018ef363297f296a92860f997b55.png",
+          "sha256": "1201e2b64186585b0481eae46f0ae1e8be16018ef363297f296a92860f997b55"
         },
         {
           "view": "back",
-          "path": "renders/f3-industrial-ivy-pocket/a595037f0b2bd25a04d87d8454aa266a1f7f3bf12e92bedb50281e6093911f3a.png",
-          "sha256": "a595037f0b2bd25a04d87d8454aa266a1f7f3bf12e92bedb50281e6093911f3a"
+          "path": "renders/f3-industrial-ivy-pocket/dbbc5ae364fae810fabef05207fa38cd0d8d4a845d209b58a4bb09eadf040e16.png",
+          "sha256": "dbbc5ae364fae810fabef05207fa38cd0d8d4a845d209b58a4bb09eadf040e16"
         },
         {
           "view": "side",
-          "path": "renders/f3-industrial-ivy-pocket/fc4c57da229b679d8ca5d16fa41b47f4029511300e8c54185e549277f93d7796.png",
-          "sha256": "fc4c57da229b679d8ca5d16fa41b47f4029511300e8c54185e549277f93d7796"
+          "path": "renders/f3-industrial-ivy-pocket/a9cb4b89cb3db0a9d62ec90a71c2b601a04496703b1460ce21672cb72dc654c9.png",
+          "sha256": "a9cb4b89cb3db0a9d62ec90a71c2b601a04496703b1460ce21672cb72dc654c9"
         },
         {
           "view": "angle",
-          "path": "renders/f3-industrial-ivy-pocket/13d8115cbcec17994a51c99b40aaf804b1d4808e6a697c03f9b77d65ff0974b3.png",
-          "sha256": "13d8115cbcec17994a51c99b40aaf804b1d4808e6a697c03f9b77d65ff0974b3"
+          "path": "renders/f3-industrial-ivy-pocket/9969ea89f2a86a0b26945b7914f9c476d3f836a8d16feb33acdde6aa44d5ad02.png",
+          "sha256": "9969ea89f2a86a0b26945b7914f9c476d3f836a8d16feb33acdde6aa44d5ad02"
         },
         {
           "view": "top",
-          "path": "renders/f3-industrial-ivy-pocket/2b8195ee1579eab5ee7ce83250039b88fffd6d931f6fa01ceb62e85b81ce282c.png",
-          "sha256": "2b8195ee1579eab5ee7ce83250039b88fffd6d931f6fa01ceb62e85b81ce282c"
+          "path": "renders/f3-industrial-ivy-pocket/44e8b09228eff7ae7cdf67bf4f5b888f3d1f25e090afa5a91b08615598410643.png",
+          "sha256": "44e8b09228eff7ae7cdf67bf4f5b888f3d1f25e090afa5a91b08615598410643"
         }
       ],
-      "render_updated_at": "2026-11-24T09:14:07.107513+00:00",
-      "render_version": "個別PBR・構造検証 18c5ea0",
-      "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
-      "render_run_id": 45332418931,
-      "updated_at": "2026-11-24T09:14:07.107513+00:00"
+      "render_updated_at": "2026-11-24T09:35:38.882630+00:00",
+      "render_version": "個別PBR・構造検証 89e5719",
+      "render_source_sha": "89e5719795ed97ee6075c642ffed377bf0fbf949",
+      "render_run_id": 45363706593,
+      "updated_at": "2026-11-24T09:35:38.882630+00:00"
+    },
+    {
+      "id": "f3-industrial-native-ruinedbuilding",
+      "name": "既存・崩壊した集合建築の質感強化",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 bba32c3",
+      "status": "制作中",
+      "run_id": 45363312146,
+      "source_sha": "bba32c30b64ed10a431536dd7da9e1d97e11b3dc",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-native-ruinedbuilding/62ebe31d4b91e2c9c4cc17b70e97132f7722ddd10cbf58dde7137eec261adffe.png",
+          "sha256": "62ebe31d4b91e2c9c4cc17b70e97132f7722ddd10cbf58dde7137eec261adffe"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-native-ruinedbuilding/56fe4e051c308bec47ed0c6a1cb86ca023c29d1baac9e43d799b1ce92c302c5d.png",
+          "sha256": "56fe4e051c308bec47ed0c6a1cb86ca023c29d1baac9e43d799b1ce92c302c5d"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-native-ruinedbuilding/c776547d579e8e704b03f7ea78cdb4ce895ceb73423389191870699f221887b9.png",
+          "sha256": "c776547d579e8e704b03f7ea78cdb4ce895ceb73423389191870699f221887b9"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-native-ruinedbuilding/1e7ccf0c5993c5ec3104b664b6a1de7efa3318d7f545f960637f5f7ae27428dd.png",
+          "sha256": "1e7ccf0c5993c5ec3104b664b6a1de7efa3318d7f545f960637f5f7ae27428dd"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-native-ruinedbuilding/8f30bb32a8141a1b0eec9b993671ce4b5572110ab9bd880a783c92cfa6ddd8b3.png",
+          "sha256": "8f30bb32a8141a1b0eec9b993671ce4b5572110ab9bd880a783c92cfa6ddd8b3"
+        }
+      ],
+      "render_updated_at": "2026-11-24T09:35:38.959857+00:00",
+      "render_version": "個別PBR・構造検証 bba32c3",
+      "render_source_sha": "bba32c30b64ed10a431536dd7da9e1d97e11b3dc",
+      "render_run_id": 45363312146,
+      "updated_at": "2026-11-24T09:35:38.959857+00:00"
+    },
+    {
+      "id": "f3-industrial-native-collapsedoverpass",
+      "name": "既存・崩落高架の表面と接合部強化",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 bba32c3",
+      "status": "制作中",
+      "run_id": 45363312146,
+      "source_sha": "bba32c30b64ed10a431536dd7da9e1d97e11b3dc",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-native-collapsedoverpass/924df1dbce64da758d8b1a9dbd7559f6234860870eb7e4ce39d5014ae917cbd7.png",
+          "sha256": "924df1dbce64da758d8b1a9dbd7559f6234860870eb7e4ce39d5014ae917cbd7"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-native-collapsedoverpass/6cf3d3d4ba20ab36313e4dfefdd1eab27dbcb54d513fe11dbd09935fa5b7d38e.png",
+          "sha256": "6cf3d3d4ba20ab36313e4dfefdd1eab27dbcb54d513fe11dbd09935fa5b7d38e"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-native-collapsedoverpass/73c349949c02f73eb7730daa27bd81be1ec37497568236658533638bb2e99d7c.png",
+          "sha256": "73c349949c02f73eb7730daa27bd81be1ec37497568236658533638bb2e99d7c"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-native-collapsedoverpass/e4f5a768bca985105ffd3a03c4526424b670925056828b997f854cfe59ff010a.png",
+          "sha256": "e4f5a768bca985105ffd3a03c4526424b670925056828b997f854cfe59ff010a"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-native-collapsedoverpass/2c74ab7ac197eb999e5981e81477f38b8973045aac56faac83c8203928f5ab94.png",
+          "sha256": "2c74ab7ac197eb999e5981e81477f38b8973045aac56faac83c8203928f5ab94"
+        }
+      ],
+      "render_updated_at": "2026-11-24T09:35:39.029824+00:00",
+      "render_version": "個別PBR・構造検証 bba32c3",
+      "render_source_sha": "bba32c30b64ed10a431536dd7da9e1d97e11b3dc",
+      "render_run_id": 45363312146,
+      "updated_at": "2026-11-24T09:35:39.029824+00:00"
+    },
+    {
+      "id": "f3-industrial-native-utilitypole",
+      "name": "既存・風化電柱の配線と金具強化",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 bba32c3",
+      "status": "制作中",
+      "run_id": 45363312146,
+      "source_sha": "bba32c30b64ed10a431536dd7da9e1d97e11b3dc",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-native-utilitypole/ac5092140bbcafa05198c9b39ec0c1a80afd9e7f98be1e05178a79a4d96c6732.png",
+          "sha256": "ac5092140bbcafa05198c9b39ec0c1a80afd9e7f98be1e05178a79a4d96c6732"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-native-utilitypole/eebd88ddca91684292af10f5afde3403db0b572d7912d10f86573ea4fac053de.png",
+          "sha256": "eebd88ddca91684292af10f5afde3403db0b572d7912d10f86573ea4fac053de"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-native-utilitypole/9dca2df900066a1e87d548b46d769687adc1dc0af916ce5afc1b34e885ef4ced.png",
+          "sha256": "9dca2df900066a1e87d548b46d769687adc1dc0af916ce5afc1b34e885ef4ced"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-native-utilitypole/db751418e02c7a43842ef82667843870e92799a2d1432be41cc7377b312fbd2d.png",
+          "sha256": "db751418e02c7a43842ef82667843870e92799a2d1432be41cc7377b312fbd2d"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-native-utilitypole/d26f02714325ff010f07d60a54c47230aebe78d95e6271b6522ac9440541d223.png",
+          "sha256": "d26f02714325ff010f07d60a54c47230aebe78d95e6271b6522ac9440541d223"
+        }
+      ],
+      "render_updated_at": "2026-11-24T09:35:39.130837+00:00",
+      "render_version": "個別PBR・構造検証 bba32c3",
+      "render_source_sha": "bba32c30b64ed10a431536dd7da9e1d97e11b3dc",
+      "render_run_id": 45363312146,
+      "updated_at": "2026-11-24T09:35:39.130837+00:00"
+    },
+    {
+      "id": "f3-industrial-native-steelwreck",
+      "name": "既存・鉄骨残骸の腐食強化",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 bba32c3",
+      "status": "制作中",
+      "run_id": 45363312146,
+      "source_sha": "bba32c30b64ed10a431536dd7da9e1d97e11b3dc",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-native-steelwreck/059c92f2aede31ca41c46783aea66df54e281d3b61d3e9380cc2c9e300521f32.png",
+          "sha256": "059c92f2aede31ca41c46783aea66df54e281d3b61d3e9380cc2c9e300521f32"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-native-steelwreck/63334ddb5d47f7cb1be8f81efbffcceec0379607f3b5a487775ae95160006ac8.png",
+          "sha256": "63334ddb5d47f7cb1be8f81efbffcceec0379607f3b5a487775ae95160006ac8"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-native-steelwreck/93db26c0b0e1e587f6a3d261589c3db983cafe175a1159c620c52d456f0758e4.png",
+          "sha256": "93db26c0b0e1e587f6a3d261589c3db983cafe175a1159c620c52d456f0758e4"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-native-steelwreck/da0a0ab6220118e006d08183193f49249ff4c5d3cba06c4413a40cb5a0f568e8.png",
+          "sha256": "da0a0ab6220118e006d08183193f49249ff4c5d3cba06c4413a40cb5a0f568e8"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-native-steelwreck/0f06eeda9223c311f043676629ccd4b9627a6c7d6f95c5bd552323afa7c16510.png",
+          "sha256": "0f06eeda9223c311f043676629ccd4b9627a6c7d6f95c5bd552323afa7c16510"
+        }
+      ],
+      "render_updated_at": "2026-11-24T09:35:39.189969+00:00",
+      "render_version": "個別PBR・構造検証 bba32c3",
+      "render_source_sha": "bba32c30b64ed10a431536dd7da9e1d97e11b3dc",
+      "render_run_id": 45363312146,
+      "updated_at": "2026-11-24T09:35:39.189969+00:00"
+    },
+    {
+      "id": "f3-industrial-native-abandonedtransitstop",
+      "name": "既存・廃バス停の屋根接合部強化",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 bba32c3",
+      "status": "制作中",
+      "run_id": 45363312146,
+      "source_sha": "bba32c30b64ed10a431536dd7da9e1d97e11b3dc",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-native-abandonedtransitstop/f654d3c168893771afd25bc2bce099e56f6c92c75bfa7025405c0ed2e805bf4b.png",
+          "sha256": "f654d3c168893771afd25bc2bce099e56f6c92c75bfa7025405c0ed2e805bf4b"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-native-abandonedtransitstop/c781c86d4ad83b92ed74f68c568952d4fa9182935d25a54da908f00ccff8a30a.png",
+          "sha256": "c781c86d4ad83b92ed74f68c568952d4fa9182935d25a54da908f00ccff8a30a"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-native-abandonedtransitstop/4a6882adc59afbdaf4d9e4b7e742d2dea83de26649a935cb4aecc5e312523a99.png",
+          "sha256": "4a6882adc59afbdaf4d9e4b7e742d2dea83de26649a935cb4aecc5e312523a99"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-native-abandonedtransitstop/ed9011c9ba401b622f9e405e1e032986208eea665861cf9dbcf4f5f1a7daeeda.png",
+          "sha256": "ed9011c9ba401b622f9e405e1e032986208eea665861cf9dbcf4f5f1a7daeeda"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-native-abandonedtransitstop/194fec6219d65050dc0a764c3faf1fde854fb2e2c057d5570c22bb1755beb497.png",
+          "sha256": "194fec6219d65050dc0a764c3faf1fde854fb2e2c057d5570c22bb1755beb497"
+        }
+      ],
+      "render_updated_at": "2026-11-24T09:35:39.265641+00:00",
+      "render_version": "個別PBR・構造検証 bba32c3",
+      "render_source_sha": "bba32c30b64ed10a431536dd7da9e1d97e11b3dc",
+      "render_run_id": 45363312146,
+      "updated_at": "2026-11-24T09:35:39.265641+00:00"
     }
   ]
 }
