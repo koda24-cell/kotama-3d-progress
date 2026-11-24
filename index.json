@@ -1625,6 +1625,82 @@
       "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
       "render_run_id": 45372771290,
       "updated_at": "2026-11-24T10:33:44.153174+00:00"
+    },
+    {
+      "id": "f3-industrial-riveted-girder-lod-review",
+      "name": "リベット付き腐食I桁・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-riveted-girder-lod-review/e9340e9a88a13ffb0df58bfe4073716be551c363a1fa156b0d4a21a312e96d81.png",
+          "sha256": "e9340e9a88a13ffb0df58bfe4073716be551c363a1fa156b0d4a21a312e96d81"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-riveted-girder-lod-review/c0a02d8f83d14ae5509fd9bbb5e1d2fe89b6e883604ceb74297e29175f25abee.png",
+          "sha256": "c0a02d8f83d14ae5509fd9bbb5e1d2fe89b6e883604ceb74297e29175f25abee"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-riveted-girder-lod-review/95e9eafa210f7712a55321dd55718ea4dc9aefe1214bd9898da1ab6adaddf178.png",
+          "sha256": "95e9eafa210f7712a55321dd55718ea4dc9aefe1214bd9898da1ab6adaddf178"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-riveted-girder-lod-review/7b500a91c476bfe6443e97cd820c4a8da723e379a00efe689b22829b524ec92f.png",
+          "sha256": "7b500a91c476bfe6443e97cd820c4a8da723e379a00efe689b22829b524ec92f"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-riveted-girder-lod-review/bc569b359e40ad1b836e7958e01d9a29d3eadc67195d8faa50b7b0867f719f7e.png",
+          "sha256": "bc569b359e40ad1b836e7958e01d9a29d3eadc67195d8faa50b7b0867f719f7e"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-riveted-girder-lod-review/6d3dae6bc9ba13fe833912e2fb1b0a867db40704d77832cd798b97e720057e41.png",
+          "sha256": "6d3dae6bc9ba13fe833912e2fb1b0a867db40704d77832cd798b97e720057e41"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-riveted-girder-lod-review/b51da775c2327453c352d79cb5b81d37493ca1f8375380ebdd1482b6760b97e3.png",
+          "sha256": "b51da775c2327453c352d79cb5b81d37493ca1f8375380ebdd1482b6760b97e3"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-riveted-girder-lod-review/e6255beac34b23cc3123176503c1cc4139c3c9f82868e7b689dd0f9abc1f8f11.png",
+          "sha256": "e6255beac34b23cc3123176503c1cc4139c3c9f82868e7b689dd0f9abc1f8f11"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-riveted-girder-lod-review/300e4bab120e245cd29c0093dc45bf80e891d3d1bb1e83a893b4e81f7763660c.png",
+          "sha256": "300e4bab120e245cd29c0093dc45bf80e891d3d1bb1e83a893b4e81f7763660c"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-riveted-girder-lod-review/edc70c5c7703319ea19ca3307e5fab0ddfb22fd9c09c920e57d9d7f12e0a40bf.png",
+          "sha256": "edc70c5c7703319ea19ca3307e5fab0ddfb22fd9c09c920e57d9d7f12e0a40bf"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-riveted-girder-lod-review/9a862690003d46b9a57408c2f72ac072a308af47f8405e7e6ff0fb41392c5c13.png",
+          "sha256": "9a862690003d46b9a57408c2f72ac072a308af47f8405e7e6ff0fb41392c5c13"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-riveted-girder-lod-review/b4b78689f8f92e112445dc1938427eabca97301917307de313618e1dcb5d18bf.png",
+          "sha256": "b4b78689f8f92e112445dc1938427eabca97301917307de313618e1dcb5d18bf"
+        }
+      ],
+      "render_updated_at": "2026-11-24T10:43:01.924768+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T10:43:01.924768+00:00"
     }
   ]
 }
