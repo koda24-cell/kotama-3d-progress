@@ -2923,6 +2923,47 @@
       "render_source_sha": "4149167e8e7153d0a9354075c5e2eb32ee1eed00",
       "render_run_id": 45415404490,
       "updated_at": "2026-11-24T14:39:14.896954+00:00"
+    },
+    {
+      "id": "f3-industrial-v2-fern-colony",
+      "name": "写真由来の葉と立体シルエットを持つシダ群落V2",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 3d4b001",
+      "status": "制作中",
+      "run_id": 45416559718,
+      "source_sha": "3d4b00119ab06a34a0377402dda1f8f97550cb2d",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-v2-fern-colony/35b108b96358ab499be559a761b6ad706ea69da87210750b880eb2e88c2c906b.png",
+          "sha256": "35b108b96358ab499be559a761b6ad706ea69da87210750b880eb2e88c2c906b"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-v2-fern-colony/d35277fa186379ee236719b7f1275e3910cc4618c0fe04e282992b8308a93d02.png",
+          "sha256": "d35277fa186379ee236719b7f1275e3910cc4618c0fe04e282992b8308a93d02"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-v2-fern-colony/6852b1fd9a368e3540fe1fe34dcaebd4f097510145f06b57614e9c28b1ba563c.png",
+          "sha256": "6852b1fd9a368e3540fe1fe34dcaebd4f097510145f06b57614e9c28b1ba563c"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-v2-fern-colony/037cf536b4aec02a2e71c6bc60610203428e6d4e805a783b06aa18d994684e96.png",
+          "sha256": "037cf536b4aec02a2e71c6bc60610203428e6d4e805a783b06aa18d994684e96"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-v2-fern-colony/ee035090ab73b7da11dbd952a05ad80a1dd8bded090580f93cbc1df17a2e36b4.png",
+          "sha256": "ee035090ab73b7da11dbd952a05ad80a1dd8bded090580f93cbc1df17a2e36b4"
+        }
+      ],
+      "render_updated_at": "2026-11-24T14:46:18.852248+00:00",
+      "render_version": "個別PBR・構造検証 3d4b001",
+      "render_source_sha": "3d4b00119ab06a34a0377402dda1f8f97550cb2d",
+      "render_run_id": 45416559718,
+      "updated_at": "2026-11-24T14:46:18.852248+00:00"
     }
   ]
 }
