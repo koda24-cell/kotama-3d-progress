@@ -489,6 +489,47 @@
       "render_source_sha": "0e85bfd39b776642cff4a2acedc493b5efa7272e",
       "render_run_id": 45331023029,
       "updated_at": "2026-11-24T05:12:07.973253+00:00"
+    },
+    {
+      "id": "f3-industrial-column-joint",
+      "name": "露出した梁柱接合部",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 0e85bfd",
+      "status": "制作中",
+      "run_id": 45331023029,
+      "source_sha": "0e85bfd39b776642cff4a2acedc493b5efa7272e",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-column-joint/e3ed41fd6c1c032f7ea29a2315accd20ca5199f34a3d9f846c0fa1cb5b326fe5.png",
+          "sha256": "e3ed41fd6c1c032f7ea29a2315accd20ca5199f34a3d9f846c0fa1cb5b326fe5"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-column-joint/8a4774d2b19ccb2744b1d72e7bc178995cb272d087d6899b7090d8e385090a56.png",
+          "sha256": "8a4774d2b19ccb2744b1d72e7bc178995cb272d087d6899b7090d8e385090a56"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-column-joint/98b1c1a590e560ed22df7da434a0592316928863363a381331d55c50bf12298c.png",
+          "sha256": "98b1c1a590e560ed22df7da434a0592316928863363a381331d55c50bf12298c"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-column-joint/95b6100aff73104e85e5741f61c06037e0310b70d04e59458a9091bf4e075e37.png",
+          "sha256": "95b6100aff73104e85e5741f61c06037e0310b70d04e59458a9091bf4e075e37"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-column-joint/ae1209fe3484ad3f74be2b27284286165e724a912d6f96cd57707e569a6b3241.png",
+          "sha256": "ae1209fe3484ad3f74be2b27284286165e724a912d6f96cd57707e569a6b3241"
+        }
+      ],
+      "render_updated_at": "2026-11-24T05:16:49.081634+00:00",
+      "render_version": "個別PBR・構造検証 0e85bfd",
+      "render_source_sha": "0e85bfd39b776642cff4a2acedc493b5efa7272e",
+      "render_run_id": 45331023029,
+      "updated_at": "2026-11-24T05:16:49.081634+00:00"
     }
   ]
 }
