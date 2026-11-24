@@ -1701,6 +1701,82 @@
       "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
       "render_run_id": 45372771290,
       "updated_at": "2026-11-24T10:43:01.924768+00:00"
+    },
+    {
+      "id": "f3-industrial-buckled-portal-lod-review",
+      "name": "座屈した鉄骨門型フレーム・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-buckled-portal-lod-review/a6af4e55bed537e7ceb85a4ea8883cdb9fa3714678909c06e19ed796c5fdac5e.png",
+          "sha256": "a6af4e55bed537e7ceb85a4ea8883cdb9fa3714678909c06e19ed796c5fdac5e"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-buckled-portal-lod-review/034d290f7b89248f052d8de30cc30d908a1d3c7f81900b1cad1031481395d1db.png",
+          "sha256": "034d290f7b89248f052d8de30cc30d908a1d3c7f81900b1cad1031481395d1db"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-buckled-portal-lod-review/5d9e5b0a34323961762d854c8362d30ad2ef807df3fb18e78c89319e3451bae5.png",
+          "sha256": "5d9e5b0a34323961762d854c8362d30ad2ef807df3fb18e78c89319e3451bae5"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-buckled-portal-lod-review/fec1f6775fe6473a00f88de5864aff07e8faca3a20a9759afc3e10bc456bdfcf.png",
+          "sha256": "fec1f6775fe6473a00f88de5864aff07e8faca3a20a9759afc3e10bc456bdfcf"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-buckled-portal-lod-review/32646ea4071c5612ce7ecb52ea0c437f06a18cb2e4d7ea785ce7b336833cdea0.png",
+          "sha256": "32646ea4071c5612ce7ecb52ea0c437f06a18cb2e4d7ea785ce7b336833cdea0"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-buckled-portal-lod-review/d20a6fc23f67da73c2a90f3c918a3969289ba0052a2a58429fbb62efd6c8944a.png",
+          "sha256": "d20a6fc23f67da73c2a90f3c918a3969289ba0052a2a58429fbb62efd6c8944a"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-buckled-portal-lod-review/d0e747cd7c2601801e01a14f44d6ef3faa40110c01b4a4032047feac7bcd8202.png",
+          "sha256": "d0e747cd7c2601801e01a14f44d6ef3faa40110c01b4a4032047feac7bcd8202"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-buckled-portal-lod-review/81a01e1779cf1066f0bdca3ef37452e5840bdf453604bd4adc11c8e0c831d613.png",
+          "sha256": "81a01e1779cf1066f0bdca3ef37452e5840bdf453604bd4adc11c8e0c831d613"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-buckled-portal-lod-review/e61bc96e4c574d250582952b5b41b47890d8b878e1fa9488c3952964637540eb.png",
+          "sha256": "e61bc96e4c574d250582952b5b41b47890d8b878e1fa9488c3952964637540eb"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-buckled-portal-lod-review/8d2ec0cea7eadb61054f060187a1073b6e1f8910317d1eb222d0083b7a5947dd.png",
+          "sha256": "8d2ec0cea7eadb61054f060187a1073b6e1f8910317d1eb222d0083b7a5947dd"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-buckled-portal-lod-review/d0b54cb6df835e949387e8623be67d62285b2d1770a08dbdf2be604e996bf69c.png",
+          "sha256": "d0b54cb6df835e949387e8623be67d62285b2d1770a08dbdf2be604e996bf69c"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-buckled-portal-lod-review/7feee7f1a14f886a8894ae2d2a85fd5898a2acfbf3a2aeb568b72479c58f3fcf.png",
+          "sha256": "7feee7f1a14f886a8894ae2d2a85fd5898a2acfbf3a2aeb568b72479c58f3fcf"
+        }
+      ],
+      "render_updated_at": "2026-11-24T10:50:37.547131+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T10:50:37.547131+00:00"
     }
   ]
 }
