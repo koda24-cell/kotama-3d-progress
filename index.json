@@ -1063,6 +1063,129 @@
       "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
       "render_run_id": 45332418931,
       "updated_at": "2026-11-24T05:55:29.213172+00:00"
+    },
+    {
+      "id": "f3-industrial-rebar-rubble",
+      "name": "鉄筋入り剥落コンクリート群",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "status": "制作中",
+      "run_id": 45332418931,
+      "source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-rebar-rubble/cbbf2a468405db5192e905e804b18d5dc0b602ac9da51e79ff1a46f2df1663c7.png",
+          "sha256": "cbbf2a468405db5192e905e804b18d5dc0b602ac9da51e79ff1a46f2df1663c7"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-rebar-rubble/4ec96f3d502d9b68c674ace5fc916d7cd2a23de6b8ed9b3462d1a5aa30292109.png",
+          "sha256": "4ec96f3d502d9b68c674ace5fc916d7cd2a23de6b8ed9b3462d1a5aa30292109"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-rebar-rubble/0c70a5b2b61412b2adfe14152833dae87612ce9223118592ab120b1d0d04f64b.png",
+          "sha256": "0c70a5b2b61412b2adfe14152833dae87612ce9223118592ab120b1d0d04f64b"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-rebar-rubble/c39143d57d75cf21eb6ec94b8616c49f3779da68a1009afdb33c0eababadf2af.png",
+          "sha256": "c39143d57d75cf21eb6ec94b8616c49f3779da68a1009afdb33c0eababadf2af"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-rebar-rubble/51d7bbc6391e7acfbad60d9f4f5e243cd76a669993155c61eefd70ac763a4d8d.png",
+          "sha256": "51d7bbc6391e7acfbad60d9f4f5e243cd76a669993155c61eefd70ac763a4d8d"
+        }
+      ],
+      "render_updated_at": "2026-11-24T06:04:42.328028+00:00",
+      "render_version": "個別PBR・構造検証 18c5ea0",
+      "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "render_run_id": 45332418931,
+      "updated_at": "2026-11-24T06:04:42.328028+00:00"
+    },
+    {
+      "id": "f3-industrial-heaved-asphalt",
+      "name": "根で持ち上がった舗装と縁石",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "status": "制作中",
+      "run_id": 45332418931,
+      "source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-heaved-asphalt/6f06d09c61be1916ba287cd3c6593338cc25c0a39bef48a1aea40d0a57af13a7.png",
+          "sha256": "6f06d09c61be1916ba287cd3c6593338cc25c0a39bef48a1aea40d0a57af13a7"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-heaved-asphalt/e7faea7af0eb9a306dde5c55354403f66958e2dc4d2146408f6a1fce2206499b.png",
+          "sha256": "e7faea7af0eb9a306dde5c55354403f66958e2dc4d2146408f6a1fce2206499b"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-heaved-asphalt/09dcfc6e4ba059f3d702bec00442cba6e8b42912b32db338d0a32c236c721cca.png",
+          "sha256": "09dcfc6e4ba059f3d702bec00442cba6e8b42912b32db338d0a32c236c721cca"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-heaved-asphalt/c4c41d47bf0e3e3fc6451d7a399411a2ce5b3ed120b1b2ff68a69e746f700005.png",
+          "sha256": "c4c41d47bf0e3e3fc6451d7a399411a2ce5b3ed120b1b2ff68a69e746f700005"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-heaved-asphalt/cc46d9f992baea36a649bcb510ca5044221a8fc335a36bb112a5f5c81518929d.png",
+          "sha256": "cc46d9f992baea36a649bcb510ca5044221a8fc335a36bb112a5f5c81518929d"
+        }
+      ],
+      "render_updated_at": "2026-11-24T06:04:42.395510+00:00",
+      "render_version": "個別PBR・構造検証 18c5ea0",
+      "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "render_run_id": 45332418931,
+      "updated_at": "2026-11-24T06:04:42.395510+00:00"
+    },
+    {
+      "id": "f3-industrial-drain-channel",
+      "name": "土砂の詰まった排水溝",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "status": "制作中",
+      "run_id": 45332418931,
+      "source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-drain-channel/951bad76edd81daef0dcbc82fc434a1f21a6246f8a795c00b9971e2717eb04ff.png",
+          "sha256": "951bad76edd81daef0dcbc82fc434a1f21a6246f8a795c00b9971e2717eb04ff"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-drain-channel/de277980572bb4e9c276b624051d890a2622352d124a453a174c9f3f9e1d0fe6.png",
+          "sha256": "de277980572bb4e9c276b624051d890a2622352d124a453a174c9f3f9e1d0fe6"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-drain-channel/916912adc370d92a65553b4392e15e4c19b59d048d94dd082825fc40db9c4d17.png",
+          "sha256": "916912adc370d92a65553b4392e15e4c19b59d048d94dd082825fc40db9c4d17"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-drain-channel/b90178bf37e3b0bea82cc482f80215912da653c6f0060f4bc1c5d61e6d826753.png",
+          "sha256": "b90178bf37e3b0bea82cc482f80215912da653c6f0060f4bc1c5d61e6d826753"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-drain-channel/8ba17a409a03d32e5fed7e067453e18e559b84cb8e21927adc514d312b89abed.png",
+          "sha256": "8ba17a409a03d32e5fed7e067453e18e559b84cb8e21927adc514d312b89abed"
+        }
+      ],
+      "render_updated_at": "2026-11-24T06:04:42.472137+00:00",
+      "render_version": "個別PBR・構造検証 18c5ea0",
+      "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "render_run_id": 45332418931,
+      "updated_at": "2026-11-24T06:04:42.472137+00:00"
     }
   ]
 }
