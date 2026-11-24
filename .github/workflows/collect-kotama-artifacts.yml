@@ -62,7 +62,9 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y clamav
-          sudo freshclam || true
+          sudo systemctl stop clamav-freshclam.service
+          sudo freshclam
+          test -n "$(find /var/lib/clamav -maxdepth 1 -type f \\( -name 'daily.cvd' -o -name 'daily.cld' \\) -print -quit)"
           clamscan --recursive --infected --no-summary incoming
       - name: Validate manifests and update append-only registry
         run: |
