@@ -46,4 +46,25 @@ class RegistryTest(unittest.TestCase):
             self.assertEqual(row["design_version"],"D02")
             self.assertEqual(row["status"],"制作中")
             self.assertFalse(register(root,m,src))
+
+    def test_history_and_approval_are_preserved(self):
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d); src=root/"source"; src.mkdir()
+            (src/"front.png").write_bytes(png())
+            index=root/"index.json"; index.write_text('{"schema":1,"models":[]}')
+            m=dict(id="history-model",name="history",floor="第1層",version="V01",status="制作中",publication_cleared=True,approval_state="NOT_APPROVED",run_id=11,source_sha="b"*40,updated_at="2026-11-24T01:00:00Z",images=[dict(view="front",file="front.png")])
+            self.assertTrue(register(root,m,src))
+            m.update(version="V02",run_id=12,source_sha="c"*40,updated_at="2026-11-24T02:00:00Z",approval_state="APPROVED")
+            self.assertTrue(register(root,m,src))
+            row=json.loads(index.read_text())["models"][0]
+            self.assertEqual(row["approval_state"],"APPROVED")
+            self.assertEqual(len(row["history"]),1)
+            self.assertEqual(row["history"][0]["version"],"V01")
+            self.assertEqual(row["history"][0]["approval_state"],"NOT_APPROVED")
+            m.update(kind="progress",version="P01",run_id=13,source_sha="d"*40,updated_at="2026-11-24T03:00:00Z",approval_state="NOT_APPROVED")
+            self.assertTrue(register(root,m,src))
+            row=json.loads(index.read_text())["models"][0]
+            self.assertEqual(len(row["progress_images"]),1)
+            self.assertEqual(row["approval_state"],"APPROVED")
+
 if __name__=="__main__": unittest.main()
