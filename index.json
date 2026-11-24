@@ -2964,6 +2964,47 @@
       "render_source_sha": "f125a4446bad19af49b1f4f33a5b8d5f232254e2",
       "render_run_id": 45417826812,
       "updated_at": "2026-11-24T14:55:01.260352+00:00"
+    },
+    {
+      "id": "f3-industrial-v2-truss-bridge",
+      "name": "支持脚と崩落グレーチングを持つ鉄骨連絡橋V2",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 015c86c",
+      "status": "制作中",
+      "run_id": 45419450512,
+      "source_sha": "015c86c2e188c2d62a7851ebd723430313c8c8ab",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-v2-truss-bridge/71b662caf01de933f2479aab2baae1d5b48a9f0fb5c84292d0e6bcdd4c1ce3a6.png",
+          "sha256": "71b662caf01de933f2479aab2baae1d5b48a9f0fb5c84292d0e6bcdd4c1ce3a6"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-v2-truss-bridge/432e632fe0704260b117410a914ce75f47cb98b05c2188fcf65321b9e29fc04d.png",
+          "sha256": "432e632fe0704260b117410a914ce75f47cb98b05c2188fcf65321b9e29fc04d"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-v2-truss-bridge/b352673e192b7548e317ebf0be077d8d747b2135c1d7d212ee8235a01285ae86.png",
+          "sha256": "b352673e192b7548e317ebf0be077d8d747b2135c1d7d212ee8235a01285ae86"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-v2-truss-bridge/dbb99cc59827c2e7a1c57f6ca92b34262323ffe2378ea43a80db7fbf4534fe7f.png",
+          "sha256": "dbb99cc59827c2e7a1c57f6ca92b34262323ffe2378ea43a80db7fbf4534fe7f"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-v2-truss-bridge/be0c9dbf8bd09aabc40005572bf8399de101487a82fd88bfed3c5eb747a34647.png",
+          "sha256": "be0c9dbf8bd09aabc40005572bf8399de101487a82fd88bfed3c5eb747a34647"
+        }
+      ],
+      "render_updated_at": "2026-11-24T15:00:04.682599+00:00",
+      "render_version": "個別PBR・構造検証 015c86c",
+      "render_source_sha": "015c86c2e188c2d62a7851ebd723430313c8c8ab",
+      "render_run_id": 45419450512,
+      "updated_at": "2026-11-24T15:00:04.682599+00:00"
     }
   ]
 }
