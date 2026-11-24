@@ -817,6 +817,88 @@
       "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
       "render_run_id": 45332418931,
       "updated_at": "2026-11-24T05:36:07.329079+00:00"
+    },
+    {
+      "id": "f3-industrial-broken-streetlamp",
+      "name": "折れた街路灯と垂下配線",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "status": "制作中",
+      "run_id": 45332418931,
+      "source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-broken-streetlamp/51deffb4be8b79d7b0423cab17507aeb36356b11e57569b28a70309cf1fe4d61.png",
+          "sha256": "51deffb4be8b79d7b0423cab17507aeb36356b11e57569b28a70309cf1fe4d61"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-broken-streetlamp/efbd331ae5ced1980acc61baf7ee38e1f785fe22313e4f5b25af912a7b12cf2d.png",
+          "sha256": "efbd331ae5ced1980acc61baf7ee38e1f785fe22313e4f5b25af912a7b12cf2d"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-broken-streetlamp/29be391fc5a0c64ed359037a7a5f272385213c8dc1d37c544b7483cd40aa2244.png",
+          "sha256": "29be391fc5a0c64ed359037a7a5f272385213c8dc1d37c544b7483cd40aa2244"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-broken-streetlamp/4adff41c213be2dfad581125a2af49b59ea5fd7a02f95c311cc94fce762f22e4.png",
+          "sha256": "4adff41c213be2dfad581125a2af49b59ea5fd7a02f95c311cc94fce762f22e4"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-broken-streetlamp/46646327e0ba1d59f3439d4a1c5b12a22df46e5108296bf297a28d0d6da13cd1.png",
+          "sha256": "46646327e0ba1d59f3439d4a1c5b12a22df46e5108296bf297a28d0d6da13cd1"
+        }
+      ],
+      "render_updated_at": "2026-11-24T05:40:23.082490+00:00",
+      "render_version": "個別PBR・構造検証 18c5ea0",
+      "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "render_run_id": 45332418931,
+      "updated_at": "2026-11-24T05:40:23.082490+00:00"
+    },
+    {
+      "id": "f3-industrial-control-cabinet",
+      "name": "扉が開いた腐食制御盤",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "status": "制作中",
+      "run_id": 45332418931,
+      "source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-control-cabinet/269fd80d710d80861a559a1a28a17c6fe1fb140ad08b3a9ce4a4490ddec14176.png",
+          "sha256": "269fd80d710d80861a559a1a28a17c6fe1fb140ad08b3a9ce4a4490ddec14176"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-control-cabinet/0b3e99bf0919ce2c9c91c1e0eea968a191449b7e30702542bdd78943b83ac8a0.png",
+          "sha256": "0b3e99bf0919ce2c9c91c1e0eea968a191449b7e30702542bdd78943b83ac8a0"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-control-cabinet/25940993a341bd6e0409039df21648057bed954a8546d4577165f6784502bc47.png",
+          "sha256": "25940993a341bd6e0409039df21648057bed954a8546d4577165f6784502bc47"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-control-cabinet/ca51a76ce85a1bd9e8caa0d295d2d2cc8e95dc994ee460ec471caba367c165ed.png",
+          "sha256": "ca51a76ce85a1bd9e8caa0d295d2d2cc8e95dc994ee460ec471caba367c165ed"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-control-cabinet/079cfc77416fc4d27be3886361245f9740a3cd3d72c50619a008f5ff6fb8a69b.png",
+          "sha256": "079cfc77416fc4d27be3886361245f9740a3cd3d72c50619a008f5ff6fb8a69b"
+        }
+      ],
+      "render_updated_at": "2026-11-24T05:40:40.473637+00:00",
+      "render_version": "個別PBR・構造検証 18c5ea0",
+      "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "render_run_id": 45332418931,
+      "updated_at": "2026-11-24T05:40:40.473637+00:00"
     }
   ]
 }
