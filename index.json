@@ -981,6 +981,88 @@
       "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
       "render_run_id": 45332418931,
       "updated_at": "2026-11-24T05:49:05.940988+00:00"
+    },
+    {
+      "id": "f3-industrial-roller-shutter",
+      "name": "破れた工場シャッター",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "status": "制作中",
+      "run_id": 45332418931,
+      "source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-roller-shutter/3302b0f0b8d847e81646d5961b8f0221decd73d83b64783ae8978c25dc90ea44.png",
+          "sha256": "3302b0f0b8d847e81646d5961b8f0221decd73d83b64783ae8978c25dc90ea44"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-roller-shutter/aa36f658805250d189e42242bf5abc987f6c93f594eecc4b7b64e3078dd4a180.png",
+          "sha256": "aa36f658805250d189e42242bf5abc987f6c93f594eecc4b7b64e3078dd4a180"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-roller-shutter/4cb10e0f9f760330180c60bbf01df7cda751687bfee7291c39ecfb6059ec07b2.png",
+          "sha256": "4cb10e0f9f760330180c60bbf01df7cda751687bfee7291c39ecfb6059ec07b2"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-roller-shutter/c3e20023b5aedcf04a9a44b1b011446e921c82d8fa0b8c53fc29c2e979892a22.png",
+          "sha256": "c3e20023b5aedcf04a9a44b1b011446e921c82d8fa0b8c53fc29c2e979892a22"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-roller-shutter/b639cd504c324ea43e8598e1007c092e0c9a84c1920dd192017d06d1e3f05d3e.png",
+          "sha256": "b639cd504c324ea43e8598e1007c092e0c9a84c1920dd192017d06d1e3f05d3e"
+        }
+      ],
+      "render_updated_at": "2026-11-24T05:55:29.151669+00:00",
+      "render_version": "個別PBR・構造検証 18c5ea0",
+      "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "render_run_id": 45332418931,
+      "updated_at": "2026-11-24T05:55:29.151669+00:00"
+    },
+    {
+      "id": "f3-industrial-shattered-window",
+      "name": "割れた鉄製窓と腰壁",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "status": "制作中",
+      "run_id": 45332418931,
+      "source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-shattered-window/06e3bc79c34a1c3bf440fa38e589bdbb4e3ede24d23031e326850708e2dced57.png",
+          "sha256": "06e3bc79c34a1c3bf440fa38e589bdbb4e3ede24d23031e326850708e2dced57"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-shattered-window/2b4e1204fb06ad758fef7184dbd3b10e153b604e34dc5b5485ccc73987cefef6.png",
+          "sha256": "2b4e1204fb06ad758fef7184dbd3b10e153b604e34dc5b5485ccc73987cefef6"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-shattered-window/c318c4148c5aa01c59f606a53d65f8f0fbc6b8a8ce6fdb9193c45da76fc151af.png",
+          "sha256": "c318c4148c5aa01c59f606a53d65f8f0fbc6b8a8ce6fdb9193c45da76fc151af"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-shattered-window/ee167f9fa3a44661128ee25e573aabadd2716088da281decd6266258144bcfa3.png",
+          "sha256": "ee167f9fa3a44661128ee25e573aabadd2716088da281decd6266258144bcfa3"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-shattered-window/a6f95b44770ce183ee0b14d51ca5386a64b0f1dc27b3ec746474bab14517c125.png",
+          "sha256": "a6f95b44770ce183ee0b14d51ca5386a64b0f1dc27b3ec746474bab14517c125"
+        }
+      ],
+      "render_updated_at": "2026-11-24T05:55:29.213172+00:00",
+      "render_version": "個別PBR・構造検証 18c5ea0",
+      "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "render_run_id": 45332418931,
+      "updated_at": "2026-11-24T05:55:29.213172+00:00"
     }
   ]
 }
