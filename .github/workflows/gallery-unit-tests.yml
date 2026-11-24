@@ -1,7 +1,7 @@
 name: 3D progress registry regression tests
 on:
   push:
-    branches: [feature/gallery-migration-20261124, main]
+    branches: [feature/artifact-intake-history-approval-20261124, main]
     paths:
       - 'tools/3d-progress/**'
       - '.github/workflows/gallery-unit-tests.yml'

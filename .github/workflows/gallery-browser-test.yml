@@ -59,7 +59,7 @@ jobs:
               await page.locator('#sort').selectOption('newest');
               const compareCard=page.locator('article').filter({has:page.getByRole('heading',{name:'Compare test',exact:true})});
               await compareCard.getByRole('heading',{name:'設計図と実レンダリングの比較'}).waitFor();
-              if(await compareCard.locator('.compare-grid').first().locator('.compare-pane').count()!==2)throw Error('comparison panes missing');
+              if(await compareCard.locator('.compare-grid').first().locator('.compare-pane').count()!==3)throw Error('comparison panes missing');
               await compareCard.locator('.compare-pane img').first().evaluate(img=>img.decode());
               await page.locator('#kind').selectOption('');
               await page.unroute('**/3d-progress-data/index.json?*');

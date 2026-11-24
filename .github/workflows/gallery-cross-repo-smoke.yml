@@ -1,0 +1,47 @@
+name: Gallery cross repository transfer smoke
+on:
+  push:
+    branches: [feature/artifact-intake-history-approval-20261124]
+    paths: ['.github/workflows/gallery-cross-repo-smoke.yml']
+  pull_request:
+    paths: ['.github/workflows/gallery-cross-repo-smoke.yml']
+permissions:
+  contents: read
+  actions: read
+jobs:
+  transfer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download actual Blender artifact from source repository
+        env:
+          GH_TOKEN: ${{ secrets.SOURCE_REPO_READ_TOKEN || github.token }}
+        run: |
+          gh run download 45326021754 -R koda24-cell/kotama-no-bouken --name gallery-production-45326021754-fixture --dir incoming
+      - name: Validate source and import into isolated registry
+        env:
+          GH_TOKEN: ${{ secrets.SOURCE_REPO_READ_TOKEN || github.token }}
+        run: |
+          export EXPECTED_SHA=$(gh api repos/koda24-cell/kotama-no-bouken/actions/runs/45326021754 --jq '.head_sha')
+          gh api repos/koda24-cell/kotama-no-bouken/commits/8ac3454478299e5e50c2a8aeefb0509bae2334fc > merge.json
+          python3 - <<'PY'
+          import sys,json,hashlib,tempfile
+          from pathlib import Path
+          sys.path.insert(0,'tools/3d-progress')
+          from register import register
+          p=next(Path('incoming').rglob('manifest.json'))
+          m=json.loads(p.read_text())
+          assert str(m['run_id'])=='45326021754'
+          merge=json.loads(Path('merge.json').read_text())
+          assert m['source_sha']==merge['sha']
+          assert __import__('os').environ['EXPECTED_SHA'] in [p['sha'] for p in merge['parents']]
+          assert m['id']=='gallery-test-fixture'
+          for i in m['images']:
+              assert hashlib.sha256((p.parent/i['file']).read_bytes()).hexdigest()==i['sha256']
+          with tempfile.TemporaryDirectory() as d:
+              root=Path(d)
+              (root/'index.json').write_text(json.dumps({'models':[]}))
+              assert register(root,m,p.parent)
+              assert not register(root,m,p.parent)
+          print('CROSS_REPO_TRANSFER_VERIFIED')
+          PY
