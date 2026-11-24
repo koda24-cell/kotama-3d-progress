@@ -1,0 +1,20 @@
+name: 3D progress registry regression tests
+on:
+  push:
+    branches: [feature/gallery-migration-20261124, main]
+    paths:
+      - 'tools/3d-progress/**'
+      - '.github/workflows/gallery-unit-tests.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'tools/3d-progress/**'
+      - '.github/workflows/gallery-unit-tests.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m unittest discover -s tools/3d-progress -v
