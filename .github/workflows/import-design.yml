@@ -1,5 +1,7 @@
 name: Import verified design drawings
 on:
+  pull_request:
+    paths: ['tools/3d-progress/import_design.py', '.github/workflows/import-design.yml']
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
@@ -10,7 +12,18 @@ concurrency:
   group: design-import
   cancel-in-progress: false
 jobs:
+  smoke:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: python tools/3d-progress/test_import_design.py
   import:
+    if: github.event_name != 'pull_request'
+    needs: smoke
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:
