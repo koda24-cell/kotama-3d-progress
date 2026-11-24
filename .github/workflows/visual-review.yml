@@ -1,0 +1,25 @@
+name: Actual render visual review
+on:
+  pull_request:
+    paths: ['tools/3d-progress/visual_review.py', '.github/workflows/visual-review.yml', 'index.html']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: 3d-progress-data
+          path: registry
+      - run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install 'transformers>=4.48,<5' pillow
+      - run: python tools/3d-progress/visual_review.py registry visual-review.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: visual-review
+          path: visual-review.json
