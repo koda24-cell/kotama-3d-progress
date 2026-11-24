@@ -2882,6 +2882,47 @@
       "render_source_sha": "677b99ca1f8c28120df310743ba9c01024613fcb",
       "render_run_id": 45407771986,
       "updated_at": "2026-11-24T14:00:09.639326+00:00"
+    },
+    {
+      "id": "f3-industrial-v2-service-tower",
+      "name": "配管と作業床を持つ工業機械塔V2",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 4149167",
+      "status": "制作中",
+      "run_id": 45415404490,
+      "source_sha": "4149167e8e7153d0a9354075c5e2eb32ee1eed00",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-v2-service-tower/8626ac032eeb921eac5ac3fafbfcd82870cfd0eba6d102bc9c3b36fd32ec9394.png",
+          "sha256": "8626ac032eeb921eac5ac3fafbfcd82870cfd0eba6d102bc9c3b36fd32ec9394"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-v2-service-tower/3af06aef51949b8f82d721459e51cc9a01f6f30fb540b9f8c5d646337f6bb896.png",
+          "sha256": "3af06aef51949b8f82d721459e51cc9a01f6f30fb540b9f8c5d646337f6bb896"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-v2-service-tower/0ef2c60a6a146c259c018508d57284fdfcf98f0d1cf952f8e4e475ee254a9d46.png",
+          "sha256": "0ef2c60a6a146c259c018508d57284fdfcf98f0d1cf952f8e4e475ee254a9d46"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-v2-service-tower/c86aca1988799b70fbe130531e98f11f5b476fbae703d2be6f461f7b7d310fd1.png",
+          "sha256": "c86aca1988799b70fbe130531e98f11f5b476fbae703d2be6f461f7b7d310fd1"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-v2-service-tower/4b94818b867840d675a78a9fa735fab5104cd7c4304c32ed7e30756f531d2b9b.png",
+          "sha256": "4b94818b867840d675a78a9fa735fab5104cd7c4304c32ed7e30756f531d2b9b"
+        }
+      ],
+      "render_updated_at": "2026-11-24T14:39:14.896954+00:00",
+      "render_version": "個別PBR・構造検証 4149167",
+      "render_source_sha": "4149167e8e7153d0a9354075c5e2eb32ee1eed00",
+      "render_run_id": 45415404490,
+      "updated_at": "2026-11-24T14:39:14.896954+00:00"
     }
   ]
 }
