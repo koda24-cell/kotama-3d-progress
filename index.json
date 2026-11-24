@@ -1473,6 +1473,158 @@
       "render_source_sha": "624388b170f2210bd721145ac05e7d0576935fb0",
       "render_run_id": 45367160754,
       "updated_at": "2026-11-24T10:04:36.007375+00:00"
+    },
+    {
+      "id": "f3-industrial-column-joint-lod-review",
+      "name": "露出した梁柱接合部・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-column-joint-lod-review/61c3a240853fa20ee5bc064958ee3133c7662ae4a0ea12669e7f250c464f0918.png",
+          "sha256": "61c3a240853fa20ee5bc064958ee3133c7662ae4a0ea12669e7f250c464f0918"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-column-joint-lod-review/bfa8700a0d95f427726a9c42a5ce130e8d07503bdb73a2dc8b044851d6d36154.png",
+          "sha256": "bfa8700a0d95f427726a9c42a5ce130e8d07503bdb73a2dc8b044851d6d36154"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-column-joint-lod-review/5d32adb59bb7220cca164dc9ce53a08244792859377c9971176304461896dd1a.png",
+          "sha256": "5d32adb59bb7220cca164dc9ce53a08244792859377c9971176304461896dd1a"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-column-joint-lod-review/bb911ddd401a4694cf68cfd15cc426a062310e448b6dd23ff7705a106728100d.png",
+          "sha256": "bb911ddd401a4694cf68cfd15cc426a062310e448b6dd23ff7705a106728100d"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-column-joint-lod-review/38e11949f8879b77b9a4f5387747bd80038b8c4db518f76b5e1a9b816f512116.png",
+          "sha256": "38e11949f8879b77b9a4f5387747bd80038b8c4db518f76b5e1a9b816f512116"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-column-joint-lod-review/fb9ff5bc88e38cc4c26f515cadd014cc2784b5079a5aa388b11e25260b5b6510.png",
+          "sha256": "fb9ff5bc88e38cc4c26f515cadd014cc2784b5079a5aa388b11e25260b5b6510"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-column-joint-lod-review/5b2f923f3db304870c173328cd51a3fdfc383afc7a854c716aab15dbdf947c44.png",
+          "sha256": "5b2f923f3db304870c173328cd51a3fdfc383afc7a854c716aab15dbdf947c44"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-column-joint-lod-review/50faedc83b0a15197af45ce014c8eea0e37acce5ef27b9a3dcf481e75570c3c5.png",
+          "sha256": "50faedc83b0a15197af45ce014c8eea0e37acce5ef27b9a3dcf481e75570c3c5"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-column-joint-lod-review/c9d21b5f1ea7bea3d9ee40b7beee51db71177f67810d1a2a49e585bf2e4ce20a.png",
+          "sha256": "c9d21b5f1ea7bea3d9ee40b7beee51db71177f67810d1a2a49e585bf2e4ce20a"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-column-joint-lod-review/329711cb67a6e90eb7fb0e314d4197108391349441141e83ee19fbd3d19327b0.png",
+          "sha256": "329711cb67a6e90eb7fb0e314d4197108391349441141e83ee19fbd3d19327b0"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-column-joint-lod-review/fa56faad4a1d2db278742cb2d72997fa9cca3b0b327565b84277f421e77434a0.png",
+          "sha256": "fa56faad4a1d2db278742cb2d72997fa9cca3b0b327565b84277f421e77434a0"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-column-joint-lod-review/062249a86a40395e86d8bf7848e5b1136a80b6cf938b02d51a05f93c8d227cc8.png",
+          "sha256": "062249a86a40395e86d8bf7848e5b1136a80b6cf938b02d51a05f93c8d227cc8"
+        }
+      ],
+      "render_updated_at": "2026-11-24T10:33:43.818261+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T10:33:43.818261+00:00"
+    },
+    {
+      "id": "f3-industrial-retaining-wall-lod-review",
+      "name": "剥落した鉄筋コンクリート壁・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-retaining-wall-lod-review/f4547cd95701a38506ea8d2a7e95afc22714793f11a7a45a3f004703a04dda81.png",
+          "sha256": "f4547cd95701a38506ea8d2a7e95afc22714793f11a7a45a3f004703a04dda81"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-retaining-wall-lod-review/0bffa330c05db84f3e9eed923e374669c87999d6695f420c687d524ea07819b4.png",
+          "sha256": "0bffa330c05db84f3e9eed923e374669c87999d6695f420c687d524ea07819b4"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-retaining-wall-lod-review/b46a7672c87184d3166d45c20f45c403094891e86339671fd5f02b24fa1ea638.png",
+          "sha256": "b46a7672c87184d3166d45c20f45c403094891e86339671fd5f02b24fa1ea638"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-retaining-wall-lod-review/82192f0c7c911c7c2efdec372ed673a8e0ad85a2a3a91550c91204b4562bee8a.png",
+          "sha256": "82192f0c7c911c7c2efdec372ed673a8e0ad85a2a3a91550c91204b4562bee8a"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-retaining-wall-lod-review/d2b1fdd9a2d67b9ce54a1367b6093f61e743dc975184d44325e18a2af2b1d394.png",
+          "sha256": "d2b1fdd9a2d67b9ce54a1367b6093f61e743dc975184d44325e18a2af2b1d394"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-retaining-wall-lod-review/a9638bc13cf511afa93ff90c7c80b62d7d17a77f373cfc39e81490e1862e11c9.png",
+          "sha256": "a9638bc13cf511afa93ff90c7c80b62d7d17a77f373cfc39e81490e1862e11c9"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-retaining-wall-lod-review/114c4326458fd3fc4d49962d6af1546f0016675a03f564c02541831fac3f30f5.png",
+          "sha256": "114c4326458fd3fc4d49962d6af1546f0016675a03f564c02541831fac3f30f5"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-retaining-wall-lod-review/46c04bb1040658d6cd5f4069ca81f17ae9303c5ed8ac566e3d00ff61393c2efe.png",
+          "sha256": "46c04bb1040658d6cd5f4069ca81f17ae9303c5ed8ac566e3d00ff61393c2efe"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-retaining-wall-lod-review/a7cf8430c66dfe0af1c8724a5bac6ba93dbd8c3818a1400ef306cc1ba7727642.png",
+          "sha256": "a7cf8430c66dfe0af1c8724a5bac6ba93dbd8c3818a1400ef306cc1ba7727642"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-retaining-wall-lod-review/adca903c407c1e71395e97734f8aeff599e95ac9c046974f7a63ac6a115fce45.png",
+          "sha256": "adca903c407c1e71395e97734f8aeff599e95ac9c046974f7a63ac6a115fce45"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-retaining-wall-lod-review/53dc203e3a24c9b44df96cf83ff43ad61e0bb95360cde9405936d20ec012da9c.png",
+          "sha256": "53dc203e3a24c9b44df96cf83ff43ad61e0bb95360cde9405936d20ec012da9c"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-retaining-wall-lod-review/64fc9c8e2a4964ad6ef70d23c65e044386b07c32397e62819c1c6e16010d5283.png",
+          "sha256": "64fc9c8e2a4964ad6ef70d23c65e044386b07c32397e62819c1c6e16010d5283"
+        }
+      ],
+      "render_updated_at": "2026-11-24T10:33:44.153174+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T10:33:44.153174+00:00"
     }
   ]
 }
