@@ -2,6 +2,8 @@
 import argparse
 import hashlib
 import json
+import os
+from datetime import datetime, timezone
 from pathlib import Path
 
 PROMPTS=[
@@ -64,5 +66,13 @@ def main():
         old=next((h for h in reversed(row.get("history",[])) if h.get("kind")=="render" and h.get("images")),None)
         previous=evaluate(args.registry,old["images"],score) if old else None
         results.append(dict(id=row["id"],version=row.get("render_version",row["version"]),current=current,previous_version=old["version"] if old else None,previous=previous,comparison=compare(previous,current) if previous else []))
-    args.output.write_text(json.dumps(dict(method=model_id,advisory=True,models=results),ensure_ascii=False,indent=2))
+    run_id=os.environ.get("GITHUB_RUN_ID")
+    execution=dict(event=os.environ.get("GITHUB_EVENT_NAME","local"),
+                   run_id=run_id, run_attempt=os.environ.get("GITHUB_RUN_ATTEMPT"),
+                   source_sha=os.environ.get("GITHUB_SHA"),
+                   evaluated_at=datetime.now(timezone.utc).isoformat(),
+                   registry_sha256=hashlib.sha256((args.registry/"index.json").read_bytes()).hexdigest(),
+                   models=len(results), views=sum(len(r["current"]["views"]) for r in results),
+                   compared_models=sum(bool(r["comparison"]) for r in results))
+    args.output.write_text(json.dumps(dict(method=model_id,advisory=True,execution=execution,models=results),ensure_ascii=False,indent=2))
 if __name__=="__main__": main()
