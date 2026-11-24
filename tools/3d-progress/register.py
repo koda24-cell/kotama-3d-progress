@@ -9,7 +9,7 @@ KINDS = ("design", "progress", "render")
 
 def png_check(p):
     data=p.read_bytes()
-    if len(data)>20_000_000 or data[:8]!=b'\\x89PNG\\r\\n\\x1a\\n':
+    if len(data)>20_000_000 or data[:8]!=b'\x89PNG\r\n\x1a\n':
         raise ValueError("Invalid PNG")
     pos=8; first=True; seen_data=False
     while pos+12<=len(data):
@@ -80,7 +80,7 @@ def register(root, meta, source):
     row["approval_state"]=row.get("render_approval_state",meta.get("approval_state","NOT_APPROVED"))
     row["updated_at"]=max(stamp,row.get("updated_at",stamp))
     data["models"]=[x for x in data["models"] if x["id"]!=row["id"]]+[row]
-    tmp=index.with_suffix(".tmp"); tmp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    tmp=index.with_suffix(".tmp"); tmp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     os.replace(tmp,index); return True
 
 if __name__=="__main__":
