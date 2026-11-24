@@ -571,6 +571,47 @@
       "render_source_sha": "0e85bfd39b776642cff4a2acedc493b5efa7272e",
       "render_run_id": 45331023029,
       "updated_at": "2026-11-24T05:18:43.301789+00:00"
+    },
+    {
+      "id": "f3-industrial-buckled-portal",
+      "name": "座屈した鉄骨門型フレーム",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "status": "制作中",
+      "run_id": 45332418931,
+      "source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-buckled-portal/57eb5217fa12c193fee428c45b1b52f26a51d05eb336f48e0657574312ed1668.png",
+          "sha256": "57eb5217fa12c193fee428c45b1b52f26a51d05eb336f48e0657574312ed1668"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-buckled-portal/554d274d9878701abbe6262923d7ff46e0b1d762c32add96a3cc6436ef48f1b8.png",
+          "sha256": "554d274d9878701abbe6262923d7ff46e0b1d762c32add96a3cc6436ef48f1b8"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-buckled-portal/26b23ccced914e065e016ddcf5bd615d9acfa0031534f2997db287614d14c1de.png",
+          "sha256": "26b23ccced914e065e016ddcf5bd615d9acfa0031534f2997db287614d14c1de"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-buckled-portal/14fd67a4abb9d07c6df9c1a31c729b6b2822300faa7caf49b2bc1f0b19df04d8.png",
+          "sha256": "14fd67a4abb9d07c6df9c1a31c729b6b2822300faa7caf49b2bc1f0b19df04d8"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-buckled-portal/6814a640e4dca2d1624208d498e031851818a17ea26e6a3657a859c358ab412e.png",
+          "sha256": "6814a640e4dca2d1624208d498e031851818a17ea26e6a3657a859c358ab412e"
+        }
+      ],
+      "render_updated_at": "2026-11-24T05:22:28.699814+00:00",
+      "render_version": "個別PBR・構造検証 18c5ea0",
+      "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "render_run_id": 45332418931,
+      "updated_at": "2026-11-24T05:22:28.699814+00:00"
     }
   ]
 }
