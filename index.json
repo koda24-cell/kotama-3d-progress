@@ -448,6 +448,47 @@
           "sha256": "d43d50cf467886a923c9ff79f965ea3e224baf186347a56f79dda6c98218af3e"
         }
       ]
+    },
+    {
+      "id": "f3-industrial-retaining-wall",
+      "name": "第3層・剥落コンクリート遮蔽壁",
+      "floor": "第3層 遺跡都市",
+      "version": "V1 基礎形状・PBR検証",
+      "status": "制作中",
+      "run_id": 45325426373,
+      "source_sha": "fb932e721b1fdba475d71f27e1dd25b596480c81",
+      "images": [
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-retaining-wall/fb9ff86ff602d584eff874fe5ac53a358178c2157a9a904017b0f618526cbfbc.png",
+          "sha256": "fb9ff86ff602d584eff874fe5ac53a358178c2157a9a904017b0f618526cbfbc"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-retaining-wall/4a4c8f10c91a5d5e90f4fff9bece4ed8199887f850e4ed12cd91dd8207e4c4fa.png",
+          "sha256": "4a4c8f10c91a5d5e90f4fff9bece4ed8199887f850e4ed12cd91dd8207e4c4fa"
+        },
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-retaining-wall/475d4c3475eaaed3dd6351cf8ffbdc615f88a9ba35eb7ade85880a249d13369c.png",
+          "sha256": "475d4c3475eaaed3dd6351cf8ffbdc615f88a9ba35eb7ade85880a249d13369c"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-retaining-wall/8f44744375f2b31b617c60c2464edbae5dc97f240b7012de1622a03e962bf53f.png",
+          "sha256": "8f44744375f2b31b617c60c2464edbae5dc97f240b7012de1622a03e962bf53f"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-retaining-wall/8c513987293fc375db5a41ef2d41dfbb3a0dce57705cf57b72d9d7b82ffcdeb9.png",
+          "sha256": "8c513987293fc375db5a41ef2d41dfbb3a0dce57705cf57b72d9d7b82ffcdeb9"
+        }
+      ],
+      "render_updated_at": "2026-11-24T04:27:50.866480+00:00",
+      "render_version": "V1 基礎形状・PBR検証",
+      "render_source_sha": "fb932e721b1fdba475d71f27e1dd25b596480c81",
+      "render_run_id": 45325426373,
+      "updated_at": "2026-11-24T04:27:50.866480+00:00"
     }
   ]
 }
