@@ -4,8 +4,11 @@ from pathlib import Path
 REPO="koda24-cell/kotama-no-bouken"
 def gh(*args):
     for attempt in range(3):
-        p=subprocess.run(["gh",*args],capture_output=True,text=True)
-        if p.returncode==0: return p.stdout
+        try:
+            p=subprocess.run(["gh",*args],capture_output=True,text=True,timeout=180)
+            if p.returncode==0: return p.stdout
+        except subprocess.TimeoutExpired:
+            pass
         if attempt<2: time.sleep(2**attempt)
     raise RuntimeError("GitHub request failed: "+args[0])
 def api(path):
