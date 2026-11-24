@@ -899,6 +899,88 @@
       "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
       "render_run_id": 45332418931,
       "updated_at": "2026-11-24T05:40:40.473637+00:00"
+    },
+    {
+      "id": "f3-industrial-flanged-pipe",
+      "name": "フランジ付き破断配管",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "status": "制作中",
+      "run_id": 45332418931,
+      "source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-flanged-pipe/1305ef2926d56a0b8a477cca61af3c37936bfe377302e296f3c46b3f5ea3fdb2.png",
+          "sha256": "1305ef2926d56a0b8a477cca61af3c37936bfe377302e296f3c46b3f5ea3fdb2"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-flanged-pipe/6bf51d172e416459fac937fbfef3ff7928302de256384c5a7aa5d1b3835fdd8d.png",
+          "sha256": "6bf51d172e416459fac937fbfef3ff7928302de256384c5a7aa5d1b3835fdd8d"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-flanged-pipe/39c0694a686b195836168b61f327b569804d34e532db6c3b692c3d8ec85b5e92.png",
+          "sha256": "39c0694a686b195836168b61f327b569804d34e532db6c3b692c3d8ec85b5e92"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-flanged-pipe/e60bca0ab7cdc0d0247a0c1457104b9e7221d27aea950026c8a439eca3f22912.png",
+          "sha256": "e60bca0ab7cdc0d0247a0c1457104b9e7221d27aea950026c8a439eca3f22912"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-flanged-pipe/3a7605f38b985ab237295550c257487c7a6c8437133c9881a8c7a4f70c7be2a8.png",
+          "sha256": "3a7605f38b985ab237295550c257487c7a6c8437133c9881a8c7a4f70c7be2a8"
+        }
+      ],
+      "render_updated_at": "2026-11-24T05:49:05.757103+00:00",
+      "render_version": "個別PBR・構造検証 18c5ea0",
+      "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "render_run_id": 45332418931,
+      "updated_at": "2026-11-24T05:49:05.757103+00:00"
+    },
+    {
+      "id": "f3-industrial-pipe-rack",
+      "name": "垂れ下がる配管ラック",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "status": "制作中",
+      "run_id": 45332418931,
+      "source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-pipe-rack/c3d8d0a8dcc55c4c321579417d78d806230ce2c92cdc3e230811409a86324077.png",
+          "sha256": "c3d8d0a8dcc55c4c321579417d78d806230ce2c92cdc3e230811409a86324077"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-pipe-rack/98f7cdafd2eed32d48093fb76bc3bbc6b4a8aa1697b16d021d80208c27daaf46.png",
+          "sha256": "98f7cdafd2eed32d48093fb76bc3bbc6b4a8aa1697b16d021d80208c27daaf46"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-pipe-rack/8ef2a50b7721c91959c7d583f574b81868d449261e2ac7d0b8f93d51969ab031.png",
+          "sha256": "8ef2a50b7721c91959c7d583f574b81868d449261e2ac7d0b8f93d51969ab031"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-pipe-rack/64b1a5f3f9771a30636b832108f89f0e65bed80a2b264831a3a87cc89ac615d4.png",
+          "sha256": "64b1a5f3f9771a30636b832108f89f0e65bed80a2b264831a3a87cc89ac615d4"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-pipe-rack/910889e4f6c7b6625bf326dac9988db6f78463bd050d7e05b1bd680fa2666fb3.png",
+          "sha256": "910889e4f6c7b6625bf326dac9988db6f78463bd050d7e05b1bd680fa2666fb3"
+        }
+      ],
+      "render_updated_at": "2026-11-24T05:49:05.940988+00:00",
+      "render_version": "個別PBR・構造検証 18c5ea0",
+      "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "render_run_id": 45332418931,
+      "updated_at": "2026-11-24T05:49:05.940988+00:00"
     }
   ]
 }
