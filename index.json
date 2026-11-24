@@ -451,44 +451,44 @@
     },
     {
       "id": "f3-industrial-retaining-wall",
-      "name": "第3層・剥落コンクリート遮蔽壁",
+      "name": "剥落した鉄筋コンクリート壁",
       "floor": "第3層 遺跡都市",
-      "version": "V1 基礎形状・PBR検証",
+      "version": "個別PBR・構造検証 0e85bfd",
       "status": "制作中",
-      "run_id": 45325426373,
-      "source_sha": "fb932e721b1fdba475d71f27e1dd25b596480c81",
+      "run_id": 45331023029,
+      "source_sha": "0e85bfd39b776642cff4a2acedc493b5efa7272e",
       "images": [
         {
-          "view": "angle",
-          "path": "renders/f3-industrial-retaining-wall/fb9ff86ff602d584eff874fe5ac53a358178c2157a9a904017b0f618526cbfbc.png",
-          "sha256": "fb9ff86ff602d584eff874fe5ac53a358178c2157a9a904017b0f618526cbfbc"
+          "view": "front",
+          "path": "renders/f3-industrial-retaining-wall/c3d4fb17eec5a323c5ddc696f0b6c92e3753c55a38d6dfb0814d06e43bcc01c8.png",
+          "sha256": "c3d4fb17eec5a323c5ddc696f0b6c92e3753c55a38d6dfb0814d06e43bcc01c8"
         },
         {
           "view": "back",
-          "path": "renders/f3-industrial-retaining-wall/4a4c8f10c91a5d5e90f4fff9bece4ed8199887f850e4ed12cd91dd8207e4c4fa.png",
-          "sha256": "4a4c8f10c91a5d5e90f4fff9bece4ed8199887f850e4ed12cd91dd8207e4c4fa"
-        },
-        {
-          "view": "front",
-          "path": "renders/f3-industrial-retaining-wall/475d4c3475eaaed3dd6351cf8ffbdc615f88a9ba35eb7ade85880a249d13369c.png",
-          "sha256": "475d4c3475eaaed3dd6351cf8ffbdc615f88a9ba35eb7ade85880a249d13369c"
+          "path": "renders/f3-industrial-retaining-wall/d3f9b73f0feb2c4371fb8bbac20c8ca267e3ce9ffa9782b0183e80fb879aa18f.png",
+          "sha256": "d3f9b73f0feb2c4371fb8bbac20c8ca267e3ce9ffa9782b0183e80fb879aa18f"
         },
         {
           "view": "side",
-          "path": "renders/f3-industrial-retaining-wall/8f44744375f2b31b617c60c2464edbae5dc97f240b7012de1622a03e962bf53f.png",
-          "sha256": "8f44744375f2b31b617c60c2464edbae5dc97f240b7012de1622a03e962bf53f"
+          "path": "renders/f3-industrial-retaining-wall/41c9b770ff89634f2c598065652b38bbf0c545ff712bb5746b12cbdf3f383df1.png",
+          "sha256": "41c9b770ff89634f2c598065652b38bbf0c545ff712bb5746b12cbdf3f383df1"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-retaining-wall/d9b916bec43ac145f61ff735e2eb29a51c5d6d6928f7945e6d1693ec4137076a.png",
+          "sha256": "d9b916bec43ac145f61ff735e2eb29a51c5d6d6928f7945e6d1693ec4137076a"
         },
         {
           "view": "top",
-          "path": "renders/f3-industrial-retaining-wall/8c513987293fc375db5a41ef2d41dfbb3a0dce57705cf57b72d9d7b82ffcdeb9.png",
-          "sha256": "8c513987293fc375db5a41ef2d41dfbb3a0dce57705cf57b72d9d7b82ffcdeb9"
+          "path": "renders/f3-industrial-retaining-wall/fdfdc84746c89606d13a6c7847dc57087044bd583c3f13253adc651c0ec26558.png",
+          "sha256": "fdfdc84746c89606d13a6c7847dc57087044bd583c3f13253adc651c0ec26558"
         }
       ],
-      "render_updated_at": "2026-11-24T04:27:50.866480+00:00",
-      "render_version": "V1 基礎形状・PBR検証",
-      "render_source_sha": "fb932e721b1fdba475d71f27e1dd25b596480c81",
-      "render_run_id": 45325426373,
-      "updated_at": "2026-11-24T04:27:50.866480+00:00"
+      "render_updated_at": "2026-11-24T05:12:07.973253+00:00",
+      "render_version": "個別PBR・構造検証 0e85bfd",
+      "render_source_sha": "0e85bfd39b776642cff4a2acedc493b5efa7272e",
+      "render_run_id": 45331023029,
+      "updated_at": "2026-11-24T05:12:07.973253+00:00"
     }
   ]
 }
