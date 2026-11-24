@@ -19,7 +19,7 @@ def ingest(source,registry,run,sha,stamp):
             if p.is_symlink() or hashlib.sha256(p.read_bytes()).hexdigest()!=digest:raise ValueError("hash mismatch")
             images.append({"file":file,"view":p.stem,"sha256":digest})
         if not images:raise ValueError("no drawings")
-        count+=register(registry,{"id":model,"name":name,"floor":"1","version":folder.name,"run_id":run,"source_sha":sha,"updated_at":stamp,"publication_cleared":True,"status":"設計中","approval_state":"NOT_APPROVED","kind":"design","images":images},folder)
+        count+=register(registry,{"id":model,"name":name,"floor":"第1層","version":folder.name,"run_id":run,"source_sha":sha,"updated_at":stamp,"publication_cleared":True,"status":"設計中","approval_state":"NOT_APPROVED","kind":"design","images":images},folder)
     return count
 if __name__=="__main__":
     p=argparse.ArgumentParser()
