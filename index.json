@@ -2843,47 +2843,6 @@
       "updated_at": "2026-11-24T13:36:34.773540+00:00"
     },
     {
-      "id": "f3-industrial-v2-courtyard-facade",
-      "name": "崩落した集合住宅の立体ファサードV2",
-      "floor": "第3層 遺跡都市",
-      "version": "個別PBR・構造検証 677b99c",
-      "status": "制作中",
-      "run_id": 45407771986,
-      "source_sha": "677b99ca1f8c28120df310743ba9c01024613fcb",
-      "images": [
-        {
-          "view": "front",
-          "path": "renders/f3-industrial-v2-courtyard-facade/e950321df8240efe8b7fccd8231e5aad0d3469aeaeedfafc67e2289042b5bdac.png",
-          "sha256": "e950321df8240efe8b7fccd8231e5aad0d3469aeaeedfafc67e2289042b5bdac"
-        },
-        {
-          "view": "back",
-          "path": "renders/f3-industrial-v2-courtyard-facade/10160f9ecb996cc1cc5918dcfa338bf4a8f0233b5f99715e20a94009d14028f4.png",
-          "sha256": "10160f9ecb996cc1cc5918dcfa338bf4a8f0233b5f99715e20a94009d14028f4"
-        },
-        {
-          "view": "side",
-          "path": "renders/f3-industrial-v2-courtyard-facade/28a10de69b40dbcb82c59b95644cb08f321870ae278c700c3b8f273aef56935b.png",
-          "sha256": "28a10de69b40dbcb82c59b95644cb08f321870ae278c700c3b8f273aef56935b"
-        },
-        {
-          "view": "angle",
-          "path": "renders/f3-industrial-v2-courtyard-facade/5d3a9d63b80d2eacf67c202f348dfb5020b1c0f5312de43658957d741942c61b.png",
-          "sha256": "5d3a9d63b80d2eacf67c202f348dfb5020b1c0f5312de43658957d741942c61b"
-        },
-        {
-          "view": "top",
-          "path": "renders/f3-industrial-v2-courtyard-facade/109410bcd7d437ad5b739dc92cd1bd29ab236ca44353817ba7318bbd9f7ecb28.png",
-          "sha256": "109410bcd7d437ad5b739dc92cd1bd29ab236ca44353817ba7318bbd9f7ecb28"
-        }
-      ],
-      "render_updated_at": "2026-11-24T14:00:09.639326+00:00",
-      "render_version": "個別PBR・構造検証 677b99c",
-      "render_source_sha": "677b99ca1f8c28120df310743ba9c01024613fcb",
-      "render_run_id": 45407771986,
-      "updated_at": "2026-11-24T14:00:09.639326+00:00"
-    },
-    {
       "id": "f3-industrial-v2-service-tower",
       "name": "配管と作業床を持つ工業機械塔V2",
       "floor": "第3層 遺跡都市",
@@ -2964,6 +2923,47 @@
       "render_source_sha": "3d4b00119ab06a34a0377402dda1f8f97550cb2d",
       "render_run_id": 45416559718,
       "updated_at": "2026-11-24T14:46:18.852248+00:00"
+    },
+    {
+      "id": "f3-industrial-v2-courtyard-facade",
+      "name": "崩落した集合住宅の立体ファサードV2",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 f125a44",
+      "status": "制作中",
+      "run_id": 45417826812,
+      "source_sha": "f125a4446bad19af49b1f4f33a5b8d5f232254e2",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-v2-courtyard-facade/af33f4299d32d454b72721b366462a5797f5539ce5bfb67a8797db99eef45c5c.png",
+          "sha256": "af33f4299d32d454b72721b366462a5797f5539ce5bfb67a8797db99eef45c5c"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-v2-courtyard-facade/1c2358d1f5e04159dfe2ae50adeafd0fee45cc44e0d74b9b9e98241f064116f1.png",
+          "sha256": "1c2358d1f5e04159dfe2ae50adeafd0fee45cc44e0d74b9b9e98241f064116f1"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-v2-courtyard-facade/7ba27eb89c1cc2391507530e508d05a43659109c5d77cb89a5014c3a394331ac.png",
+          "sha256": "7ba27eb89c1cc2391507530e508d05a43659109c5d77cb89a5014c3a394331ac"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-v2-courtyard-facade/d35960f3f2ec45144bc741f7d76effc06d86001aa524896594821604bb1a9d7d.png",
+          "sha256": "d35960f3f2ec45144bc741f7d76effc06d86001aa524896594821604bb1a9d7d"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-v2-courtyard-facade/5408c9449413cef9aaf3558c29558049c8d9ee5a5d119803afaa8b84cd87d865.png",
+          "sha256": "5408c9449413cef9aaf3558c29558049c8d9ee5a5d119803afaa8b84cd87d865"
+        }
+      ],
+      "render_updated_at": "2026-11-24T14:55:01.260352+00:00",
+      "render_version": "個別PBR・構造検証 f125a44",
+      "render_source_sha": "f125a4446bad19af49b1f4f33a5b8d5f232254e2",
+      "render_run_id": 45417826812,
+      "updated_at": "2026-11-24T14:55:01.260352+00:00"
     }
   ]
 }
