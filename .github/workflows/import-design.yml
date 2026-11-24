@@ -1,0 +1,64 @@
+name: Import verified design drawings
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: design-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SOURCE: koda24-cell/kotama-no-bouken
+    steps:
+      - uses: actions/checkout@v4
+      - name: Locate successful trusted development run
+        run: |
+          set -euo pipefail
+          gh api "repos/$SOURCE/actions/workflows/design-reference-detail.yml/runs?branch=development&status=success&event=push&per_page=1" > run.json
+          jq -e '.workflow_runs[0] | select(.head_repository.full_name == "koda24-cell/kotama-no-bouken")' run.json > selected.json
+          echo "RUN=$(jq -r .id selected.json)" >> "$GITHUB_ENV"
+          echo "SHA=$(jq -r .head_sha selected.json)" >> "$GITHUB_ENV"
+          echo "STAMP=$(jq -r .updated_at selected.json)" >> "$GITHUB_ENV"
+      - name: Download and scan archive before extraction
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y clamav
+          sudo systemctl stop clamav-freshclam || true
+          sudo freshclam
+          gh api "repos/$SOURCE/actions/runs/$RUN/artifacts" > artifacts.json
+          ID=$(jq -er '.artifacts[] | select(.name=="detail-combined-REFERENCE-ONLY" and .expired==false) | .id' artifacts.json)
+          gh api "repos/$SOURCE/actions/artifacts/$ID/zip" > drawings.zip
+          clamscan drawings.zip
+          python - <<'PY'
+          import zipfile
+          from pathlib import Path
+          with zipfile.ZipFile("drawings.zip") as z:
+              entries=z.infolist()
+              if len(entries)>5000 or sum(i.file_size for i in entries)>300_000_000: raise ValueError("archive limits")
+              root=Path("incoming").resolve()
+              for i in entries:
+                  if not (root/i.filename).resolve().is_relative_to(root) or (i.external_attr>>16)&0o170000==0o120000: raise ValueError("unsafe path")
+              z.extractall(root)
+          PY
+          clamscan -r incoming
+      - name: Register and open review PR
+        run: |
+          set -euo pipefail
+          python tools/3d-progress/import_design.py incoming 3d-progress-data "$RUN" "$SHA" "$STAMP"
+          git add 3d-progress-data
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          BRANCH="automation/design-import-$RUN"
+          git switch -c "$BRANCH"
+          git commit -m "Register verified design drawings from run $RUN"
+          git push origin "$BRANCH"
+          gh pr create --base main --head "$BRANCH" --title "Design drawings from run $RUN" --body "Source commit: $SHA. ClamAV and PNG hash validation passed. Reference only, not game approval."
