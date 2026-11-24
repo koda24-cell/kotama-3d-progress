@@ -50,7 +50,9 @@ def register(root, meta, source):
     for v in meta["images"]:
         p=(source/v["file"]).resolve()
         if not p.is_relative_to(source.resolve()) or not p.is_file(): raise ValueError("Invalid source")
-        digest=png_check(p); path=f"renders/{meta['id']}/{digest}.png"
+        digest=png_check(p)
+        if v.get("sha256") is not None and v["sha256"]!=digest: raise ValueError("Manifest image hash mismatch")
+        path=f"renders/{meta['id']}/{digest}.png"
         prepared.append((p,path,{"view":v["view"],"path":path,"sha256":digest}))
     if not prepared: raise ValueError("No images")
     # Validate every input before mutating the registry or copying any files.
