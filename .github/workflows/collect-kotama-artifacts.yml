@@ -43,21 +43,8 @@ jobs:
         run: |
           set -euo pipefail
           if [ "$GITHUB_EVENT_NAME" = pull_request ]; then SOURCE_RUN_ID=45326448034; fi
-          mkdir -p incoming
-          if [ -n "${SOURCE_RUN_ID:-}" ]; then
-            [[ "$SOURCE_RUN_ID" =~ ^[0-9]+$ ]] || { echo "::error::source_run_id must be numeric"; exit 1; }
-            test "$(gh run view "$SOURCE_RUN_ID" -R koda24-cell/kotama-no-bouken --json conclusion --jq .conclusion)" = success
-            gh run download "$SOURCE_RUN_ID" -R koda24-cell/kotama-no-bouken --pattern 'gallery-production-*' --dir incoming
-          else
-            mapfile -t RUNS < <(gh run list -R koda24-cell/kotama-no-bouken --status success --limit 30 --json databaseId --jq '.[].databaseId')
-            for id in "${RUNS[@]}"; do
-              mkdir -p "incoming/run-$id"
-              if ! gh run download "$id" -R koda24-cell/kotama-no-bouken --pattern 'gallery-production-*' --dir "incoming/run-$id"; then
-                echo "No downloadable artifact for run $id; continuing"
-                rmdir "incoming/run-$id" 2>/dev/null || true
-              fi
-            done
-          fi
+          export SOURCE_RUN_ID
+          python3 collector/tools/3d-progress/collect.py
       - name: Install and run malware scanner
         run: |
           sudo apt-get update
@@ -70,13 +57,20 @@ jobs:
         run: |
           python3 -m unittest discover -s collector/tools/3d-progress -v
           python3 collector/tools/3d-progress/ingest_artifacts.py registry incoming
+      - name: Record collection status
+        if: always()
+        env:
+          COLLECTION_RESULT: ${{ job.status }}
+        run: |
+          python3 -c 'import json,os,datetime; from pathlib import Path; Path("registry/collection-status.json").write_text(json.dumps(dict(result=os.environ["COLLECTION_RESULT"],updated_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),run_id=os.environ["GITHUB_RUN_ID"])))'
       - name: Commit verified registry changes
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        if: always() && github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         working-directory: registry
         run: |
-          if [ -z "$(git status --porcelain -- index.json renders/)" ]; then echo "No new verified assets."; exit 0; fi
+          if [ "${{ job.status }}" != success ]; then git restore -- index.json renders/; git clean -fd -- renders/; fi
+          if [ -z "$(git status --porcelain -- index.json renders/ collection-status.json)" ]; then echo "No new verified assets."; exit 0; fi
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add index.json renders/
+          git add index.json renders/ collection-status.json
           git commit -m "Collect verified Kotama 3D artifact checkpoints"
           git push origin HEAD:3d-progress-data

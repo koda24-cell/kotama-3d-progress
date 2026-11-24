@@ -45,7 +45,8 @@ def register(root, meta, source):
     kind=meta.get("kind","render"); field={"design":"designs","progress":"progress_images","render":"images"}[kind]
     previous=(old or {}).get(kind+"_updated_at")
     if not previous and kind=="render" and old and old.get("images"): previous=old["updated_at"]
-    if previous and datetime.fromisoformat(previous)>=datetime.fromisoformat(stamp): return False
+    historical=bool(previous and datetime.fromisoformat(previous)>=datetime.fromisoformat(stamp))
+    if previous==stamp: return False
     prepared=[]
     for v in meta["images"]:
         p=(source/v["file"]).resolve()
@@ -58,7 +59,7 @@ def register(root, meta, source):
     # Validate every input before mutating the registry or copying any files.
     row=dict(old or {})
     versions=list(row.get("history",[]))
-    if previous:
+    if previous and not historical:
         versions.append({
             "kind":kind,"version":row.get(kind+"_version",row.get("version")),
             "updated_at":previous,"run_id":row.get(kind+"_run_id",row.get("run_id")),
@@ -69,6 +70,14 @@ def register(root, meta, source):
         dest=root/path; dest.parent.mkdir(parents=True,exist_ok=True)
         if not dest.exists(): shutil.copyfile(p,dest)
         elif hashlib.sha256(dest.read_bytes()).hexdigest()!=Path(path).stem: raise ValueError("Stored image hash mismatch")
+    if historical:
+        entry={"kind":kind,"version":meta["version"],"updated_at":stamp,"run_id":meta["run_id"],"source_sha":meta["source_sha"],"images":[v for _,_,v in prepared],"approval_state":meta.get("approval_state","NOT_APPROVED")}
+        if entry in versions: return False
+        versions.append(entry)
+        row["history"]=versions
+        data["models"]=[row if x["id"]==row["id"] else x for x in data["models"]]
+        tmp=index.with_suffix(".tmp"); tmp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+        os.replace(tmp,index); return True
     row.update({"id":meta["id"],"name":meta["name"],"floor":meta["floor"]})
     row.setdefault("images",[]); row.setdefault("designs",[]); row.setdefault("progress_images",[])
     row[field]=[v for _,_,v in prepared]
