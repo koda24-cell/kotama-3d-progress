@@ -1777,6 +1777,1070 @@
       "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
       "render_run_id": 45372771290,
       "updated_at": "2026-11-24T10:50:37.547131+00:00"
+    },
+    {
+      "id": "f3-industrial-bridge-abutment-lod-review",
+      "name": "崩壊橋台と露出支承・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-bridge-abutment-lod-review/3e5b2ada80a89ded482fe9dac35186f56f0f0c6e42eef9c750b84343566cef1d.png",
+          "sha256": "3e5b2ada80a89ded482fe9dac35186f56f0f0c6e42eef9c750b84343566cef1d"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-bridge-abutment-lod-review/40d7a2c7fdb3266cd599eee462f9ac023d07a760102db9de9d7680129d87ab92.png",
+          "sha256": "40d7a2c7fdb3266cd599eee462f9ac023d07a760102db9de9d7680129d87ab92"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-bridge-abutment-lod-review/cdfbec0dd1e7e81bfec16d0912d3284e10f0765783e8e1923baeff06ac89795a.png",
+          "sha256": "cdfbec0dd1e7e81bfec16d0912d3284e10f0765783e8e1923baeff06ac89795a"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-bridge-abutment-lod-review/bf3a6ddabb46d2c4d68b4d8e6651560b7cb9888b55b467bab7aeb156064361ea.png",
+          "sha256": "bf3a6ddabb46d2c4d68b4d8e6651560b7cb9888b55b467bab7aeb156064361ea"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-bridge-abutment-lod-review/7cb407eeebdf5c2d6f2e9706f817474692c88103c35d3fb9393f5d6bd2d21c8b.png",
+          "sha256": "7cb407eeebdf5c2d6f2e9706f817474692c88103c35d3fb9393f5d6bd2d21c8b"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-bridge-abutment-lod-review/1f2e82d01801117de6db8aa7d5a2306310f4ef0cd61886be5b9cfcad65fa6199.png",
+          "sha256": "1f2e82d01801117de6db8aa7d5a2306310f4ef0cd61886be5b9cfcad65fa6199"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-bridge-abutment-lod-review/a063953c90392a2d8ed4f04e3e7d379b6b3b53ac7aa1fff0989d8e1071f21edb.png",
+          "sha256": "a063953c90392a2d8ed4f04e3e7d379b6b3b53ac7aa1fff0989d8e1071f21edb"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-bridge-abutment-lod-review/f4ceb8bf01b08c7a407bd30803a062f4b42179ddf4523a15df5fd10e2dcca74b.png",
+          "sha256": "f4ceb8bf01b08c7a407bd30803a062f4b42179ddf4523a15df5fd10e2dcca74b"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-bridge-abutment-lod-review/2571e57c44ccb96079664da50fa691a4583a8ca7eea9b56aa145b7b0c5d6c6e8.png",
+          "sha256": "2571e57c44ccb96079664da50fa691a4583a8ca7eea9b56aa145b7b0c5d6c6e8"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-bridge-abutment-lod-review/440c90043eb84973569d250f161f7ae7e0c2293f0976d497d8d92878fba2b29a.png",
+          "sha256": "440c90043eb84973569d250f161f7ae7e0c2293f0976d497d8d92878fba2b29a"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-bridge-abutment-lod-review/d3d8b0c2ecd6a18173cbf4f4ac145da520e961c2b11e520822f986448f2625f8.png",
+          "sha256": "d3d8b0c2ecd6a18173cbf4f4ac145da520e961c2b11e520822f986448f2625f8"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-bridge-abutment-lod-review/8303430f382582f58885aa28b0add84efa0b197e0d5cfbd1acfc61b3692777da.png",
+          "sha256": "8303430f382582f58885aa28b0add84efa0b197e0d5cfbd1acfc61b3692777da"
+        }
+      ],
+      "render_updated_at": "2026-11-24T13:36:33.052995+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T13:36:33.052995+00:00"
+    },
+    {
+      "id": "f3-industrial-broken-signal-lod-review",
+      "name": "破損三灯式信号機・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-broken-signal-lod-review/32ad9247205eed2028e8e1befa91d7262e5996e3af7090c886c1830cab835b50.png",
+          "sha256": "32ad9247205eed2028e8e1befa91d7262e5996e3af7090c886c1830cab835b50"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-broken-signal-lod-review/bbe58d4d326cb4fa422fe4141e331fc28b63174c073b6f0bb8ea64df5b041a37.png",
+          "sha256": "bbe58d4d326cb4fa422fe4141e331fc28b63174c073b6f0bb8ea64df5b041a37"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-broken-signal-lod-review/c77e1acb775370e6819fa7778334b43269d0096c61a8bc729dc49588f5c13a22.png",
+          "sha256": "c77e1acb775370e6819fa7778334b43269d0096c61a8bc729dc49588f5c13a22"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-broken-signal-lod-review/e7a877e8ab2c4f4c3c60d2296189814f94ccf63f5d2c6c11492696fb40bfc6cc.png",
+          "sha256": "e7a877e8ab2c4f4c3c60d2296189814f94ccf63f5d2c6c11492696fb40bfc6cc"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-broken-signal-lod-review/aa0bad16a5aa034dcc74368e62d227d098eb53b2d953a54297eff26e59960a88.png",
+          "sha256": "aa0bad16a5aa034dcc74368e62d227d098eb53b2d953a54297eff26e59960a88"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-broken-signal-lod-review/43c9b894559654c7c4da67ff0bfab5d63e6b5dad3d1b51e8adbea698e864afe3.png",
+          "sha256": "43c9b894559654c7c4da67ff0bfab5d63e6b5dad3d1b51e8adbea698e864afe3"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-broken-signal-lod-review/03b417989fef29bf591941d3b42e29339e6ec0d0a7357e5663a986b0bc981b04.png",
+          "sha256": "03b417989fef29bf591941d3b42e29339e6ec0d0a7357e5663a986b0bc981b04"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-broken-signal-lod-review/10860bdad0e0d45325a30b623faba89d48753e8019ddf99ec9af7bb4d3f9e5d8.png",
+          "sha256": "10860bdad0e0d45325a30b623faba89d48753e8019ddf99ec9af7bb4d3f9e5d8"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-broken-signal-lod-review/d07efd787b99447e156a037bef4309a0a980885dfdb0aa39d16400751a5bc8a3.png",
+          "sha256": "d07efd787b99447e156a037bef4309a0a980885dfdb0aa39d16400751a5bc8a3"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-broken-signal-lod-review/be7e021170fdcea8c0b37dc72049ecbc76b4b47c863267e2c2d49dc80e966cec.png",
+          "sha256": "be7e021170fdcea8c0b37dc72049ecbc76b4b47c863267e2c2d49dc80e966cec"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-broken-signal-lod-review/3af5d9d17d1b79f423ffcc3bfac564a2b592f67159ff2713ef35f52488b0f0d5.png",
+          "sha256": "3af5d9d17d1b79f423ffcc3bfac564a2b592f67159ff2713ef35f52488b0f0d5"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-broken-signal-lod-review/e2e3b481664849642ff4fbe202300c697b4c63e7c0b2385594e1367951f160c4.png",
+          "sha256": "e2e3b481664849642ff4fbe202300c697b4c63e7c0b2385594e1367951f160c4"
+        }
+      ],
+      "render_updated_at": "2026-11-24T13:36:33.177284+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T13:36:33.177284+00:00"
+    },
+    {
+      "id": "f3-industrial-broken-streetlamp-lod-review",
+      "name": "折れた街路灯と垂下配線・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-broken-streetlamp-lod-review/8a25cbd06db9e9c0b5268ef3e87aa209534c67fce6cc926cea870037751be36c.png",
+          "sha256": "8a25cbd06db9e9c0b5268ef3e87aa209534c67fce6cc926cea870037751be36c"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-broken-streetlamp-lod-review/627663d2463dc1713929399441a26dbada33b3c79d3f1a1376cdbb37446278cf.png",
+          "sha256": "627663d2463dc1713929399441a26dbada33b3c79d3f1a1376cdbb37446278cf"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-broken-streetlamp-lod-review/af8c70f90e8b0c9e4a7aa2b557bc1565cb2056d54a93af97b6e17b2126554aaf.png",
+          "sha256": "af8c70f90e8b0c9e4a7aa2b557bc1565cb2056d54a93af97b6e17b2126554aaf"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-broken-streetlamp-lod-review/6f0eb770a13437398c6dee5b67a6c60565247ee176f66fb74410b3745109e7a2.png",
+          "sha256": "6f0eb770a13437398c6dee5b67a6c60565247ee176f66fb74410b3745109e7a2"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-broken-streetlamp-lod-review/d2371b127ee95df1a35ef5e608f89a8da9eae20cb9b8fabc6d09f3ede82a0603.png",
+          "sha256": "d2371b127ee95df1a35ef5e608f89a8da9eae20cb9b8fabc6d09f3ede82a0603"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-broken-streetlamp-lod-review/b68920cc080134c3c84afed17b0cf276097a92637ff00e8248bc34c9f025e2f7.png",
+          "sha256": "b68920cc080134c3c84afed17b0cf276097a92637ff00e8248bc34c9f025e2f7"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-broken-streetlamp-lod-review/22c1e5fd22262ee2b8ffaa9d11bfaaf4540d0e3f4eda01f3083946c090bf2dee.png",
+          "sha256": "22c1e5fd22262ee2b8ffaa9d11bfaaf4540d0e3f4eda01f3083946c090bf2dee"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-broken-streetlamp-lod-review/edf9147aec916bbcf4403d38fb4c8d688d385e83f230cdf3b57760866bce509d.png",
+          "sha256": "edf9147aec916bbcf4403d38fb4c8d688d385e83f230cdf3b57760866bce509d"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-broken-streetlamp-lod-review/1c9c7c114fc091ca6d5d5ddfdcedc2d7ec33f32d15c965a119168dd294229d1d.png",
+          "sha256": "1c9c7c114fc091ca6d5d5ddfdcedc2d7ec33f32d15c965a119168dd294229d1d"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-broken-streetlamp-lod-review/01fb5ccbe75a168063150af548cf4481801787b458d54d6ebe5a48960607e4ed.png",
+          "sha256": "01fb5ccbe75a168063150af548cf4481801787b458d54d6ebe5a48960607e4ed"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-broken-streetlamp-lod-review/7ce670d52bfbe28323dcd4931467ce46ecc580aa3159ccb8ddf01b3280eee4b3.png",
+          "sha256": "7ce670d52bfbe28323dcd4931467ce46ecc580aa3159ccb8ddf01b3280eee4b3"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-broken-streetlamp-lod-review/83d2b722357b0f348fdf67a4f900181b491c083e8b5f6e226846686c5e80e1ee.png",
+          "sha256": "83d2b722357b0f348fdf67a4f900181b491c083e8b5f6e226846686c5e80e1ee"
+        }
+      ],
+      "render_updated_at": "2026-11-24T13:36:33.300563+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T13:36:33.300563+00:00"
+    },
+    {
+      "id": "f3-industrial-control-cabinet-lod-review",
+      "name": "扉が開いた腐食制御盤・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-control-cabinet-lod-review/2b61f7924937f8f79ed7e09a6d867484ac22514a2882e94371821fb46d096058.png",
+          "sha256": "2b61f7924937f8f79ed7e09a6d867484ac22514a2882e94371821fb46d096058"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-control-cabinet-lod-review/f85e210155717b8bf890e67b3c1eb0d602a160a1d58c07848aa9395eb8615074.png",
+          "sha256": "f85e210155717b8bf890e67b3c1eb0d602a160a1d58c07848aa9395eb8615074"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-control-cabinet-lod-review/bdced7821125861b87795d3da89014aa579f34f174e42d3de485a2da14e153a1.png",
+          "sha256": "bdced7821125861b87795d3da89014aa579f34f174e42d3de485a2da14e153a1"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-control-cabinet-lod-review/dc408bfa573e9ad03647cab59c7da56eb8a7b115fc0c18f30f328e49f61f2c97.png",
+          "sha256": "dc408bfa573e9ad03647cab59c7da56eb8a7b115fc0c18f30f328e49f61f2c97"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-control-cabinet-lod-review/9b5a97bb8c8c987ec5ab7ab411279bb9b2d378e98534fa9c08b4a87c5b06327e.png",
+          "sha256": "9b5a97bb8c8c987ec5ab7ab411279bb9b2d378e98534fa9c08b4a87c5b06327e"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-control-cabinet-lod-review/94e98a8ec85a3529d80dab5491d6177111c9ed15af8800be09d0edee10a9174b.png",
+          "sha256": "94e98a8ec85a3529d80dab5491d6177111c9ed15af8800be09d0edee10a9174b"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-control-cabinet-lod-review/71a6d549626bdc413a74edfea749606816841b5c142dc8d2953af0fb5d52804a.png",
+          "sha256": "71a6d549626bdc413a74edfea749606816841b5c142dc8d2953af0fb5d52804a"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-control-cabinet-lod-review/1e20e7aed258a184d4758e208415491047658fb214f60d23e0c92ddfee245cb2.png",
+          "sha256": "1e20e7aed258a184d4758e208415491047658fb214f60d23e0c92ddfee245cb2"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-control-cabinet-lod-review/49457d624d7ff018ee0bb39688f1ec0cfb18746cc37dc3685a07a77a0d012710.png",
+          "sha256": "49457d624d7ff018ee0bb39688f1ec0cfb18746cc37dc3685a07a77a0d012710"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-control-cabinet-lod-review/6e7e4656b6902fe062432b24d8eabb525ea7fb5e4e082cf3468b0481aeaacb91.png",
+          "sha256": "6e7e4656b6902fe062432b24d8eabb525ea7fb5e4e082cf3468b0481aeaacb91"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-control-cabinet-lod-review/80fa8e97d8787c96adb59f8d3f2bc58effdbd9b9879f8ec6c5daa778a67718f1.png",
+          "sha256": "80fa8e97d8787c96adb59f8d3f2bc58effdbd9b9879f8ec6c5daa778a67718f1"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-control-cabinet-lod-review/efb3b494c99935eb5b392a3feb9163c6710f6c3055bf5c9419ccd3d0f8bac6fd.png",
+          "sha256": "efb3b494c99935eb5b392a3feb9163c6710f6c3055bf5c9419ccd3d0f8bac6fd"
+        }
+      ],
+      "render_updated_at": "2026-11-24T13:36:33.526917+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T13:36:33.526917+00:00"
+    },
+    {
+      "id": "f3-industrial-drain-channel-lod-review",
+      "name": "土砂の詰まった排水溝・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-drain-channel-lod-review/d7680eb97e584525f76efb6c3755a8f442e0a50c0726708eae5ef7d5ce894134.png",
+          "sha256": "d7680eb97e584525f76efb6c3755a8f442e0a50c0726708eae5ef7d5ce894134"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-drain-channel-lod-review/4ac751e4a34b6144cfcb8bc2fc2fb9329b0ad8b433ef90d81add11599b9b4a2b.png",
+          "sha256": "4ac751e4a34b6144cfcb8bc2fc2fb9329b0ad8b433ef90d81add11599b9b4a2b"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-drain-channel-lod-review/1e7c77ad981447cad0028d798c13b8561de315c5cae1d81fa92bbe0702b051e2.png",
+          "sha256": "1e7c77ad981447cad0028d798c13b8561de315c5cae1d81fa92bbe0702b051e2"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-drain-channel-lod-review/d4854c407848c1b4e3091c12315cfbdaff80509286592e606f754ee9dbba3660.png",
+          "sha256": "d4854c407848c1b4e3091c12315cfbdaff80509286592e606f754ee9dbba3660"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-drain-channel-lod-review/9d25bba4bcfc10ad77e4f275e49ffa2f3ad50b3f4551316fd2cfe001dd9a2368.png",
+          "sha256": "9d25bba4bcfc10ad77e4f275e49ffa2f3ad50b3f4551316fd2cfe001dd9a2368"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-drain-channel-lod-review/33151722257f36a8a12809d193b6c286554e564f27ab7d6e3250aaa0fcc6c3c9.png",
+          "sha256": "33151722257f36a8a12809d193b6c286554e564f27ab7d6e3250aaa0fcc6c3c9"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-drain-channel-lod-review/cb6213601ea982448e14e42af9d68d40f6e389d979f8be95de046b1192578213.png",
+          "sha256": "cb6213601ea982448e14e42af9d68d40f6e389d979f8be95de046b1192578213"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-drain-channel-lod-review/adc56cbee258c60d6126d76224f04a9082e63831b2405b4d578ea1b58e351a2a.png",
+          "sha256": "adc56cbee258c60d6126d76224f04a9082e63831b2405b4d578ea1b58e351a2a"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-drain-channel-lod-review/640d974fad2d14cc413371c337ee39c4a446408d86fda14f47296520de82282e.png",
+          "sha256": "640d974fad2d14cc413371c337ee39c4a446408d86fda14f47296520de82282e"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-drain-channel-lod-review/f43812c6491213dd6ecbd7a848a9bf6e40f5c27f0316c4c3ae54b6c79dad32f8.png",
+          "sha256": "f43812c6491213dd6ecbd7a848a9bf6e40f5c27f0316c4c3ae54b6c79dad32f8"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-drain-channel-lod-review/656e6bf982ec34a97d58c1fbb4f3d80c10444d4b2dc99b1aafec04a5c5a14d89.png",
+          "sha256": "656e6bf982ec34a97d58c1fbb4f3d80c10444d4b2dc99b1aafec04a5c5a14d89"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-drain-channel-lod-review/66909214a9093e00616f57d8e5ec4a5f10fb8900e45ccad990d993451b1841a2.png",
+          "sha256": "66909214a9093e00616f57d8e5ec4a5f10fb8900e45ccad990d993451b1841a2"
+        }
+      ],
+      "render_updated_at": "2026-11-24T13:36:33.619553+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T13:36:33.619553+00:00"
+    },
+    {
+      "id": "f3-industrial-factory-door-lod-review",
+      "name": "欠けた工場入口と歪んだ扉・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-factory-door-lod-review/5f87a413b8b499323b69cee6e95326aee6e29d58c1dbdd0af364706d6b791a09.png",
+          "sha256": "5f87a413b8b499323b69cee6e95326aee6e29d58c1dbdd0af364706d6b791a09"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-factory-door-lod-review/9b3324aac8a62ed7c608994f9969c9b4ee8e10b53ce03c150d04a4ec11df7c37.png",
+          "sha256": "9b3324aac8a62ed7c608994f9969c9b4ee8e10b53ce03c150d04a4ec11df7c37"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-factory-door-lod-review/154410787eb3a476d15a30dceb138de64acdd18e52c20769c92be99e66441418.png",
+          "sha256": "154410787eb3a476d15a30dceb138de64acdd18e52c20769c92be99e66441418"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-factory-door-lod-review/4d822317164d9096265b1ec0670d2438bb544b3a2b0775fc6ccf2e2ab0a2f2e4.png",
+          "sha256": "4d822317164d9096265b1ec0670d2438bb544b3a2b0775fc6ccf2e2ab0a2f2e4"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-factory-door-lod-review/b111843ecd6c3c62ec2d23ac45e43497f6c343217afd8e36b994f8827a0f5651.png",
+          "sha256": "b111843ecd6c3c62ec2d23ac45e43497f6c343217afd8e36b994f8827a0f5651"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-factory-door-lod-review/dfba39f6636fb0b590c23bf93fe3807eb4c4f989381ca48a02cc20ce5f17c1a8.png",
+          "sha256": "dfba39f6636fb0b590c23bf93fe3807eb4c4f989381ca48a02cc20ce5f17c1a8"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-factory-door-lod-review/d8df4b842e61f38efc9dec950a222fe48e29261986d3e946fd23e081c6e7d4cf.png",
+          "sha256": "d8df4b842e61f38efc9dec950a222fe48e29261986d3e946fd23e081c6e7d4cf"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-factory-door-lod-review/c84a991eb0a960f8c0b7788eca1d1094429fde404a0245829c4f98c12ce2e016.png",
+          "sha256": "c84a991eb0a960f8c0b7788eca1d1094429fde404a0245829c4f98c12ce2e016"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-factory-door-lod-review/e687f163d02eb6f5f0345fd29a935c44ee68417d6029ec4bb83fc6105544ead2.png",
+          "sha256": "e687f163d02eb6f5f0345fd29a935c44ee68417d6029ec4bb83fc6105544ead2"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-factory-door-lod-review/ab02a6d12c9d74afa20a8f0ff6b5e794710b8ab52f135aa7e99c8a54e26ce0b4.png",
+          "sha256": "ab02a6d12c9d74afa20a8f0ff6b5e794710b8ab52f135aa7e99c8a54e26ce0b4"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-factory-door-lod-review/785b3bc8e830f90367cf8bb9c412f6f4e2033a44390e7243e7ebd9ae733ac5c2.png",
+          "sha256": "785b3bc8e830f90367cf8bb9c412f6f4e2033a44390e7243e7ebd9ae733ac5c2"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-factory-door-lod-review/91345d6c5386035d54254dead4b3212a7007dd0a711fc1588ca61a33e7b727d7.png",
+          "sha256": "91345d6c5386035d54254dead4b3212a7007dd0a711fc1588ca61a33e7b727d7"
+        }
+      ],
+      "render_updated_at": "2026-11-24T13:36:33.745400+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T13:36:33.745400+00:00"
+    },
+    {
+      "id": "f3-industrial-flanged-pipe-lod-review",
+      "name": "フランジ付き破断配管・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-flanged-pipe-lod-review/d362a137221aebd1dfb6795e80a8f88b303ee168a770d8c79a2b3cd29868ee57.png",
+          "sha256": "d362a137221aebd1dfb6795e80a8f88b303ee168a770d8c79a2b3cd29868ee57"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-flanged-pipe-lod-review/f96db233b388f06a69df825beda08e9e2f1cdb4408415d262c377635db303cf4.png",
+          "sha256": "f96db233b388f06a69df825beda08e9e2f1cdb4408415d262c377635db303cf4"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-flanged-pipe-lod-review/1939cdee5c5b057e28528b279b27511faaa6860a781e34557252cb8705c3a1f3.png",
+          "sha256": "1939cdee5c5b057e28528b279b27511faaa6860a781e34557252cb8705c3a1f3"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-flanged-pipe-lod-review/e240f854e7fd207243da7f3884f9dbd1428f1f5e7d718f07ebedc169c7da0a12.png",
+          "sha256": "e240f854e7fd207243da7f3884f9dbd1428f1f5e7d718f07ebedc169c7da0a12"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-flanged-pipe-lod-review/af9c3cb634066b7e7341065864e0cf57a52e7e654ff6f988e372d270ba311eb5.png",
+          "sha256": "af9c3cb634066b7e7341065864e0cf57a52e7e654ff6f988e372d270ba311eb5"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-flanged-pipe-lod-review/b832935c78093515b121cf32fd197c38d754e21c37e8a0940c1e00c745806c2a.png",
+          "sha256": "b832935c78093515b121cf32fd197c38d754e21c37e8a0940c1e00c745806c2a"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-flanged-pipe-lod-review/e443e1960db6d32216c08ad38a1a3271a872bab694be41be4f9d8fa6d892a5ab.png",
+          "sha256": "e443e1960db6d32216c08ad38a1a3271a872bab694be41be4f9d8fa6d892a5ab"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-flanged-pipe-lod-review/ae93d686e2eaf309e66da4cbf7e6b13a1aa7b737c9fe575b28bee8fe59129202.png",
+          "sha256": "ae93d686e2eaf309e66da4cbf7e6b13a1aa7b737c9fe575b28bee8fe59129202"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-flanged-pipe-lod-review/6de3455b6b1a53f939eb8adb982aac86650493d6d8831240495ec51ed7a183d1.png",
+          "sha256": "6de3455b6b1a53f939eb8adb982aac86650493d6d8831240495ec51ed7a183d1"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-flanged-pipe-lod-review/8e2a4874e02a4002c7c20e65a0ba5ef772f602a7bec38261877b5ff40700228c.png",
+          "sha256": "8e2a4874e02a4002c7c20e65a0ba5ef772f602a7bec38261877b5ff40700228c"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-flanged-pipe-lod-review/70c912d6ecf0aa9ae4589fdc46fe0564f6db102967d7174e41ebaad360e7e1a6.png",
+          "sha256": "70c912d6ecf0aa9ae4589fdc46fe0564f6db102967d7174e41ebaad360e7e1a6"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-flanged-pipe-lod-review/a27db105fef9325f902053f573fb9a462bd8b4090f1c650eae246ab4e1fe6d6d.png",
+          "sha256": "a27db105fef9325f902053f573fb9a462bd8b4090f1c650eae246ab4e1fe6d6d"
+        }
+      ],
+      "render_updated_at": "2026-11-24T13:36:33.872677+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T13:36:33.872677+00:00"
+    },
+    {
+      "id": "f3-industrial-grating-catwalk-lod-review",
+      "name": "欠損グレーチング歩廊・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-grating-catwalk-lod-review/a7bebdf3cec6cb210400d64abdd563a8d1bd6f69dc2c906e4ad6fdfb2dd21931.png",
+          "sha256": "a7bebdf3cec6cb210400d64abdd563a8d1bd6f69dc2c906e4ad6fdfb2dd21931"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-grating-catwalk-lod-review/adcd8b640166e8e97daffff468c21903666f098ae89815225c54be296c7e86da.png",
+          "sha256": "adcd8b640166e8e97daffff468c21903666f098ae89815225c54be296c7e86da"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-grating-catwalk-lod-review/0b6ee5861b6315cf8cfdcb8d2ff12bb8cc5dc681f6436e563d9c35237ac19026.png",
+          "sha256": "0b6ee5861b6315cf8cfdcb8d2ff12bb8cc5dc681f6436e563d9c35237ac19026"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-grating-catwalk-lod-review/722035ba07e513a179eb91a8b13b3385ac46e819148cf17b2914c009a8c280d9.png",
+          "sha256": "722035ba07e513a179eb91a8b13b3385ac46e819148cf17b2914c009a8c280d9"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-grating-catwalk-lod-review/a589bde278592531e7b84683828e513220f18677ab3069c26447ce41167a046f.png",
+          "sha256": "a589bde278592531e7b84683828e513220f18677ab3069c26447ce41167a046f"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-grating-catwalk-lod-review/44de2b6f4bac73b9f6e1bb692c367e49d6e1c07f6fdae1a6e5dc6ccac11c2af5.png",
+          "sha256": "44de2b6f4bac73b9f6e1bb692c367e49d6e1c07f6fdae1a6e5dc6ccac11c2af5"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-grating-catwalk-lod-review/d668ba71eb091caa03eafdda2e235ac62833c7eb6169299286790f28642cdc18.png",
+          "sha256": "d668ba71eb091caa03eafdda2e235ac62833c7eb6169299286790f28642cdc18"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-grating-catwalk-lod-review/08279e8c3df0c8c459e62fbdbc70a277a647ed15dfa2b1205fd02a32a69c4099.png",
+          "sha256": "08279e8c3df0c8c459e62fbdbc70a277a647ed15dfa2b1205fd02a32a69c4099"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-grating-catwalk-lod-review/d1c8ebb6c4b16e8ab3401c9554b479ac940e90bc3bd5a1753c0e74f5d08f6290.png",
+          "sha256": "d1c8ebb6c4b16e8ab3401c9554b479ac940e90bc3bd5a1753c0e74f5d08f6290"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-grating-catwalk-lod-review/52d97baf5e2957211b9a9d3cde76e9056287a75cdd22d2e9e1a2932491c2de58.png",
+          "sha256": "52d97baf5e2957211b9a9d3cde76e9056287a75cdd22d2e9e1a2932491c2de58"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-grating-catwalk-lod-review/bbaef570d3889f621d871d9b6100a6276fd53c0c4de9402ea681898d0ee9ba5e.png",
+          "sha256": "bbaef570d3889f621d871d9b6100a6276fd53c0c4de9402ea681898d0ee9ba5e"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-grating-catwalk-lod-review/23835753eafda97912ad49d9085d249971f76bcd9d0e6bab5c1a959497f1961d.png",
+          "sha256": "23835753eafda97912ad49d9085d249971f76bcd9d0e6bab5c1a959497f1961d"
+        }
+      ],
+      "render_updated_at": "2026-11-24T13:36:33.991971+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T13:36:33.991971+00:00"
+    },
+    {
+      "id": "f3-industrial-heaved-asphalt-lod-review",
+      "name": "根で持ち上がった舗装と縁石・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-heaved-asphalt-lod-review/a51b61a8e38e7f0bf7c1395974c606d660d5de7cf68bda49fe073f8fb3fece30.png",
+          "sha256": "a51b61a8e38e7f0bf7c1395974c606d660d5de7cf68bda49fe073f8fb3fece30"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-heaved-asphalt-lod-review/16530d893f81bc0a9d7fca9ebd238d1e19be136fe4370cd17bd3d793882bf858.png",
+          "sha256": "16530d893f81bc0a9d7fca9ebd238d1e19be136fe4370cd17bd3d793882bf858"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-heaved-asphalt-lod-review/e6177cc2c2d34f7585a5163b0fc42874f1277f74f96e44e7a243d0ee5a9169b6.png",
+          "sha256": "e6177cc2c2d34f7585a5163b0fc42874f1277f74f96e44e7a243d0ee5a9169b6"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-heaved-asphalt-lod-review/dadeb049b04e041acbac1d64e5edd42b649f6f1b346fbf0b646c6f3f61a16f1d.png",
+          "sha256": "dadeb049b04e041acbac1d64e5edd42b649f6f1b346fbf0b646c6f3f61a16f1d"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-heaved-asphalt-lod-review/09881a8cbacbd4784f354bc0e67669bbe934542c9491dfc93078ebdb3bfc03ef.png",
+          "sha256": "09881a8cbacbd4784f354bc0e67669bbe934542c9491dfc93078ebdb3bfc03ef"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-heaved-asphalt-lod-review/9d058527a3f80784f11288d970f96d62e20c5a981cb78e26332b4aafc0d482b0.png",
+          "sha256": "9d058527a3f80784f11288d970f96d62e20c5a981cb78e26332b4aafc0d482b0"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-heaved-asphalt-lod-review/f7ffaeda14e09c87edfe7927f9b67d8247c24695fc0c9c97d2fa8e97db947f0c.png",
+          "sha256": "f7ffaeda14e09c87edfe7927f9b67d8247c24695fc0c9c97d2fa8e97db947f0c"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-heaved-asphalt-lod-review/c091d040278ab878c70dfe89193fb60d058b1ef93a1ec79275dccf6ed46a64b4.png",
+          "sha256": "c091d040278ab878c70dfe89193fb60d058b1ef93a1ec79275dccf6ed46a64b4"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-heaved-asphalt-lod-review/018a56fa7c902d380d8a65136546435570ae6262558075ce4de21934760f7cbb.png",
+          "sha256": "018a56fa7c902d380d8a65136546435570ae6262558075ce4de21934760f7cbb"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-heaved-asphalt-lod-review/1ad7d75a2046966ab6480702cfd99bc45fb0591844ea76227095a567b230429d.png",
+          "sha256": "1ad7d75a2046966ab6480702cfd99bc45fb0591844ea76227095a567b230429d"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-heaved-asphalt-lod-review/7ec370a21e130128a468a6ed7fddb925893a9f5d24d78ec86b95a8a8ccd56ca0.png",
+          "sha256": "7ec370a21e130128a468a6ed7fddb925893a9f5d24d78ec86b95a8a8ccd56ca0"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-heaved-asphalt-lod-review/9a317579fee92f065fd7c680ec60dabf98cf16a90b59d46a97cd138c4f61048a.png",
+          "sha256": "9a317579fee92f065fd7c680ec60dabf98cf16a90b59d46a97cd138c4f61048a"
+        }
+      ],
+      "render_updated_at": "2026-11-24T13:36:34.170888+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T13:36:34.170888+00:00"
+    },
+    {
+      "id": "f3-industrial-landing-railing-lod-review",
+      "name": "踊り場と曲がった手摺・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-landing-railing-lod-review/eccea25f82b75dfe4af406987cf3778c147e408d6d58b9ac63778c7a78b24140.png",
+          "sha256": "eccea25f82b75dfe4af406987cf3778c147e408d6d58b9ac63778c7a78b24140"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-landing-railing-lod-review/cd50e052b7ddbb090592f181f093d6b52c64282e0df19e401c714130b5005dac.png",
+          "sha256": "cd50e052b7ddbb090592f181f093d6b52c64282e0df19e401c714130b5005dac"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-landing-railing-lod-review/169bea195a7aab615560b774a7fd984cbc68e5eab9efc0a08ea81c3c1c3ced5d.png",
+          "sha256": "169bea195a7aab615560b774a7fd984cbc68e5eab9efc0a08ea81c3c1c3ced5d"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-landing-railing-lod-review/b0691f130c4cb320ba6535ebe42dcb8dba8b3b10882aa70461dab7080ed6d696.png",
+          "sha256": "b0691f130c4cb320ba6535ebe42dcb8dba8b3b10882aa70461dab7080ed6d696"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-landing-railing-lod-review/22f1e9a398c0f9f36c277bb2bb1f9f6eb1018456d430fff378ba5892e0589390.png",
+          "sha256": "22f1e9a398c0f9f36c277bb2bb1f9f6eb1018456d430fff378ba5892e0589390"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-landing-railing-lod-review/254234f7cc15b9f2782c8f74940bd6638cbe2cc7517e4ee3f02416a47071b2bf.png",
+          "sha256": "254234f7cc15b9f2782c8f74940bd6638cbe2cc7517e4ee3f02416a47071b2bf"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-landing-railing-lod-review/06abf2d030706ad587464ed439bfc84dd262d01ab70945664a514d78b967c1e8.png",
+          "sha256": "06abf2d030706ad587464ed439bfc84dd262d01ab70945664a514d78b967c1e8"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-landing-railing-lod-review/92591e76fa0aa8aefed2b29ee87fb4c93ea188cdf623ed1195f2e53582e52afb.png",
+          "sha256": "92591e76fa0aa8aefed2b29ee87fb4c93ea188cdf623ed1195f2e53582e52afb"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-landing-railing-lod-review/8b972d2c7bb9628f6f546bc5805ffa99fa81bd8d5da26e009ff7842b8e0f6151.png",
+          "sha256": "8b972d2c7bb9628f6f546bc5805ffa99fa81bd8d5da26e009ff7842b8e0f6151"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-landing-railing-lod-review/eda3817502939f30d16a5cbe135b37d687c7ef3a2abfb2754f7d241cbebbd4c0.png",
+          "sha256": "eda3817502939f30d16a5cbe135b37d687c7ef3a2abfb2754f7d241cbebbd4c0"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-landing-railing-lod-review/9fbd1b58c77d9317a37f6d744a8f286f7aace35eaeb615273367ac4c370ea916.png",
+          "sha256": "9fbd1b58c77d9317a37f6d744a8f286f7aace35eaeb615273367ac4c370ea916"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-landing-railing-lod-review/3e612eb9f306f2530c6275285303d1e7b1352b6291a7bf075e40650c60a5d853.png",
+          "sha256": "3e612eb9f306f2530c6275285303d1e7b1352b6291a7bf075e40650c60a5d853"
+        }
+      ],
+      "render_updated_at": "2026-11-24T13:36:34.275386+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T13:36:34.275386+00:00"
+    },
+    {
+      "id": "f3-industrial-pipe-rack-lod-review",
+      "name": "垂れ下がる配管ラック・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-pipe-rack-lod-review/7e4045e7d040c6cd4bac859607d30735f30cd215b9c35d8b03ee9820d25e569a.png",
+          "sha256": "7e4045e7d040c6cd4bac859607d30735f30cd215b9c35d8b03ee9820d25e569a"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-pipe-rack-lod-review/d00316c41d3fc124726f3d40dd314aa7517a052db6897f170026ad5294944752.png",
+          "sha256": "d00316c41d3fc124726f3d40dd314aa7517a052db6897f170026ad5294944752"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-pipe-rack-lod-review/6648161b9275f631680b68cd6f7430fe02e95ef06bbbae5bf57379510b551c48.png",
+          "sha256": "6648161b9275f631680b68cd6f7430fe02e95ef06bbbae5bf57379510b551c48"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-pipe-rack-lod-review/6436b739901cabc5b9a7186032b88c2ce249718d63296f2ac418bda3f2b1cf02.png",
+          "sha256": "6436b739901cabc5b9a7186032b88c2ce249718d63296f2ac418bda3f2b1cf02"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-pipe-rack-lod-review/eb54a8f80a7f6e6bfe1e4b087c481b1bd009fbbca145869eab3d90c39a84e443.png",
+          "sha256": "eb54a8f80a7f6e6bfe1e4b087c481b1bd009fbbca145869eab3d90c39a84e443"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-pipe-rack-lod-review/69d857e8eb27bacac87bd3ae4aa5c7d139802c72d537f2177d1f8ecb04de6ada.png",
+          "sha256": "69d857e8eb27bacac87bd3ae4aa5c7d139802c72d537f2177d1f8ecb04de6ada"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-pipe-rack-lod-review/53ee2100e04acd06a0dbc6ee92b905dc3227be6f25fce7ae9bbd860fbc6578cd.png",
+          "sha256": "53ee2100e04acd06a0dbc6ee92b905dc3227be6f25fce7ae9bbd860fbc6578cd"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-pipe-rack-lod-review/adac69f22ff79f031419d6b654c8173709345c0fc000343e9a6e83ea3425ff5a.png",
+          "sha256": "adac69f22ff79f031419d6b654c8173709345c0fc000343e9a6e83ea3425ff5a"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-pipe-rack-lod-review/dad9c923d89c234b4891c3fd4cad3a7b18aa1cd641230e13c13ea250d7fa2f05.png",
+          "sha256": "dad9c923d89c234b4891c3fd4cad3a7b18aa1cd641230e13c13ea250d7fa2f05"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-pipe-rack-lod-review/55ec0daa13e85f40256736ff4412167baf0bbe8880b5a481400bb40b886473b7.png",
+          "sha256": "55ec0daa13e85f40256736ff4412167baf0bbe8880b5a481400bb40b886473b7"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-pipe-rack-lod-review/1a62c5b7afb2c573fd48ebdd7c8edb3dd6c5ec5ff542e8a1b8e06102961796ac.png",
+          "sha256": "1a62c5b7afb2c573fd48ebdd7c8edb3dd6c5ec5ff542e8a1b8e06102961796ac"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-pipe-rack-lod-review/0709beae7925403aa859578f00c8d6a9152ea10e8ca6a528a8d28e586e5a9195.png",
+          "sha256": "0709beae7925403aa859578f00c8d6a9152ea10e8ca6a528a8d28e586e5a9195"
+        }
+      ],
+      "render_updated_at": "2026-11-24T13:36:34.381761+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T13:36:34.381761+00:00"
+    },
+    {
+      "id": "f3-industrial-rebar-rubble-lod-review",
+      "name": "鉄筋入り剥落コンクリート群・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-rebar-rubble-lod-review/0cb570cd2519c88057635c25781b336cd536341a90ff0b8ef22889f9251db2cb.png",
+          "sha256": "0cb570cd2519c88057635c25781b336cd536341a90ff0b8ef22889f9251db2cb"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-rebar-rubble-lod-review/76e349fff7f31b01dd19c1269f4b0f69ebdc19b7395e66edfc19dadb07177599.png",
+          "sha256": "76e349fff7f31b01dd19c1269f4b0f69ebdc19b7395e66edfc19dadb07177599"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-rebar-rubble-lod-review/392dfdfaac3474735d3848c7a99bc91677e4fa7f20dd5e51f8c83af2cb1012df.png",
+          "sha256": "392dfdfaac3474735d3848c7a99bc91677e4fa7f20dd5e51f8c83af2cb1012df"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-rebar-rubble-lod-review/f5d0ea9182e0648a8ee4dd39daec6b602894325293a63a64af8340337fe82af5.png",
+          "sha256": "f5d0ea9182e0648a8ee4dd39daec6b602894325293a63a64af8340337fe82af5"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-rebar-rubble-lod-review/db896fdd37db07bf9ecbd947e56517c2ba4fa3adcc057211babf1e32281221c1.png",
+          "sha256": "db896fdd37db07bf9ecbd947e56517c2ba4fa3adcc057211babf1e32281221c1"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-rebar-rubble-lod-review/89a4ec3bd79918c32db49cd42c67b7716df927f6c00d97e3c6d007b733e09934.png",
+          "sha256": "89a4ec3bd79918c32db49cd42c67b7716df927f6c00d97e3c6d007b733e09934"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-rebar-rubble-lod-review/1c35b0c01164345c46767cfc0be0430c043c60dd5b4fddb971d7d91a30549d11.png",
+          "sha256": "1c35b0c01164345c46767cfc0be0430c043c60dd5b4fddb971d7d91a30549d11"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-rebar-rubble-lod-review/3f292a8a8515bd1ba406b7ad86fbc93974dba476b31f68051a49f7612855d9d1.png",
+          "sha256": "3f292a8a8515bd1ba406b7ad86fbc93974dba476b31f68051a49f7612855d9d1"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-rebar-rubble-lod-review/1725cb1291aff96dda7ace401904916647cb649c0aff7e5393d01269ed75cacd.png",
+          "sha256": "1725cb1291aff96dda7ace401904916647cb649c0aff7e5393d01269ed75cacd"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-rebar-rubble-lod-review/9a2f95fec9646c02be795ac6e0fe00b68efe81e10593246fdd0d614109e003a7.png",
+          "sha256": "9a2f95fec9646c02be795ac6e0fe00b68efe81e10593246fdd0d614109e003a7"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-rebar-rubble-lod-review/50c27aec38a7f75505756a290ae64f6b1c7cf09b1b314cf7ce4d975984cfb17d.png",
+          "sha256": "50c27aec38a7f75505756a290ae64f6b1c7cf09b1b314cf7ce4d975984cfb17d"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-rebar-rubble-lod-review/f164142d4df3876ef1b439290a02354265de0a0c7b656b1407bf47a0683a463a.png",
+          "sha256": "f164142d4df3876ef1b439290a02354265de0a0c7b656b1407bf47a0683a463a"
+        }
+      ],
+      "render_updated_at": "2026-11-24T13:36:34.501038+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T13:36:34.501038+00:00"
+    },
+    {
+      "id": "f3-industrial-roller-shutter-lod-review",
+      "name": "破れた工場シャッター・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-roller-shutter-lod-review/6c6b32147e63f219145ab5475c889d4f4222f18d3b0888d591d516964d480668.png",
+          "sha256": "6c6b32147e63f219145ab5475c889d4f4222f18d3b0888d591d516964d480668"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-roller-shutter-lod-review/505ceb6312b3bec93acff751a50703c5d66bd40b54bf1bd8dadccd73fba68520.png",
+          "sha256": "505ceb6312b3bec93acff751a50703c5d66bd40b54bf1bd8dadccd73fba68520"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-roller-shutter-lod-review/a8d9f5f72ecbfdfcf64faa10481c57ee1ba7dae17b684062750f9d9944cbd820.png",
+          "sha256": "a8d9f5f72ecbfdfcf64faa10481c57ee1ba7dae17b684062750f9d9944cbd820"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-roller-shutter-lod-review/dc4157aaf847b6e99f4a2b4385d57b878c2c62b9929511b9b65c84766d6c33ac.png",
+          "sha256": "dc4157aaf847b6e99f4a2b4385d57b878c2c62b9929511b9b65c84766d6c33ac"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-roller-shutter-lod-review/d37677f0cc3dcc1f1a4a4ce016556cd77e324e3b03b638b351d8e8b42b35e763.png",
+          "sha256": "d37677f0cc3dcc1f1a4a4ce016556cd77e324e3b03b638b351d8e8b42b35e763"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-roller-shutter-lod-review/a59b9e94e32126d97bd6717c4d8d8f0c29c8a97c00b18f1f922f7ac93de346bc.png",
+          "sha256": "a59b9e94e32126d97bd6717c4d8d8f0c29c8a97c00b18f1f922f7ac93de346bc"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-roller-shutter-lod-review/4687a6bd8e1adb559936a5fc372fa28803c787407a2410748d59017438bbe267.png",
+          "sha256": "4687a6bd8e1adb559936a5fc372fa28803c787407a2410748d59017438bbe267"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-roller-shutter-lod-review/b87bc7acbf6c65140afb6be31012026fffaf40d55fc5315cc54b5a8403db4ce3.png",
+          "sha256": "b87bc7acbf6c65140afb6be31012026fffaf40d55fc5315cc54b5a8403db4ce3"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-roller-shutter-lod-review/9d3f88e19d450ebce03c92496a065b1bf03299492777f40b7d0429a360576f0b.png",
+          "sha256": "9d3f88e19d450ebce03c92496a065b1bf03299492777f40b7d0429a360576f0b"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-roller-shutter-lod-review/1f456cca49b01a1705daa3e3fe3cff8eea6198aaed609e4051a30e089a8317e5.png",
+          "sha256": "1f456cca49b01a1705daa3e3fe3cff8eea6198aaed609e4051a30e089a8317e5"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-roller-shutter-lod-review/ed65e20ca18dc222064cec78aecb0e48fe33fbd0327b5fe756f1e406f2ff369a.png",
+          "sha256": "ed65e20ca18dc222064cec78aecb0e48fe33fbd0327b5fe756f1e406f2ff369a"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-roller-shutter-lod-review/9683b8d28f115ba632a041d39ea0f81b63848688d4d5b2f731432bec8b93eadf.png",
+          "sha256": "9683b8d28f115ba632a041d39ea0f81b63848688d4d5b2f731432bec8b93eadf"
+        }
+      ],
+      "render_updated_at": "2026-11-24T13:36:34.681297+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T13:36:34.681297+00:00"
+    },
+    {
+      "id": "f3-industrial-service-stair-lod-review",
+      "name": "崩れた工場保守階段・LOD比較",
+      "floor": "第3層 遺跡都市",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "status": "制作中",
+      "run_id": 45372771290,
+      "source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "images": [
+        {
+          "view": "lod0_front",
+          "path": "renders/f3-industrial-service-stair-lod-review/905ac9e24de8299e8df574dae8788357482b33123aa467b4353f324a8b80ad46.png",
+          "sha256": "905ac9e24de8299e8df574dae8788357482b33123aa467b4353f324a8b80ad46"
+        },
+        {
+          "view": "lod0_side",
+          "path": "renders/f3-industrial-service-stair-lod-review/3ca9c18b893bbd4cd4a9ff874fa5df050ad2eb6c7b1014e85667a517bc8d596e.png",
+          "sha256": "3ca9c18b893bbd4cd4a9ff874fa5df050ad2eb6c7b1014e85667a517bc8d596e"
+        },
+        {
+          "view": "lod0_angle",
+          "path": "renders/f3-industrial-service-stair-lod-review/56a3c3b256d0c7ce615d5ea774f44023f49a0d6b36373f07db70b2aca43e793f.png",
+          "sha256": "56a3c3b256d0c7ce615d5ea774f44023f49a0d6b36373f07db70b2aca43e793f"
+        },
+        {
+          "view": "lod0_top",
+          "path": "renders/f3-industrial-service-stair-lod-review/66c52d48edf19dc314970d82f436fdd4171c917fa9c4ce16ab7f19caf3b6949c.png",
+          "sha256": "66c52d48edf19dc314970d82f436fdd4171c917fa9c4ce16ab7f19caf3b6949c"
+        },
+        {
+          "view": "lod1_front",
+          "path": "renders/f3-industrial-service-stair-lod-review/51952db3031d8c0ceef7d809162f54469cfc1bd56a73a7f42a1d530c1b0fc528.png",
+          "sha256": "51952db3031d8c0ceef7d809162f54469cfc1bd56a73a7f42a1d530c1b0fc528"
+        },
+        {
+          "view": "lod1_side",
+          "path": "renders/f3-industrial-service-stair-lod-review/4861b8e58abc9d1a0a1ba71f5d7965f30d100137b22eb04b64b5b98acd8a9c1a.png",
+          "sha256": "4861b8e58abc9d1a0a1ba71f5d7965f30d100137b22eb04b64b5b98acd8a9c1a"
+        },
+        {
+          "view": "lod1_angle",
+          "path": "renders/f3-industrial-service-stair-lod-review/41d283e1a174a2015eea2ccfe27a3193fe60c4bab746d4f88a6125495058ef2b.png",
+          "sha256": "41d283e1a174a2015eea2ccfe27a3193fe60c4bab746d4f88a6125495058ef2b"
+        },
+        {
+          "view": "lod1_top",
+          "path": "renders/f3-industrial-service-stair-lod-review/d3ec8cceee4ba45f6f6efe9edd424b00c191c6a262080fcea6a6fec7d4db0d15.png",
+          "sha256": "d3ec8cceee4ba45f6f6efe9edd424b00c191c6a262080fcea6a6fec7d4db0d15"
+        },
+        {
+          "view": "lod2_front",
+          "path": "renders/f3-industrial-service-stair-lod-review/489931455bfc0b09c018b4a12a2c34c92dacd61e4a0666c4ab01d826fd439661.png",
+          "sha256": "489931455bfc0b09c018b4a12a2c34c92dacd61e4a0666c4ab01d826fd439661"
+        },
+        {
+          "view": "lod2_side",
+          "path": "renders/f3-industrial-service-stair-lod-review/99b87df6456b27ccfa7963f71acae11eb3d97a788d65c6e340e0e0f5af66e2af.png",
+          "sha256": "99b87df6456b27ccfa7963f71acae11eb3d97a788d65c6e340e0e0f5af66e2af"
+        },
+        {
+          "view": "lod2_angle",
+          "path": "renders/f3-industrial-service-stair-lod-review/f08a8b0cd23700815e589ff19fed486018d3554ba5a6d6e289e84d19bde8cd4c.png",
+          "sha256": "f08a8b0cd23700815e589ff19fed486018d3554ba5a6d6e289e84d19bde8cd4c"
+        },
+        {
+          "view": "lod2_top",
+          "path": "renders/f3-industrial-service-stair-lod-review/0524cfb58054e9971cd03ccfcbbeaf621f7b6aff0dcc43ca1c69d6e525313e8e.png",
+          "sha256": "0524cfb58054e9971cd03ccfcbbeaf621f7b6aff0dcc43ca1c69d6e525313e8e"
+        }
+      ],
+      "render_updated_at": "2026-11-24T13:36:34.773540+00:00",
+      "render_version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "render_source_sha": "21cbdd634849b774fcf37e68cbbff98284ca79e1",
+      "render_run_id": 45372771290,
+      "updated_at": "2026-11-24T13:36:34.773540+00:00"
     }
   ]
 }
