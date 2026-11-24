@@ -694,6 +694,47 @@
       "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
       "render_run_id": 45332418931,
       "updated_at": "2026-11-24T05:28:58.783878+00:00"
+    },
+    {
+      "id": "f3-industrial-landing-railing",
+      "name": "踊り場と曲がった手摺",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "status": "制作中",
+      "run_id": 45332418931,
+      "source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-landing-railing/380e33b4544e9bbd7c3307f2e3e4e0636655d763dd6be99fa5f38d388b9bc85e.png",
+          "sha256": "380e33b4544e9bbd7c3307f2e3e4e0636655d763dd6be99fa5f38d388b9bc85e"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-landing-railing/b4d588e1eec260c309a632001bc7629349095acb7c3f3d5c6f876291bf09185a.png",
+          "sha256": "b4d588e1eec260c309a632001bc7629349095acb7c3f3d5c6f876291bf09185a"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-landing-railing/b4b804bb39fc60952299f7cdbde839d6883bfdd5ae39cbff8263afd2b5218ba5.png",
+          "sha256": "b4b804bb39fc60952299f7cdbde839d6883bfdd5ae39cbff8263afd2b5218ba5"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-landing-railing/5c0ad657e25f580e1f578431700f252a52c53978526315eeb313942b7fa130d1.png",
+          "sha256": "5c0ad657e25f580e1f578431700f252a52c53978526315eeb313942b7fa130d1"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-landing-railing/8facd8d53c2b103d67f84b03aa9968a184ae3bef1da5027999bac615bdbbbab1.png",
+          "sha256": "8facd8d53c2b103d67f84b03aa9968a184ae3bef1da5027999bac615bdbbbab1"
+        }
+      ],
+      "render_updated_at": "2026-11-24T05:31:43.024728+00:00",
+      "render_version": "個別PBR・構造検証 18c5ea0",
+      "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "render_run_id": 45332418931,
+      "updated_at": "2026-11-24T05:31:43.024728+00:00"
     }
   ]
 }
