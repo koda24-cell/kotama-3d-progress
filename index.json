@@ -735,6 +735,88 @@
       "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
       "render_run_id": 45332418931,
       "updated_at": "2026-11-24T05:31:43.024728+00:00"
+    },
+    {
+      "id": "f3-industrial-bridge-abutment",
+      "name": "崩壊橋台と露出支承",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "status": "制作中",
+      "run_id": 45332418931,
+      "source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-bridge-abutment/0a3e53eeadf208ef05e651d32df16c6f074f9a86837d3d65cc7b98dd07b4617e.png",
+          "sha256": "0a3e53eeadf208ef05e651d32df16c6f074f9a86837d3d65cc7b98dd07b4617e"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-bridge-abutment/7ab1d5e5a7acd1638c998e0d70b52b98f2bc8c9240dafc2e6666c5c5c2ba50a9.png",
+          "sha256": "7ab1d5e5a7acd1638c998e0d70b52b98f2bc8c9240dafc2e6666c5c5c2ba50a9"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-bridge-abutment/7cb5aade17af8e6b5923a34d9f64203cd7ca62740f99c0d8b7fc9c7a35914889.png",
+          "sha256": "7cb5aade17af8e6b5923a34d9f64203cd7ca62740f99c0d8b7fc9c7a35914889"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-bridge-abutment/de5d2cdfa9e26511f97ce502c6f572ceb33e6738311255d325c78ef15e7ba9fb.png",
+          "sha256": "de5d2cdfa9e26511f97ce502c6f572ceb33e6738311255d325c78ef15e7ba9fb"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-bridge-abutment/8f35916b16b847d55d650d1b999a67769ea4b77869a975ebd7f10db9e324bc61.png",
+          "sha256": "8f35916b16b847d55d650d1b999a67769ea4b77869a975ebd7f10db9e324bc61"
+        }
+      ],
+      "render_updated_at": "2026-11-24T05:34:01.623083+00:00",
+      "render_version": "個別PBR・構造検証 18c5ea0",
+      "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "render_run_id": 45332418931,
+      "updated_at": "2026-11-24T05:34:01.623083+00:00"
+    },
+    {
+      "id": "f3-industrial-broken-signal",
+      "name": "破損三灯式信号機",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 18c5ea0",
+      "status": "制作中",
+      "run_id": 45332418931,
+      "source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-broken-signal/67a2ab2723e0058e080fcc8197e43d65df69a40f47f6a1e6f6846af53d993729.png",
+          "sha256": "67a2ab2723e0058e080fcc8197e43d65df69a40f47f6a1e6f6846af53d993729"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-broken-signal/36bb60d94e60317f921c5cbe547bffbe7e76fa27071a94e40a392e7a81225420.png",
+          "sha256": "36bb60d94e60317f921c5cbe547bffbe7e76fa27071a94e40a392e7a81225420"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-broken-signal/961674e3cd1cad65ab3fb987b87d67efca9a19ff5fa55481bcb5cb12f77e72f4.png",
+          "sha256": "961674e3cd1cad65ab3fb987b87d67efca9a19ff5fa55481bcb5cb12f77e72f4"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-broken-signal/84847954b6a43e4c7e8dcb403729c9e417919498f9af96b00ad514e9238c2367.png",
+          "sha256": "84847954b6a43e4c7e8dcb403729c9e417919498f9af96b00ad514e9238c2367"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-broken-signal/96eaf0b6b327cd53fd76b082d3a2e3e32ae2c4a7ca8a546bafd706145f39277b.png",
+          "sha256": "96eaf0b6b327cd53fd76b082d3a2e3e32ae2c4a7ca8a546bafd706145f39277b"
+        }
+      ],
+      "render_updated_at": "2026-11-24T05:36:07.329079+00:00",
+      "render_version": "個別PBR・構造検証 18c5ea0",
+      "render_source_sha": "18c5ea07914557437ccb5cc4cadb0d5d5e72d3ce",
+      "render_run_id": 45332418931,
+      "updated_at": "2026-11-24T05:36:07.329079+00:00"
     }
   ]
 }
