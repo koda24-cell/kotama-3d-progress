@@ -38,6 +38,28 @@ jobs:
                 if(!response.ok()||!(response.headers()['content-type']||'').includes('image/jpeg'))throw Error('scene image unavailable: '+url);
               }
               if(await page.locator('#sceneReviews .scene-assets li').count()!==12)throw Error('Claude asset source inventory missing');
+              const thumb=page.locator('#sceneReviews .scene-grid img').first();
+              const initialUrl=page.url();
+              await thumb.click();
+              await page.locator('#zoom[open]').waitFor();
+              await page.locator('#large img').evaluate(img=>img.decode());
+              await page.locator('#close').click();
+              await page.locator('#zoom[open]').waitFor({state:'detached'});
+              await thumb.click();
+              await page.locator('#zoom[open]').waitFor();
+              await page.keyboard.press('Escape');
+              await page.locator('#zoom[open]').waitFor({state:'detached'});
+              await thumb.click();
+              await page.locator('#zoom[open]').waitFor();
+              await page.mouse.click(1,1);
+              await page.locator('#zoom[open]').waitFor({state:'detached'});
+              if(page.url()!==initialUrl||page.context().pages().length!==1)throw Error('image opened a different page');
+              await page.locator('article img').first().scrollIntoViewIfNeeded();
+              await page.locator('article img').first().click();
+              await page.locator('#zoom[open]').waitFor();
+              await page.locator('#close').click();
+              await page.locator('#zoom[open]').waitFor({state:'detached'});
+
 
               await page.locator('article img').first().scrollIntoViewIfNeeded();
               await page.waitForFunction(()=>document.querySelector('article img').naturalWidth>0);
