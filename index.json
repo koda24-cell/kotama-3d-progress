@@ -3087,6 +3087,88 @@
       "render_source_sha": "f9d88e4c3f61b261819ee90d817279e04bf5879e",
       "render_run_id": 45426982715,
       "updated_at": "2026-11-24T15:39:55.875912+00:00"
+    },
+    {
+      "id": "f3-industrial-v2-memory-statue",
+      "name": "風化した彫像と欠けた記憶の台座V2",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 ddb958e",
+      "status": "制作中",
+      "run_id": 45429934515,
+      "source_sha": "ddb958e0d5128f2d151c029a11c90488dff4dcd9",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-v2-memory-statue/ad0223de68344909abd18e5569d71de98b245167afc3de32c6f1e58483f88f5d.png",
+          "sha256": "ad0223de68344909abd18e5569d71de98b245167afc3de32c6f1e58483f88f5d"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-v2-memory-statue/6066b40ce9e73fa7acf78a57df2667f2613215e0da05e0e0d941920ab3960443.png",
+          "sha256": "6066b40ce9e73fa7acf78a57df2667f2613215e0da05e0e0d941920ab3960443"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-v2-memory-statue/4c22a9d736b227eb8374b879dd10847df0f22026b484a0b388ee787d0047acd1.png",
+          "sha256": "4c22a9d736b227eb8374b879dd10847df0f22026b484a0b388ee787d0047acd1"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-v2-memory-statue/20ca20366bf4b17249de82991a80a0691a722d0213de5b9156c6f598bcd86247.png",
+          "sha256": "20ca20366bf4b17249de82991a80a0691a722d0213de5b9156c6f598bcd86247"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-v2-memory-statue/0e8cc3c9bb11ef726a13150983ebb760fc421c124f6ccee4c8e1f3d503755078.png",
+          "sha256": "0e8cc3c9bb11ef726a13150983ebb760fc421c124f6ccee4c8e1f3d503755078"
+        }
+      ],
+      "render_updated_at": "2026-11-24T16:00:14.905056+00:00",
+      "render_version": "個別PBR・構造検証 ddb958e",
+      "render_source_sha": "ddb958e0d5128f2d151c029a11c90488dff4dcd9",
+      "render_run_id": 45429934515,
+      "updated_at": "2026-11-24T16:00:14.905056+00:00"
+    },
+    {
+      "id": "f3-industrial-v2-wildflower-colony",
+      "name": "風化した路肩に根付く写真由来の野草花V2",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 69c2c50",
+      "status": "制作中",
+      "run_id": 45432034546,
+      "source_sha": "69c2c50ca46bd06fb61afa2aaaa33af0e51ad559",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-v2-wildflower-colony/13a79869bff2af8957cd085f47a85e75ee83e2e0dfb9f3761f7e930274308489.png",
+          "sha256": "13a79869bff2af8957cd085f47a85e75ee83e2e0dfb9f3761f7e930274308489"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-v2-wildflower-colony/68ecce3cc24a9c024ae9b0dd31bdf3c21487df1cdde59404a5a3ebd3dccd7f54.png",
+          "sha256": "68ecce3cc24a9c024ae9b0dd31bdf3c21487df1cdde59404a5a3ebd3dccd7f54"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-v2-wildflower-colony/1e18d20f082aa1ee11b992ff2d1b604b68cb270aa0e4b096221f1b12cd60f627.png",
+          "sha256": "1e18d20f082aa1ee11b992ff2d1b604b68cb270aa0e4b096221f1b12cd60f627"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-v2-wildflower-colony/0ffba7967e2bc7b5f1d9ea67fc3e231cf270daabea1ed2338781cd22f22c9c0c.png",
+          "sha256": "0ffba7967e2bc7b5f1d9ea67fc3e231cf270daabea1ed2338781cd22f22c9c0c"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-v2-wildflower-colony/6759cd83dfd7a16786d77787ca5075f6b38357f106eba7013c9226d892b71c38.png",
+          "sha256": "6759cd83dfd7a16786d77787ca5075f6b38357f106eba7013c9226d892b71c38"
+        }
+      ],
+      "render_updated_at": "2026-11-26T09:29:49.063185+00:00",
+      "render_version": "個別PBR・構造検証 69c2c50",
+      "render_source_sha": "69c2c50ca46bd06fb61afa2aaaa33af0e51ad559",
+      "render_run_id": 45432034546,
+      "updated_at": "2026-11-26T09:29:49.063185+00:00"
     }
   ]
 }
