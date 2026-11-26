@@ -104,6 +104,21 @@ jobs:
               await page.waitForFunction(()=>document.querySelectorAll('#grid article').length>=40);
               const catalog=await (await page.request.get('http://127.0.0.1:8765/illustrations.json')).json();
               if(await page.locator('#grid article').count()!==catalog.items.length)throw Error('illustration count mismatch');
+              const recent=catalog.items.filter(r=>r.version==='2026-11-26追加');
+              if(recent.length<6)throw Error('recent enemy images missing');
+              for(const r of recent){
+                const card=page.locator('article[data-id="'+r.id+'"]');
+                await card.locator('.assignment').waitFor();
+                const expected='割当先：'+(r.assigned_to.length?r.assigned_to.join('、'):'未確認');
+                if(await card.locator('.assignment').textContent()!==expected)throw Error('assignment text mismatch '+r.id);
+                await card.locator('.thumb').click();
+                await page.locator('#full').evaluate(img=>img.decode());
+                await page.locator('#close').click();
+              }
+              await page.locator('#search').fill('はぐれスライム');
+              if(await page.locator('article[data-id="enemy-unidentified-2"]').count()!==1)throw Error('assignment search failed');
+              await page.locator('#search').fill('');
+
               await page.locator('#category').selectOption('キャラクター');
               const characterCount=catalog.items.filter(r=>r.category==='キャラクター').length;
               if(await page.locator('#grid article').count()!==characterCount)throw Error('illustration category filter failed');

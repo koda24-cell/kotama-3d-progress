@@ -4,6 +4,120 @@
   "note": "既に公開リポジトリに存在するゲーム素材の参照台帳。原本は移動・複製しない。出典・利用権・完成承認は初回登録時未確認。非公開参考資料は対象外。",
   "items": [
     {
+      "id": "goblin-scout-art",
+      "title": "ゴブリンの斥候",
+      "category": "敵・ボス",
+      "variant": "静止画",
+      "floor": null,
+      "version": "2026-11-26追加",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad",
+      "files": [
+        "assets/monsters/dcebcee7-80cb-4260-8ded-3680ee605f6b.png"
+      ],
+      "assigned_to": [
+        "ゴブリンの斥候"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
+    },
+    {
+      "id": "forest-wolf-art",
+      "title": "森オオカミ",
+      "category": "敵・ボス",
+      "variant": "静止画",
+      "floor": 3,
+      "version": "2026-11-26追加",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad",
+      "files": [
+        "assets/monsters/a7ceca83-c5cc-4b88-a19c-259865aa9347.png"
+      ],
+      "assigned_to": [
+        "森オオカミ"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
+    },
+    {
+      "id": "salamander-art",
+      "title": "サラマンダー",
+      "category": "敵・ボス",
+      "variant": "静止画",
+      "floor": 4,
+      "version": "2026-11-26追加",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad",
+      "files": [
+        "assets/monsters/62ee5c0e-50b9-41c6-90f2-618d52d120a0.png"
+      ],
+      "assigned_to": [
+        "サラマンダー"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
+    },
+    {
+      "id": "lava-golem-art",
+      "title": "溶岩ゴーレム",
+      "category": "敵・ボス",
+      "variant": "静止画",
+      "floor": 4,
+      "version": "2026-11-26追加",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad",
+      "files": [
+        "assets/monsters/13964637-9c62-4394-a172-31b721771096.png"
+      ],
+      "assigned_to": [
+        "溶岩ゴーレム"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
+    },
+    {
+      "id": "dark-knight-art",
+      "title": "黒骸騎士",
+      "category": "敵・ボス",
+      "variant": "静止画",
+      "floor": 5,
+      "version": "2026-11-26追加",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad",
+      "files": [
+        "assets/monsters/7a6e64a3-1704-4d0e-b46f-006befd1801d.png"
+      ],
+      "assigned_to": [
+        "黒骸騎士"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
+    },
+    {
+      "id": "enemy-unassigned-64bb",
+      "title": "さまよう亡霊",
+      "category": "敵・ボス",
+      "variant": "静止画",
+      "floor": 5,
+      "version": "2026-11-26追加",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad",
+      "files": [
+        "assets/monsters/64bb1648-e941-4a0f-b475-0e8b1a0c1181.png"
+      ],
+      "assigned_to": [
+        "さまよう亡霊"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
+    },
+    {
       "id": "kotama-current",
       "title": "コタマ",
       "category": "キャラクター",
@@ -17,7 +131,11 @@
       "files": [
         "assets/characters/イラスト128.1.png",
         "assets/characters/イラスト128.1.webp"
-      ]
+      ],
+      "assigned_to": [
+        "コタマ"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "knight",
@@ -33,7 +151,11 @@
       "files": [
         "assets/characters/kishi.png",
         "assets/characters/kishi.webp"
-      ]
+      ],
+      "assigned_to": [
+        "騎士"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "healer",
@@ -49,7 +171,11 @@
       "files": [
         "assets/characters/hi-ra-.png",
         "assets/characters/hi-ra-.webp"
-      ]
+      ],
+      "assigned_to": [
+        "治癒士"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "monk",
@@ -65,7 +191,11 @@
       "files": [
         "assets/characters/sennshi.png",
         "assets/characters/sennshi.webp"
-      ]
+      ],
+      "assigned_to": [
+        "モンク"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "mage-current",
@@ -81,7 +211,11 @@
       "files": [
         "assets/characters/イラスト131.png",
         "assets/characters/イラスト131.webp"
-      ]
+      ],
+      "assigned_to": [
+        "魔術師"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "samurai",
@@ -97,7 +231,11 @@
       "files": [
         "assets/characters/イラスト128.2.png",
         "assets/characters/イラスト128.2.webp"
-      ]
+      ],
+      "assigned_to": [
+        "武士"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "imperial",
@@ -113,7 +251,11 @@
       "files": [
         "assets/characters/イラスト131.2.png",
         "assets/characters/イラスト131.2.webp"
-      ]
+      ],
+      "assigned_to": [
+        "インペリアル"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "character-128-3",
@@ -129,7 +271,9 @@
       "files": [
         "assets/characters/イラスト128.3.png",
         "assets/characters/イラスト128.3.webp"
-      ]
+      ],
+      "assigned_to": [],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "kotama-alt",
@@ -145,7 +289,11 @@
       "files": [
         "assets/characters/kotama.png",
         "assets/characters/kotama.webp"
-      ]
+      ],
+      "assigned_to": [
+        "コタマ（ユニオン演出予備）"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "mage-alt",
@@ -161,7 +309,11 @@
       "files": [
         "assets/characters/mahoutukai.png",
         "assets/characters/mahoutukai.webp"
-      ]
+      ],
+      "assigned_to": [
+        "魔術師（ユニオン演出予備）"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "assassin",
@@ -176,7 +328,11 @@
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/characters/assassin.svg"
-      ]
+      ],
+      "assigned_to": [
+        "アサシン"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "gunner",
@@ -191,7 +347,11 @@
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/characters/gunner.svg"
-      ]
+      ],
+      "assigned_to": [
+        "ガンナー"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "highlander",
@@ -206,7 +366,11 @@
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/characters/highlander.svg"
-      ]
+      ],
+      "assigned_to": [
+        "ハイランダー"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "princess",
@@ -221,7 +385,11 @@
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/characters/princess.svg"
-      ]
+      ],
+      "assigned_to": [
+        "プリンセス"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "reaper",
@@ -236,7 +404,11 @@
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/characters/reaper.svg"
-      ]
+      ],
+      "assigned_to": [
+        "リーパー"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "samurai-svg",
@@ -251,7 +423,9 @@
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/characters/samurai.svg"
-      ]
+      ],
+      "assigned_to": [],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "slime",
@@ -260,13 +434,18 @@
       "variant": "静止画",
       "floor": null,
       "version": "初回登録",
-      "usage": "用途未確認",
+      "usage": "使用参照あり",
       "approval": "未確認",
       "author": "未確認",
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/monsters/suraimu.png"
-      ]
+      ],
+      "assigned_to": [
+        "炎スライム",
+        "毒スライム"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "goblin",
@@ -282,7 +461,16 @@
       "files": [
         "assets/monsters/goburinn.png",
         "assets/monsters/goburinn.webp"
-      ]
+      ],
+      "assigned_to": [
+        "ゴブリン",
+        "森ゴブリン",
+        "ゴブリン隊長と護衛",
+        "ゴブリンアーチャー",
+        "ゴブリンシャーマン",
+        "ゴブリン親衛隊長"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "wolf",
@@ -291,13 +479,20 @@
       "variant": "静止画",
       "floor": null,
       "version": "初回登録",
-      "usage": "用途未確認",
+      "usage": "使用参照あり",
       "approval": "未確認",
       "author": "未確認",
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/monsters/ookami.png"
-      ]
+      ],
+      "assigned_to": [
+        "氷晶魚",
+        "水鏡エイ",
+        "森の暴れ熊",
+        "霧纏いの大鹿"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "demon",
@@ -306,73 +501,94 @@
       "variant": "静止画",
       "floor": null,
       "version": "初回登録",
-      "usage": "用途未確認",
+      "usage": "使用参照あり",
       "approval": "未確認",
       "author": "未確認",
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/monsters/maou.png"
-      ]
+      ],
+      "assigned_to": [
+        "黒騎士団長"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "mushroom",
       "title": "キノコもどき",
       "category": "敵・ボス",
       "variant": "静止画",
-      "floor": null,
+      "floor": 1,
       "version": "初回登録",
-      "usage": "用途未確認",
+      "usage": "使用参照あり",
       "approval": "未確認",
       "author": "未確認",
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/monsters/毒胞子を放つキノコもどき.png"
-      ]
+      ],
+      "assigned_to": [
+        "キノコもどき"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "crab",
-      "title": "鉱石ガニ",
+      "title": "晶石ガニ",
       "category": "敵・ボス",
       "variant": "静止画",
-      "floor": null,
+      "floor": 2,
       "version": "初回登録",
-      "usage": "用途未確認",
+      "usage": "使用参照あり",
       "approval": "未確認",
       "author": "未確認",
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/monsters/氷晶をまとった鉱石ガニ.png"
-      ]
+      ],
+      "assigned_to": [
+        "晶石ガニ"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "enemy-unidentified-1",
-      "title": "敵画像（名称未確認）",
+      "title": "霧コウモリ",
       "category": "敵・ボス",
       "variant": "静止画",
-      "floor": null,
+      "floor": 3,
       "version": "初回登録",
-      "usage": "用途未確認",
+      "usage": "使用参照あり",
       "approval": "未確認",
       "author": "未確認",
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/monsters/33710b53-8af8-4ef3-b69b-a204696db496.png"
-      ]
+      ],
+      "assigned_to": [
+        "霧コウモリ"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "enemy-unidentified-2",
-      "title": "敵画像（名称未確認）",
+      "title": "スライム・はぐれスライム",
       "category": "敵・ボス",
       "variant": "静止画",
-      "floor": null,
+      "floor": 1,
       "version": "初回登録",
-      "usage": "用途未確認",
+      "usage": "使用参照あり",
       "approval": "未確認",
       "author": "未確認",
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/monsters/e16ff5a5-7daf-4a04-a823-3ab68e474647.png"
-      ]
+      ],
+      "assigned_to": [
+        "スライム",
+        "はぐれスライム"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "slime-gif",
@@ -387,7 +603,11 @@
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/monsters/青いスライムのジャンプアニメーション.gif"
-      ]
+      ],
+      "assigned_to": [
+        "スライム（差分）"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "wolf-gif",
@@ -402,7 +622,11 @@
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/monsters/唸る青灰狼のアニメーション.gif"
-      ]
+      ],
+      "assigned_to": [
+        "オオカミ"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "icewolf-gif",
@@ -417,7 +641,11 @@
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/monsters/氷狼の咆哮アニメーション.gif"
-      ]
+      ],
+      "assigned_to": [
+        "氷狼"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "dragon-gif",
@@ -432,7 +660,11 @@
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/monsters/炎の翼竜、咆哮する姿.gif"
-      ]
+      ],
+      "assigned_to": [
+        "ドラゴン"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "phantom-gif",
@@ -447,7 +679,11 @@
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/monsters/紫煙を纏う影の亡霊アニメーション.gif"
-      ]
+      ],
+      "assigned_to": [
+        "混沌の幻影"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "demon-gif",
@@ -462,7 +698,11 @@
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/monsters/赤き魔炎を纏う魔王の舞.gif"
-      ]
+      ],
+      "assigned_to": [
+        "魔王"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "dragon-svg",
@@ -471,13 +711,19 @@
       "variant": "SVG",
       "floor": null,
       "version": "初回登録",
-      "usage": "用途未確認",
+      "usage": "使用参照あり",
       "approval": "未確認",
       "author": "未確認",
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/monsters/dragon.svg"
-      ]
+      ],
+      "assigned_to": [
+        "氷晶ゴーレム",
+        "水源の晶石守",
+        "灼熱のサラマンダー"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "chaos-phantom-svg",
@@ -492,7 +738,9 @@
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/monsters/chaos-phantom.svg"
-      ]
+      ],
+      "assigned_to": [],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "battle-floor-1",
@@ -507,7 +755,9 @@
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/battle-backgrounds/floor-01-forest.png"
-      ]
+      ],
+      "assigned_to": [],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "battle-floor-2",
@@ -523,7 +773,9 @@
       "files": [
         "assets/battle-backgrounds/floor-02-water.png",
         "assets/battle-backgrounds/floor-02-water.webp"
-      ]
+      ],
+      "assigned_to": [],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "battle-floor-3",
@@ -539,7 +791,9 @@
       "files": [
         "assets/battle-backgrounds/floor-03-ruins.png",
         "assets/battle-backgrounds/floor-03-ruins.webp"
-      ]
+      ],
+      "assigned_to": [],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "battle-floor-4",
@@ -555,7 +809,9 @@
       "files": [
         "assets/battle-backgrounds/floor-04-volcano.png",
         "assets/battle-backgrounds/floor-04-volcano.webp"
-      ]
+      ],
+      "assigned_to": [],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "battle-floor-5",
@@ -571,7 +827,9 @@
       "files": [
         "assets/battle-backgrounds/floor-05-castle.png",
         "assets/battle-backgrounds/floor-05-castle.webp"
-      ]
+      ],
+      "assigned_to": [],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "title",
@@ -580,13 +838,17 @@
       "variant": "静止画",
       "floor": null,
       "version": "初回登録",
-      "usage": "用途未確認",
+      "usage": "使用参照あり",
       "approval": "未確認",
       "author": "未確認",
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/title/kotama-title.png"
-      ]
+      ],
+      "assigned_to": [
+        "タイトル画面"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "home-bg",
@@ -601,7 +863,9 @@
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/8091ad13-a63c-469c-b31a-8c16f3d1d70d.png"
-      ]
+      ],
+      "assigned_to": [],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "battle-frame",
@@ -616,7 +880,9 @@
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/ui/battle-panel-frame.svg"
-      ]
+      ],
+      "assigned_to": [],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     }
   ]
 }
