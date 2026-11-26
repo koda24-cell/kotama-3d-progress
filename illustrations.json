@@ -20,7 +20,7 @@
       "assigned_to": [
         "ゴブリンの斥候"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "forest-wolf-art",
@@ -39,7 +39,7 @@
       "assigned_to": [
         "森オオカミ"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "salamander-art",
@@ -58,7 +58,7 @@
       "assigned_to": [
         "サラマンダー"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "lava-golem-art",
@@ -77,7 +77,7 @@
       "assigned_to": [
         "溶岩ゴーレム"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "dark-knight-art",
@@ -96,24 +96,26 @@
       "assigned_to": [
         "黒骸騎士"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "enemy-unassigned-64bb",
-      "title": "敵画像（割当先未確認）",
+      "title": "さまよう亡霊",
       "category": "敵・ボス",
       "variant": "静止画",
-      "floor": null,
+      "floor": 5,
       "version": "2026-11-26追加",
-      "usage": "用途未確認",
+      "usage": "使用参照あり",
       "approval": "未確認",
       "author": "未確認",
       "source_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad",
       "files": [
         "assets/monsters/64bb1648-e941-4a0f-b475-0e8b1a0c1181.png"
       ],
-      "assigned_to": [],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assigned_to": [
+        "さまよう亡霊"
+      ],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "kotama-current",
@@ -133,7 +135,7 @@
       "assigned_to": [
         "コタマ"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "knight",
@@ -153,7 +155,7 @@
       "assigned_to": [
         "騎士"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "healer",
@@ -173,7 +175,7 @@
       "assigned_to": [
         "治癒士"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "monk",
@@ -193,7 +195,7 @@
       "assigned_to": [
         "モンク"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "mage-current",
@@ -213,7 +215,7 @@
       "assigned_to": [
         "魔術師"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "samurai",
@@ -233,7 +235,7 @@
       "assigned_to": [
         "武士"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "imperial",
@@ -253,7 +255,7 @@
       "assigned_to": [
         "インペリアル"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "character-128-3",
@@ -271,7 +273,7 @@
         "assets/characters/イラスト128.3.webp"
       ],
       "assigned_to": [],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "kotama-alt",
@@ -291,7 +293,7 @@
       "assigned_to": [
         "コタマ（ユニオン演出予備）"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "mage-alt",
@@ -311,7 +313,7 @@
       "assigned_to": [
         "魔術師（ユニオン演出予備）"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "assassin",
@@ -330,7 +332,7 @@
       "assigned_to": [
         "アサシン"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "gunner",
@@ -349,7 +351,7 @@
       "assigned_to": [
         "ガンナー"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "highlander",
@@ -368,7 +370,7 @@
       "assigned_to": [
         "ハイランダー"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "princess",
@@ -387,7 +389,7 @@
       "assigned_to": [
         "プリンセス"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "reaper",
@@ -406,7 +408,7 @@
       "assigned_to": [
         "リーパー"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "samurai-svg",
@@ -423,7 +425,7 @@
         "assets/characters/samurai.svg"
       ],
       "assigned_to": [],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "slime",
@@ -443,7 +445,7 @@
         "炎スライム",
         "毒スライム"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "goblin",
@@ -468,7 +470,7 @@
         "ゴブリンシャーマン",
         "ゴブリン親衛隊長"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "wolf",
@@ -490,7 +492,7 @@
         "森の暴れ熊",
         "霧纏いの大鹿"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "demon",
@@ -509,7 +511,7 @@
       "assigned_to": [
         "黒騎士団長"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "mushroom",
@@ -528,7 +530,7 @@
       "assigned_to": [
         "キノコもどき"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "crab",
@@ -547,7 +549,7 @@
       "assigned_to": [
         "晶石ガニ"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "enemy-unidentified-1",
@@ -566,7 +568,7 @@
       "assigned_to": [
         "霧コウモリ"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "enemy-unidentified-2",
@@ -586,7 +588,7 @@
         "スライム",
         "はぐれスライム"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "slime-gif",
@@ -605,7 +607,7 @@
       "assigned_to": [
         "スライム（差分）"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "wolf-gif",
@@ -624,7 +626,7 @@
       "assigned_to": [
         "オオカミ"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "icewolf-gif",
@@ -643,7 +645,7 @@
       "assigned_to": [
         "氷狼"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "dragon-gif",
@@ -662,7 +664,7 @@
       "assigned_to": [
         "ドラゴン"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "phantom-gif",
@@ -681,7 +683,7 @@
       "assigned_to": [
         "混沌の幻影"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "demon-gif",
@@ -700,7 +702,7 @@
       "assigned_to": [
         "魔王"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "dragon-svg",
@@ -721,7 +723,7 @@
         "水源の晶石守",
         "灼熱のサラマンダー"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "chaos-phantom-svg",
@@ -730,17 +732,15 @@
       "variant": "SVG",
       "floor": null,
       "version": "初回登録",
-      "usage": "使用参照あり",
+      "usage": "用途未確認",
       "approval": "未確認",
       "author": "未確認",
       "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
       "files": [
         "assets/monsters/chaos-phantom.svg"
       ],
-      "assigned_to": [
-        "さまよう亡霊"
-      ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assigned_to": [],
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "battle-floor-1",
@@ -757,7 +757,7 @@
         "assets/battle-backgrounds/floor-01-forest.png"
       ],
       "assigned_to": [],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "battle-floor-2",
@@ -775,7 +775,7 @@
         "assets/battle-backgrounds/floor-02-water.webp"
       ],
       "assigned_to": [],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "battle-floor-3",
@@ -793,7 +793,7 @@
         "assets/battle-backgrounds/floor-03-ruins.webp"
       ],
       "assigned_to": [],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "battle-floor-4",
@@ -811,7 +811,7 @@
         "assets/battle-backgrounds/floor-04-volcano.webp"
       ],
       "assigned_to": [],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "battle-floor-5",
@@ -829,7 +829,7 @@
         "assets/battle-backgrounds/floor-05-castle.webp"
       ],
       "assigned_to": [],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "title",
@@ -848,7 +848,7 @@
       "assigned_to": [
         "タイトル画面"
       ],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "home-bg",
@@ -865,7 +865,7 @@
         "assets/8091ad13-a63c-469c-b31a-8c16f3d1d70d.png"
       ],
       "assigned_to": [],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     },
     {
       "id": "battle-frame",
@@ -882,7 +882,7 @@
         "assets/ui/battle-panel-frame.svg"
       ],
       "assigned_to": [],
-      "assignment_checked_sha": "a36819ad55eda3c7cc61383dfd53987c02f0d3ad"
+      "assignment_checked_sha": "7690de20d20ca54ebd11d8db9f58ea42e54f951b"
     }
   ]
 }
