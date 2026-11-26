@@ -3,13 +3,13 @@
   "advisory": true,
   "execution": {
     "event": "schedule",
-    "run_id": "45761806491",
+    "run_id": "45852527977",
     "run_attempt": "1",
-    "source_sha": "c700452cf007443e72cc8a13ebaa5e4f59d01b7b",
-    "evaluated_at": "2026-11-26T05:29:38.905941+00:00",
-    "registry_sha256": "ae922d14356156976b0339b617882db340d4114a071956b88aeeffec6e690bda",
-    "models": 63,
-    "views": 297,
+    "source_sha": "8522467ef2c8c6b71973dd06b4e011cecdd13726",
+    "evaluated_at": "2026-11-26T15:49:07.818733+00:00",
+    "registry_sha256": "4ba8bf3ea531eabf4dcca485bea3f81499433fc268113b3b79507cdc2694748f",
+    "models": 66,
+    "views": 312,
     "compared_models": 0
   },
   "models": [
@@ -898,7 +898,7 @@
             "view": "angle",
             "sha256": "84847954b6a43e4c7e8dcb403729c9e417919498f9af96b00ad514e9238c2367",
             "scores": {
-              "silhouette": 0.2236,
+              "silhouette": 0.2237,
               "material": 0.4315,
               "lighting": 0.1247
             }
@@ -1241,7 +1241,7 @@
             "sha256": "d032e397f8a543ee5f268177cc7b4ac89d153b982b1e4baf97ae2b665ff13480",
             "scores": {
               "silhouette": 0.4607,
-              "material": 0.3514,
+              "material": 0.3513,
               "lighting": 0.0574
             }
           },
@@ -1824,7 +1824,7 @@
             "scores": {
               "silhouette": 0.0828,
               "material": 0.1767,
-              "lighting": 0.0818
+              "lighting": 0.0819
             }
           },
           {
@@ -2779,7 +2779,7 @@
             "view": "front",
             "sha256": "22f1e9a398c0f9f36c277bb2bb1f9f6eb1018456d430fff378ba5892e0589390",
             "scores": {
-              "silhouette": 0.2019,
+              "silhouette": 0.202,
               "material": 0.4546,
               "lighting": 0.243
             }
@@ -2816,7 +2816,7 @@
             "sha256": "eda3817502939f30d16a5cbe135b37d687c7ef3a2abfb2754f7d241cbebbd4c0",
             "scores": {
               "silhouette": 0.1992,
-              "material": 0.2512,
+              "material": 0.2511,
               "lighting": 0.1232
             }
           },
@@ -3433,6 +3433,177 @@
               "silhouette": 0.2027,
               "material": 0.1726,
               "lighting": 0.1248
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v2-memory-statue",
+      "version": "個別PBR・構造検証 ddb958e",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "ad0223de68344909abd18e5569d71de98b245167afc3de32c6f1e58483f88f5d",
+            "scores": {
+              "silhouette": 0.664,
+              "material": 0.9347,
+              "lighting": 0.2073
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "4c22a9d736b227eb8374b879dd10847df0f22026b484a0b388ee787d0047acd1",
+            "scores": {
+              "silhouette": 0.3454,
+              "material": 0.9582,
+              "lighting": 0.5083
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "20ca20366bf4b17249de82991a80a0691a722d0213de5b9156c6f598bcd86247",
+            "scores": {
+              "silhouette": 0.3777,
+              "material": 0.9542,
+              "lighting": 0.5164
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v2-wildflower-colony",
+      "version": "個別PBR・構造検証 69c2c50",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "13a79869bff2af8957cd085f47a85e75ee83e2e0dfb9f3761f7e930274308489",
+            "scores": {
+              "silhouette": 0.1764,
+              "material": 0.4901,
+              "lighting": 0.1716
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "1e18d20f082aa1ee11b992ff2d1b604b68cb270aa0e4b096221f1b12cd60f627",
+            "scores": {
+              "silhouette": 0.1135,
+              "material": 0.4062,
+              "lighting": 0.1516
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "0ffba7967e2bc7b5f1d9ea67fc3e231cf270daabea1ed2338781cd22f22c9c0c",
+            "scores": {
+              "silhouette": 0.0774,
+              "material": 0.238,
+              "lighting": 0.1134
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v2-memory-statue-lod-review",
+      "version": "LOD0/1/2 技術比較・ゲーム未採用",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "a13a1d3f1ebfd04b9be19c420e32185c7089c6e250c027ecb96987f2085ea727",
+            "scores": {
+              "silhouette": 0.2249,
+              "material": 0.7548,
+              "lighting": 0.6136
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "9720030f3e7e7686ef0e31879b0eaf35df4778cdf91cc0b663517fb73ee08ee4",
+            "scores": {
+              "silhouette": 0.2156,
+              "material": 0.744,
+              "lighting": 0.3089
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "f061c6d9f4b8da5201d5d8fde1a092b51934ff3f9c5c4091a9f607036455fda3",
+            "scores": {
+              "silhouette": 0.2058,
+              "material": 0.8503,
+              "lighting": 0.6169
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "fea0f703e35aff2c3d27124f50bfabc9a179ea20808bd66f1099713b03f22531",
+            "scores": {
+              "silhouette": 0.2632,
+              "material": 0.7345,
+              "lighting": 0.5498
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "e936c69755166c98de251bca4f06c898bf9ab5057ed39c9fcc38184ccdf5d537",
+            "scores": {
+              "silhouette": 0.2201,
+              "material": 0.7476,
+              "lighting": 0.3028
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "44d5af3ab1162b884def4687995d03c9f6474ba538f0991678bb2fc9fabfbe2b",
+            "scores": {
+              "silhouette": 0.2041,
+              "material": 0.8004,
+              "lighting": 0.5793
+            }
+          },
+          {
+            "view": "front",
+            "sha256": "39c9ed129988907bf81a6d0726059f7f2619ca0618253ead47671c541721f9f2",
+            "scores": {
+              "silhouette": 0.384,
+              "material": 0.7762,
+              "lighting": 0.5313
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "6deea78f39e253d09869a33218e4b48d30da47e18cfd6b80499d61acee3678bc",
+            "scores": {
+              "silhouette": 0.1463,
+              "material": 0.7857,
+              "lighting": 0.3594
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "c5ed30a41f8de10146ac74035a4d203034bf5154af66b3b225cf5bb88970a9f1",
+            "scores": {
+              "silhouette": 0.1762,
+              "material": 0.8444,
+              "lighting": 0.5684
             }
           }
         ],
