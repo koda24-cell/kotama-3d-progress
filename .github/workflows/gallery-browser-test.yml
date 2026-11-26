@@ -29,7 +29,7 @@ jobs:
               const page=await browser.newPage();
               await page.goto('http://127.0.0.1:8765/index.html');
               await page.waitForFunction(()=>document.querySelectorAll('article').length>=14);
-              const scenes=page.locator('#sceneReviews .scene-grid img');
+              const scenes=page.locator('#sceneReviews .scene-grid img:not([data-city-v2])');
               if(await scenes.count()!==13)throw Error('Claude scene count mismatch');
               await scenes.first().scrollIntoViewIfNeeded();
               await scenes.first().evaluate(img=>img.decode());
@@ -38,6 +38,13 @@ jobs:
                 if(!response.ok()||!(response.headers()['content-type']||'').includes('image/jpeg'))throw Error('scene image unavailable: '+url);
               }
               if(await page.locator('#sceneReviews .scene-assets li').count()!==12)throw Error('Claude asset source inventory missing');
+              const city=page.locator('#f3CityV2Review img[data-city-v2]');
+              if(await city.count()!==4)throw Error('F3 V2 actual scene views missing');
+              for(const url of await city.evaluateAll(imgs=>imgs.map(i=>i.src))){
+                if(!/^https:\/\/raw\.githubusercontent\.com\/koda24-cell\/kotama-no-bouken\/[a-f0-9]{40}\/docs\/3d\/f3-city-v2-review-20261126\//.test(url))throw Error('F3 image source is not immutable');
+                const response=await page.request.get(url);
+                if(!response.ok()||!(response.headers()['content-type']||'').includes('image/png'))throw Error('F3 actual PNG unavailable: '+url);
+              }
               const thumb=page.locator('#sceneReviews .scene-grid img').first();
               const initialUrl=page.url();
               await thumb.click();
