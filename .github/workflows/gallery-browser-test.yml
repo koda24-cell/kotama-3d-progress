@@ -29,6 +29,16 @@ jobs:
               const page=await browser.newPage();
               await page.goto('http://127.0.0.1:8765/index.html');
               await page.waitForFunction(()=>document.querySelectorAll('article').length>=14);
+              const scenes=page.locator('#sceneReviews .scene-grid img');
+              if(await scenes.count()!==13)throw Error('Claude scene count mismatch');
+              await scenes.first().scrollIntoViewIfNeeded();
+              await scenes.first().evaluate(img=>img.decode());
+              for(const url of await scenes.evaluateAll(imgs=>imgs.map(i=>i.src))){
+                const response=await page.request.get(url);
+                if(!response.ok()||!(response.headers()['content-type']||'').includes('image/jpeg'))throw Error('scene image unavailable: '+url);
+              }
+              if(await page.locator('#sceneReviews .scene-assets li').count()!==12)throw Error('Claude asset source inventory missing');
+
               await page.locator('article img').first().scrollIntoViewIfNeeded();
               await page.waitForFunction(()=>document.querySelector('article img').naturalWidth>0);
               const data=await (await page.request.get('https://raw.githubusercontent.com/koda24-cell/kotama-3d-progress/3d-progress-data/index.json')).json();
