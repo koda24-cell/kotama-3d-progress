@@ -38,6 +38,31 @@ jobs:
                 if(!response.ok()||!(response.headers()['content-type']||'').includes('image/jpeg'))throw Error('scene image unavailable: '+url);
               }
               if(await page.locator('#sceneReviews .scene-assets li').count()!==12)throw Error('Claude asset source inventory missing');
+              const feed='https://raw.githubusercontent.com/koda24-cell/kotama-no-bouken/development/docs/3d/scene-review-index.json';
+              const actual=await page.request.get(feed);
+              if(!actual.ok())throw Error('source review catalog missing');
+              const catalog=await actual.json();
+              if(!catalog.reviews.some(r=>r.id==='b5-abyss-temple'&&r.images.length===13))throw Error('B5 source entry missing');
+              await page.waitForFunction(()=>document.querySelector('#liveSceneStatus').textContent.includes('自動取得成功'));
+              const entry={...catalog.reviews[0],id:'test-review',version:'V-next',title:'Automatic review test',floor:4,images:[catalog.reviews[0].images[0]]};
+              const route=feed+'?*';
+              await page.route(route,r=>r.fulfill({json:{schema:1,reviews:[...catalog.reviews,entry]},headers:{'access-control-allow-origin':'*'}}));
+              await page.locator('#refresh').click();
+              await page.locator('#liveSceneRows summary').filter({hasText:'Automatic review test'}).waitFor();
+              await page.locator('#liveSceneRows summary').filter({hasText:'Automatic review test'}).click();
+              await page.locator('#liveSceneRows img').first().evaluate(img=>img.decode());
+              await page.locator('#liveSceneFloor').selectOption('5');
+              if(await page.locator('#liveSceneRows details').count())throw Error('scene floor filter failed');
+              await page.locator('#liveSceneFloor').selectOption('');
+              await page.unroute(route);
+              await page.route(route,r=>r.fulfill({json:{schema:1,reviews:[{...entry,images:[{path:'docs/3d/../unsafe.jpg',label:'unsafe'}]}]},headers:{'access-control-allow-origin':'*'}}));
+              await page.locator('#refresh').click();
+              await page.waitForFunction(()=>document.querySelector('#liveSceneStatus').textContent.includes('自動取得失敗'));
+              if(!await page.locator('#liveSceneRows summary').filter({hasText:'Automatic review test'}).count())throw Error('previous scene data lost');
+              await page.unroute(route);
+              await page.locator('#refresh').click();
+              await page.waitForFunction(()=>document.querySelector('#liveSceneStatus').textContent.includes('自動取得成功'));
+
 
               await page.locator('article img').first().scrollIntoViewIfNeeded();
               await page.waitForFunction(()=>document.querySelector('article img').naturalWidth>0);
