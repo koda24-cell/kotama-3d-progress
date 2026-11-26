@@ -99,11 +99,50 @@ jobs:
               await page.getByRole('heading',{name:'Browser test',exact:true}).waitFor({state:'detached'});
               await page.getByRole('heading',{name:'Compare test',exact:true}).waitFor({state:'detached'});
               await page.screenshot({path:'gallery-browser.png',fullPage:true});
+              await page.getByRole('link',{name:'イラスト制作管理 →'}).click();
+              await page.waitForURL('**/illustrations.html');
+              await page.waitForFunction(()=>document.querySelectorAll('#grid article').length>=40);
+              const catalog=await (await page.request.get('http://127.0.0.1:8765/illustrations.json')).json();
+              if(await page.locator('#grid article').count()!==catalog.items.length)throw Error('illustration count mismatch');
+              await page.locator('#category').selectOption('キャラクター');
+              const characterCount=catalog.items.filter(r=>r.category==='キャラクター').length;
+              if(await page.locator('#grid article').count()!==characterCount)throw Error('illustration category filter failed');
+              await page.locator('#search').fill('コタマ');
+              await page.locator('article[data-id="kotama-current"] .thumb').click();
+              await page.locator('#zoom[open]').waitFor();
+              await page.locator('#full').evaluate(img=>img.decode());
+              await page.locator('#close').click();
+              await page.locator('#zoom[open]').waitFor({state:'detached'});
+              await page.locator('#search').fill('');
+              await page.locator('#category').selectOption('敵・ボス');
+              await page.locator('#format').selectOption('GIF');
+              if(await page.locator('#grid article').count()!==catalog.items.filter(r=>r.category==='敵・ボス'&&r.variant==='GIF').length)throw Error('GIF filter failed');
+              await page.locator('article[data-id="slime-gif"] .thumb').click();
+              await page.locator('#full').evaluate(img=>img.decode());
+              await page.keyboard.press('Escape');
+              await page.locator('#zoom[open]').waitFor({state:'detached'});
+              await page.locator('#category').selectOption('背景');
+              await page.locator('#format').selectOption('');
+              await page.locator('#floor').selectOption('5');
+              if(await page.locator('#grid article').count()!==1)throw Error('background floor filter failed');
+              await page.locator('article[data-id="battle-floor-5"] .thumb').click();
+              await page.locator('#full').evaluate(img=>img.decode());
+              await page.locator('#close').click();
+              await page.locator('#floor').selectOption('');
+              await page.locator('#category').selectOption('');
+              await page.locator('#refresh').click();
+              await page.waitForFunction(n=>document.querySelectorAll('#grid article').length===n,catalog.items.length);
+              await page.screenshot({path:'illustration-browser.png',fullPage:false});
+              await page.getByRole('link',{name:'← 3D制作進捗へ'}).click();
+              await page.waitForURL('**/index.html');
+
             }finally{await browser.close()}
           })().catch(e=>{console.error(e);process.exit(1)});
           JS
       - uses: actions/upload-artifact@v4
         with:
           name: gallery-browser-proof
-          path: gallery-browser.png
+          path: |
+            gallery-browser.png
+            illustration-browser.png
           retention-days: 14
