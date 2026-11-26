@@ -1,0 +1,622 @@
+{
+  "schema": 1,
+  "source_repo": "koda24-cell/kotama-no-bouken",
+  "note": "既に公開リポジトリに存在するゲーム素材の参照台帳。原本は移動・複製しない。出典・利用権・完成承認は初回登録時未確認。非公開参考資料は対象外。",
+  "items": [
+    {
+      "id": "kotama-current",
+      "title": "コタマ",
+      "category": "キャラクター",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/characters/イラスト128.1.png",
+        "assets/characters/イラスト128.1.webp"
+      ]
+    },
+    {
+      "id": "knight",
+      "title": "騎士",
+      "category": "キャラクター",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/characters/kishi.png",
+        "assets/characters/kishi.webp"
+      ]
+    },
+    {
+      "id": "healer",
+      "title": "治癒士",
+      "category": "キャラクター",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/characters/hi-ra-.png",
+        "assets/characters/hi-ra-.webp"
+      ]
+    },
+    {
+      "id": "monk",
+      "title": "モンク",
+      "category": "キャラクター",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/characters/sennshi.png",
+        "assets/characters/sennshi.webp"
+      ]
+    },
+    {
+      "id": "mage-current",
+      "title": "魔術師",
+      "category": "キャラクター",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/characters/イラスト131.png",
+        "assets/characters/イラスト131.webp"
+      ]
+    },
+    {
+      "id": "samurai",
+      "title": "武士",
+      "category": "キャラクター",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/characters/イラスト128.2.png",
+        "assets/characters/イラスト128.2.webp"
+      ]
+    },
+    {
+      "id": "imperial",
+      "title": "インペリアル",
+      "category": "キャラクター",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/characters/イラスト131.2.png",
+        "assets/characters/イラスト131.2.webp"
+      ]
+    },
+    {
+      "id": "character-128-3",
+      "title": "イラスト128.3",
+      "category": "キャラクター",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/characters/イラスト128.3.png",
+        "assets/characters/イラスト128.3.webp"
+      ]
+    },
+    {
+      "id": "kotama-alt",
+      "title": "コタマ 別画像",
+      "category": "キャラクター",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/characters/kotama.png",
+        "assets/characters/kotama.webp"
+      ]
+    },
+    {
+      "id": "mage-alt",
+      "title": "魔術師 別画像",
+      "category": "キャラクター",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/characters/mahoutukai.png",
+        "assets/characters/mahoutukai.webp"
+      ]
+    },
+    {
+      "id": "assassin",
+      "title": "アサシン（SVG）",
+      "category": "キャラクター",
+      "variant": "SVG",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/characters/assassin.svg"
+      ]
+    },
+    {
+      "id": "gunner",
+      "title": "ガンナー（SVG）",
+      "category": "キャラクター",
+      "variant": "SVG",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/characters/gunner.svg"
+      ]
+    },
+    {
+      "id": "highlander",
+      "title": "ハイランダー（SVG）",
+      "category": "キャラクター",
+      "variant": "SVG",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/characters/highlander.svg"
+      ]
+    },
+    {
+      "id": "princess",
+      "title": "プリンセス（SVG）",
+      "category": "キャラクター",
+      "variant": "SVG",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/characters/princess.svg"
+      ]
+    },
+    {
+      "id": "reaper",
+      "title": "リーパー（SVG）",
+      "category": "キャラクター",
+      "variant": "SVG",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/characters/reaper.svg"
+      ]
+    },
+    {
+      "id": "samurai-svg",
+      "title": "武士（SVG）",
+      "category": "キャラクター",
+      "variant": "SVG",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/characters/samurai.svg"
+      ]
+    },
+    {
+      "id": "slime",
+      "title": "スライム",
+      "category": "敵・ボス",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/monsters/suraimu.png"
+      ]
+    },
+    {
+      "id": "goblin",
+      "title": "ゴブリン",
+      "category": "敵・ボス",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/monsters/goburinn.png",
+        "assets/monsters/goburinn.webp"
+      ]
+    },
+    {
+      "id": "wolf",
+      "title": "オオカミ",
+      "category": "敵・ボス",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/monsters/ookami.png"
+      ]
+    },
+    {
+      "id": "demon",
+      "title": "魔王",
+      "category": "敵・ボス",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/monsters/maou.png"
+      ]
+    },
+    {
+      "id": "mushroom",
+      "title": "キノコもどき",
+      "category": "敵・ボス",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/monsters/毒胞子を放つキノコもどき.png"
+      ]
+    },
+    {
+      "id": "crab",
+      "title": "鉱石ガニ",
+      "category": "敵・ボス",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/monsters/氷晶をまとった鉱石ガニ.png"
+      ]
+    },
+    {
+      "id": "enemy-unidentified-1",
+      "title": "敵画像（名称未確認）",
+      "category": "敵・ボス",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/monsters/33710b53-8af8-4ef3-b69b-a204696db496.png"
+      ]
+    },
+    {
+      "id": "enemy-unidentified-2",
+      "title": "敵画像（名称未確認）",
+      "category": "敵・ボス",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/monsters/e16ff5a5-7daf-4a04-a823-3ab68e474647.png"
+      ]
+    },
+    {
+      "id": "slime-gif",
+      "title": "スライム",
+      "category": "敵・ボス",
+      "variant": "GIF",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/monsters/青いスライムのジャンプアニメーション.gif"
+      ]
+    },
+    {
+      "id": "wolf-gif",
+      "title": "オオカミ",
+      "category": "敵・ボス",
+      "variant": "GIF",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/monsters/唸る青灰狼のアニメーション.gif"
+      ]
+    },
+    {
+      "id": "icewolf-gif",
+      "title": "氷狼",
+      "category": "敵・ボス",
+      "variant": "GIF",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/monsters/氷狼の咆哮アニメーション.gif"
+      ]
+    },
+    {
+      "id": "dragon-gif",
+      "title": "ドラゴン",
+      "category": "敵・ボス",
+      "variant": "GIF",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/monsters/炎の翼竜、咆哮する姿.gif"
+      ]
+    },
+    {
+      "id": "phantom-gif",
+      "title": "混沌の幻影",
+      "category": "敵・ボス",
+      "variant": "GIF",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/monsters/紫煙を纏う影の亡霊アニメーション.gif"
+      ]
+    },
+    {
+      "id": "demon-gif",
+      "title": "魔王",
+      "category": "敵・ボス",
+      "variant": "GIF",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "使用参照あり",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/monsters/赤き魔炎を纏う魔王の舞.gif"
+      ]
+    },
+    {
+      "id": "dragon-svg",
+      "title": "ドラゴン（SVG）",
+      "category": "敵・ボス",
+      "variant": "SVG",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/monsters/dragon.svg"
+      ]
+    },
+    {
+      "id": "chaos-phantom-svg",
+      "title": "混沌の幻影（SVG）",
+      "category": "敵・ボス",
+      "variant": "SVG",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/monsters/chaos-phantom.svg"
+      ]
+    },
+    {
+      "id": "battle-floor-1",
+      "title": "第1層 樹海 戦闘背景",
+      "category": "背景",
+      "variant": "静止画",
+      "floor": 1,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/battle-backgrounds/floor-01-forest.png"
+      ]
+    },
+    {
+      "id": "battle-floor-2",
+      "title": "第2層 水源 戦闘背景",
+      "category": "背景",
+      "variant": "静止画",
+      "floor": 2,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/battle-backgrounds/floor-02-water.png",
+        "assets/battle-backgrounds/floor-02-water.webp"
+      ]
+    },
+    {
+      "id": "battle-floor-3",
+      "title": "第3層 遺跡都市 戦闘背景",
+      "category": "背景",
+      "variant": "静止画",
+      "floor": 3,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/battle-backgrounds/floor-03-ruins.png",
+        "assets/battle-backgrounds/floor-03-ruins.webp"
+      ]
+    },
+    {
+      "id": "battle-floor-4",
+      "title": "第4層 火山 戦闘背景",
+      "category": "背景",
+      "variant": "静止画",
+      "floor": 4,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/battle-backgrounds/floor-04-volcano.png",
+        "assets/battle-backgrounds/floor-04-volcano.webp"
+      ]
+    },
+    {
+      "id": "battle-floor-5",
+      "title": "第5層 魔王城 戦闘背景",
+      "category": "背景",
+      "variant": "静止画",
+      "floor": 5,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/battle-backgrounds/floor-05-castle.png",
+        "assets/battle-backgrounds/floor-05-castle.webp"
+      ]
+    },
+    {
+      "id": "title",
+      "title": "タイトル画像",
+      "category": "タイトル・UI",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/title/kotama-title.png"
+      ]
+    },
+    {
+      "id": "home-bg",
+      "title": "ホーム背景候補",
+      "category": "背景",
+      "variant": "静止画",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/8091ad13-a63c-469c-b31a-8c16f3d1d70d.png"
+      ]
+    },
+    {
+      "id": "battle-frame",
+      "title": "戦闘パネル枠",
+      "category": "タイトル・UI",
+      "variant": "SVG",
+      "floor": null,
+      "version": "初回登録",
+      "usage": "用途未確認",
+      "approval": "未確認",
+      "author": "未確認",
+      "source_sha": "4695d49e6ad88459948d3ff8a894e4e0e49a6c45",
+      "files": [
+        "assets/ui/battle-panel-frame.svg"
+      ]
+    }
+  ]
+}
