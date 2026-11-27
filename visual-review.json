@@ -3,10 +3,10 @@
   "advisory": true,
   "execution": {
     "event": "schedule",
-    "run_id": "45852527977",
+    "run_id": "45918940028",
     "run_attempt": "1",
     "source_sha": "8522467ef2c8c6b71973dd06b4e011cecdd13726",
-    "evaluated_at": "2026-11-26T15:49:07.818733+00:00",
+    "evaluated_at": "2026-11-27T00:50:26.177334+00:00",
     "registry_sha256": "4ba8bf3ea531eabf4dcca485bea3f81499433fc268113b3b79507cdc2694748f",
     "models": 66,
     "views": 312,
@@ -898,7 +898,7 @@
             "view": "angle",
             "sha256": "84847954b6a43e4c7e8dcb403729c9e417919498f9af96b00ad514e9238c2367",
             "scores": {
-              "silhouette": 0.2237,
+              "silhouette": 0.2236,
               "material": 0.4315,
               "lighting": 0.1247
             }
@@ -1241,7 +1241,7 @@
             "sha256": "d032e397f8a543ee5f268177cc7b4ac89d153b982b1e4baf97ae2b665ff13480",
             "scores": {
               "silhouette": 0.4607,
-              "material": 0.3513,
+              "material": 0.3514,
               "lighting": 0.0574
             }
           },
@@ -1824,7 +1824,7 @@
             "scores": {
               "silhouette": 0.0828,
               "material": 0.1767,
-              "lighting": 0.0819
+              "lighting": 0.0818
             }
           },
           {
@@ -2779,7 +2779,7 @@
             "view": "front",
             "sha256": "22f1e9a398c0f9f36c277bb2bb1f9f6eb1018456d430fff378ba5892e0589390",
             "scores": {
-              "silhouette": 0.202,
+              "silhouette": 0.2019,
               "material": 0.4546,
               "lighting": 0.243
             }
@@ -2816,7 +2816,7 @@
             "sha256": "eda3817502939f30d16a5cbe135b37d687c7ef3a2abfb2754f7d241cbebbd4c0",
             "scores": {
               "silhouette": 0.1992,
-              "material": 0.2511,
+              "material": 0.2512,
               "lighting": 0.1232
             }
           },
