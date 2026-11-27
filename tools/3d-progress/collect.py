@@ -14,8 +14,11 @@ def gh(*args):
 def api(path):
     return json.loads(gh("api",path))
 def collect(root, selected=""):
-    root.mkdir(parents=True,exist_ok=True)
     if selected and not selected.isdecimal(): raise ValueError("Invalid run ID")
+    source=api(f"repos/{REPO}")
+    if source.get("visibility")!="public" or source.get("private") is not False:
+        raise RuntimeError("Gallery artifact collection requires a public source repository")
+    root.mkdir(parents=True,exist_ok=True)
     if selected:
         runs=[api(f"repos/{REPO}/actions/runs/{selected}")]
         artifacts=api(f"repos/{REPO}/actions/runs/{selected}/artifacts?per_page=100")["artifacts"]
