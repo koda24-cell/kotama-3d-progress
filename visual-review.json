@@ -3,13 +3,13 @@
   "advisory": true,
   "execution": {
     "event": "schedule",
-    "run_id": "45979508074",
+    "run_id": "46058188309",
     "run_attempt": "1",
-    "source_sha": "8522467ef2c8c6b71973dd06b4e011cecdd13726",
-    "evaluated_at": "2026-11-27T10:09:56.284376+00:00",
-    "registry_sha256": "f6495e8fd6a54b3bfc5d00025dc0581cf10df926d7bba6aff9a7d6c19b2f8a0c",
-    "models": 71,
-    "views": 327,
+    "source_sha": "27812b155e3df233dc8d0ed1a9f8b3de282daa28",
+    "evaluated_at": "2026-11-27T19:40:52.591190+00:00",
+    "registry_sha256": "ea916dfce0469554defc587e0a07ccd0b09021dad031916ecc6332f8372dad49",
+    "models": 88,
+    "views": 378,
     "compared_models": 0
   },
   "models": [
@@ -3770,35 +3770,698 @@
       "comparison": []
     },
     {
-      "id": "f3-industrial-v3-deep-window-bay",
-      "version": "個別PBR・構造検証 0d36aa3",
+      "id": "f3-industrial-v3-riveted-span",
+      "version": "個別PBR・構造検証 a86f7fc",
       "current": {
         "views": [
           {
             "view": "front",
-            "sha256": "236875faff2da56f4a7051f948ff134b22304722f6bad462c2764f1376551fe2",
+            "sha256": "fa7fb93b8aa6bb3570b3739501201f18fda417a3bc4b7619988d022a39af211e",
             "scores": {
-              "silhouette": 0.2589,
-              "material": 0.23,
-              "lighting": 0.0478
+              "silhouette": 0.2166,
+              "material": 0.3537,
+              "lighting": 0.1265
             }
           },
           {
             "view": "side",
-            "sha256": "ef18955f57e0dcc90218e86f9b695ceb3ae9a320daecb249911ad6826563b4c8",
+            "sha256": "49d10047d8054ebfa4d143796ac3337f315dec8c78be329abde9f3e5dedf094f",
             "scores": {
-              "silhouette": 0.473,
-              "material": 0.3746,
-              "lighting": 0.0896
+              "silhouette": 0.5603,
+              "material": 0.219,
+              "lighting": 0.1001
             }
           },
           {
             "view": "angle",
-            "sha256": "d82555fab64c90e43f7c0ca32a577ae6cab78748aa39c3588b7ab41088bb3f1a",
+            "sha256": "2df8086ac4968d5eb99a597f0e41ad12c15641a1103a28b163c4341e086fd5f5",
             "scores": {
-              "silhouette": 0.1887,
-              "material": 0.7619,
-              "lighting": 0.181
+              "silhouette": 0.225,
+              "material": 0.1437,
+              "lighting": 0.1593
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-structural-corner",
+      "version": "個別PBR・構造検証 a86f7fc",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "de222f31dc364d45f5817c43749326f58b1ebe1400ddd235c339c8a4888bc969",
+            "scores": {
+              "silhouette": 0.2364,
+              "material": 0.377,
+              "lighting": 0.131
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "12ab520e5934c10d37b81190ea62d35fa62ee30423d15e2627873e5516aa123d",
+            "scores": {
+              "silhouette": 0.3276,
+              "material": 0.2817,
+              "lighting": 0.0941
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "bdfafecc13e8eabb6f7fd7e8f6ce5d94c52269fc6ac65e0f67392163b2a17226",
+            "scores": {
+              "silhouette": 0.0859,
+              "material": 0.3711,
+              "lighting": 0.1359
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-deep-window-bay",
+      "version": "個別PBR・構造検証 6f5d6b1",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "80fff9a90373d0c656d5984b5a951702aefc217413ec10e123ddb0dfa54331b2",
+            "scores": {
+              "silhouette": 0.3007,
+              "material": 0.2576,
+              "lighting": 0.0516
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "f79b6ef3d39f5afe620ba2a577fc042a53c73f4a8b04ad113048cbd23c060b34",
+            "scores": {
+              "silhouette": 0.5057,
+              "material": 0.3172,
+              "lighting": 0.0711
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "031d5a9dc30392a645c9b140347dcff9b508de05768aea2bf15576292f879f48",
+            "scores": {
+              "silhouette": 0.2676,
+              "material": 0.7352,
+              "lighting": 0.1989
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-spalled-wall",
+      "version": "個別PBR・構造検証 fe01195",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "95fbad37efbec2e9350288dbf4d3dd64d5f506bec2ab05f4874d76ca062e145c",
+            "scores": {
+              "silhouette": 0.123,
+              "material": 0.2491,
+              "lighting": 0.0339
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "784ecb1f3ad129ba605913a4b7ffa9262e595dd4db8682044d7e835f0c37ad91",
+            "scores": {
+              "silhouette": 0.273,
+              "material": 0.272,
+              "lighting": 0.0577
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "5cc36b4507fd88d91490ed193ea481a6bf65ae2e48d61d48da3468d13a63779f",
+            "scores": {
+              "silhouette": 0.1142,
+              "material": 0.7045,
+              "lighting": 0.1042
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-collapsed-storey",
+      "version": "個別PBR・構造検証 e661d90",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "a63ff897c2e4bc263345b04f8b8f226bd604502d6c9ae8a02a37a1eee3e5d4b5",
+            "scores": {
+              "silhouette": 0.2298,
+              "material": 0.0902,
+              "lighting": 0.1097
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "0c88d1e4ef0a88d9d4c5eee4ab8dad42c7321ebbf05b167826dc0559e7d64001",
+            "scores": {
+              "silhouette": 0.2097,
+              "material": 0.4094,
+              "lighting": 0.2807
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "9b22090794c1131ca3233a4856075e285abd8b5579db151bccec646865523a79",
+            "scores": {
+              "silhouette": 0.0348,
+              "material": 0.3341,
+              "lighting": 0.1884
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-leaning-facade",
+      "version": "個別PBR・構造検証 e661d90",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "02c487753bd79eaa34003dcb8c3bc402d20e30d3748aab3ee21b97e886e3b93f",
+            "scores": {
+              "silhouette": 0.2954,
+              "material": 0.1934,
+              "lighting": 0.1619
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "b35bb41793f0393336650f4f291968b806226aeb4abf9ee301fdae897843b626",
+            "scores": {
+              "silhouette": 0.2049,
+              "material": 0.6931,
+              "lighting": 0.1743
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "11869534bfb0c65c16e58de26f3b9eab726d7cc829e323388bfd773e6dfb6476",
+            "scores": {
+              "silhouette": 0.1078,
+              "material": 0.4696,
+              "lighting": 0.2642
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-greenhouse-bay",
+      "version": "個別PBR・構造検証 6f5d6b1",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "2056806f32e41d40c193c84a0c278032efafca4bc24b1784859b94661a13ea7f",
+            "scores": {
+              "silhouette": 0.33,
+              "material": 0.5295,
+              "lighting": 0.3174
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "c1ecb670c11c42656b5d97c0fa7a95ab32ed4150bbf38df1fa560ecf44f3f9f6",
+            "scores": {
+              "silhouette": 0.0897,
+              "material": 0.2324,
+              "lighting": 0.1025
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "8bd6c2b1c55a4f34e6df8b067c335cab07b40be2bd7744de69730bb4e51540e4",
+            "scores": {
+              "silhouette": 0.226,
+              "material": 0.5784,
+              "lighting": 0.3948
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-greenhouse-gate",
+      "version": "個別PBR・構造検証 e661d90",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "0d0d955d7d3ed3868fbc63308cc60027472387fc45716792e3d3f3f84c51ff36",
+            "scores": {
+              "silhouette": 0.3281,
+              "material": 0.2238,
+              "lighting": 0.0807
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "2185d4eda3c65ebc93e710d8e5fb2e73446b1ad9202007c52ccee462804074a0",
+            "scores": {
+              "silhouette": 0.1272,
+              "material": 0.4478,
+              "lighting": 0.0852
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "c0a43aa87dd524aa6b57167a4e89ba370b8cea0990480e9a245b048cb59b0c7c",
+            "scores": {
+              "silhouette": 0.1015,
+              "material": 0.7077,
+              "lighting": 0.2302
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-sunken-colonnade",
+      "version": "個別PBR・構造検証 e661d90",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "7f95bf11bf687feb167d2a3fd20d274e072b039fd3699d95f79cfd16565bf3a1",
+            "scores": {
+              "silhouette": 0.0857,
+              "material": 0.2137,
+              "lighting": 0.1026
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "2073a565bf314a92881b2799640ee3f420ea82b5a2ea20e13dec92fd3a564700",
+            "scores": {
+              "silhouette": 0.0696,
+              "material": 0.1114,
+              "lighting": 0.1053
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "435ab38c2494b62de7792c80b9ecbbd3d90f90b3410de65f8002d0dd78d95226",
+            "scores": {
+              "silhouette": 0.0515,
+              "material": 0.54,
+              "lighting": 0.4175
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-sunken-shopfront",
+      "version": "個別PBR・構造検証 e661d90",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "196702ac8d816e2bda04e37bf05b1efbc01452b2b8095a92f27a66caca328eb3",
+            "scores": {
+              "silhouette": 0.0934,
+              "material": 0.4335,
+              "lighting": 0.127
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "e5ee807dad95789bf0e157466e52242e1469a9431a5d6c14cb16c972e1b121aa",
+            "scores": {
+              "silhouette": 0.0372,
+              "material": 0.1786,
+              "lighting": 0.0908
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "78256b592261c552dcfa65e35b3a3ebba75d4e458c8526d1da07739f6158fa87",
+            "scores": {
+              "silhouette": 0.1088,
+              "material": 0.567,
+              "lighting": 0.2424
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-derelict-car",
+      "version": "個別PBR・構造検証 266cf72",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "8b786efb23edbc083a53130b4be35151806fee08acb672af3564c9da8273d790",
+            "scores": {
+              "silhouette": 0.7178,
+              "material": 0.6419,
+              "lighting": 0.1339
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "a17c952dc8c79e9f2d722cc76effc6ebd6dd295d617df6f7c0d6b3711cfb1271",
+            "scores": {
+              "silhouette": 0.8115,
+              "material": 0.4703,
+              "lighting": 0.0997
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "2551041c0f344860482bedadd5225270470f4429dc787f005a97979afdf7c336",
+            "scores": {
+              "silhouette": 0.4306,
+              "material": 0.523,
+              "lighting": 0.1422
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-electric-cabinet",
+      "version": "個別PBR・構造検証 e661d90",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "c8a117df073273cca1883f474d5312cbecdda4e9838f3116cd2af9bd8805e33d",
+            "scores": {
+              "silhouette": 0.623,
+              "material": 0.4198,
+              "lighting": 0.1465
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "ca7c2db4f1b0b78cfc1fb1fe39ae4a772377f0971b6380b4072b96a8fd9018b3",
+            "scores": {
+              "silhouette": 0.4796,
+              "material": 0.5355,
+              "lighting": 0.131
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "12dc0c63cd3755bb56e2962170be8b812bd82217661aedda458f2669e001ea1e",
+            "scores": {
+              "silhouette": 0.6866,
+              "material": 0.7627,
+              "lighting": 0.239
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-fluorescent-fixture",
+      "version": "個別PBR・構造検証 e661d90",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "56ae2693a609ac19f2096962f9a79df68e0c7186c223d11ca5156a73521d9b28",
+            "scores": {
+              "silhouette": 0.5113,
+              "material": 0.3246,
+              "lighting": 0.0776
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "3b12d56d2a2d3c88b23f957ef346b87c341018137d48a9ed430182e9da71f3ba",
+            "scores": {
+              "silhouette": 0.4568,
+              "material": 0.4476,
+              "lighting": 0.0575
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "735cb30bcf0ad16559743bc310af34a4faa9d8e071e315f08ac65aba1b7cfce0",
+            "scores": {
+              "silhouette": 0.4722,
+              "material": 0.5836,
+              "lighting": 0.0496
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-cable-pole",
+      "version": "個別PBR・構造検証 e661d90",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "20568d3b1bf4406ead392a4cde27c00659238b56a987d2c9c9174af5db3ddff9",
+            "scores": {
+              "silhouette": 0.2319,
+              "material": 0.1607,
+              "lighting": 0.0417
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "48bfbdec86c32b62d706411f4eddf9fd2ba1bbcda8ccbe2b5a7b17d4fbfbf1ee",
+            "scores": {
+              "silhouette": 0.5502,
+              "material": 0.3223,
+              "lighting": 0.036
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "46e2f8ea2d72d2f90c6bdba0d46948a57c025a5d078810d3bca1328a549dce19",
+            "scores": {
+              "silhouette": 0.3268,
+              "material": 0.4914,
+              "lighting": 0.0769
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-shutter-shop",
+      "version": "個別PBR・構造検証 e661d90",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "3c56bcfc57d703e3a2a723dc4cb1560dbfaaad7c2ea79cfa0bf6bcbb70a9c99b",
+            "scores": {
+              "silhouette": 0.3019,
+              "material": 0.3244,
+              "lighting": 0.1132
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "9d67fffaaa66452597369dafa6219159b3d01bc40641bb435f3d5cbd476bad2a",
+            "scores": {
+              "silhouette": 0.5938,
+              "material": 0.36,
+              "lighting": 0.0985
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "dd2f112ad693ac53d20e48ead743f136b4a7e7438e99854ee5900f5bff2d2dbc",
+            "scores": {
+              "silhouette": 0.3085,
+              "material": 0.5813,
+              "lighting": 0.2226
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-rubble-bank",
+      "version": "個別PBR・構造検証 e661d90",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "ed66bf2efee79e0543cf1dbf000291620f41a38fe54c65a241aa110124416905",
+            "scores": {
+              "silhouette": 0.0979,
+              "material": 0.3193,
+              "lighting": 0.1491
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "2e410eed3f78151d5b93decc54501ca52077c6f058357d527033093936dc2841",
+            "scores": {
+              "silhouette": 0.2699,
+              "material": 0.2195,
+              "lighting": 0.1159
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "d64c27e5f8e3a592a73cf7a81a0f52895f69edc4459ed0f91768d54a42081b52",
+            "scores": {
+              "silhouette": 0.1802,
+              "material": 0.1762,
+              "lighting": 0.3034
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-asphalt-heave",
+      "version": "個別PBR・構造検証 e661d90",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "e3dcec2f0ab0ce14be161ecb4d1f559eb146874571c400e39cee01c00d2b9be7",
+            "scores": {
+              "silhouette": 0.4012,
+              "material": 0.3033,
+              "lighting": 0.268
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "fae157be6ad670ed9b1d947cd1f23890df703359325616a548a0422fec366e11",
+            "scores": {
+              "silhouette": 0.3075,
+              "material": 0.2678,
+              "lighting": 0.319
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "14af4b4342b2c9dda4753bfa0d89bf18cd9cbeb0bfb9aae6c7660cdd733ac62f",
+            "scores": {
+              "silhouette": 0.0886,
+              "material": 0.2758,
+              "lighting": 0.3711
+            }
+          }
+        ],
+        "missing": []
+      },
+      "previous_version": null,
+      "previous": null,
+      "comparison": []
+    },
+    {
+      "id": "f3-industrial-v3-whiteflower-atlas",
+      "version": "個別PBR・構造検証 e661d90",
+      "current": {
+        "views": [
+          {
+            "view": "front",
+            "sha256": "cb487d4bfdbff9629b8e774198a169bd2cb7fb9df3237f17e128d82cc9783823",
+            "scores": {
+              "silhouette": 0.0982,
+              "material": 0.5796,
+              "lighting": 0.2414
+            }
+          },
+          {
+            "view": "side",
+            "sha256": "4dfe3a3e4e0b9ac51835d2ce3d186fc9cd1f8ec50185f93cd3537444a6a9faf6",
+            "scores": {
+              "silhouette": 0.1866,
+              "material": 0.6629,
+              "lighting": 0.3168
+            }
+          },
+          {
+            "view": "angle",
+            "sha256": "cb0cffb07297370f2b75980c6e1db67bac317cedf1daf88cd7c93776a1423de6",
+            "scores": {
+              "silhouette": 0.0588,
+              "material": 0.6062,
+              "lighting": 0.3233
             }
           }
         ],
