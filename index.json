@@ -3245,6 +3245,47 @@
       "render_source_sha": "0b3d233fcf3e5a0de4a65ccfbdc8b10d2cada634",
       "render_run_id": 45793054822,
       "updated_at": "2026-11-26T09:47:02.560981+00:00"
+    },
+    {
+      "id": "f3-industrial-v3-memory-monument",
+      "name": "八メートルの記憶のモニュメント",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 3bf09b1",
+      "status": "制作中",
+      "run_id": 45950675969,
+      "source_sha": "3bf09b1200b534911fe216fd25e36202f448b30d",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-v3-memory-monument/f3849e2fb45be46db80d1728367711d6d08c54a37b5b22c161413b16143412ba.png",
+          "sha256": "f3849e2fb45be46db80d1728367711d6d08c54a37b5b22c161413b16143412ba"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-v3-memory-monument/870897294476b539eb7b8214716b1ca0803ae12e2bd581e569e8152f531f7f64.png",
+          "sha256": "870897294476b539eb7b8214716b1ca0803ae12e2bd581e569e8152f531f7f64"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-v3-memory-monument/cf25a8515be31fb26d5d6604e3167f5ae08bb2fc6878f00a634b9bd3efde809a.png",
+          "sha256": "cf25a8515be31fb26d5d6604e3167f5ae08bb2fc6878f00a634b9bd3efde809a"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-v3-memory-monument/305384a5b1e0bfcfb51e4e62a879d3b07c7b9ae8f942c0ea302823a1d095e2fc.png",
+          "sha256": "305384a5b1e0bfcfb51e4e62a879d3b07c7b9ae8f942c0ea302823a1d095e2fc"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-v3-memory-monument/cefa6805c817d930dbacc13b3230e6c5ab3d9ee8de679b9a9f0423d9d81274d0.png",
+          "sha256": "cefa6805c817d930dbacc13b3230e6c5ab3d9ee8de679b9a9f0423d9d81274d0"
+        }
+      ],
+      "render_updated_at": "2026-11-27T06:26:07.822132+00:00",
+      "render_version": "個別PBR・構造検証 3bf09b1",
+      "render_source_sha": "3bf09b1200b534911fe216fd25e36202f448b30d",
+      "render_run_id": 45950675969,
+      "updated_at": "2026-11-27T06:26:07.822132+00:00"
     }
   ]
 }
