@@ -3286,6 +3286,170 @@
       "render_source_sha": "3bf09b1200b534911fe216fd25e36202f448b30d",
       "render_run_id": 45950675969,
       "updated_at": "2026-11-27T06:26:07.822132+00:00"
+    },
+    {
+      "id": "f3-industrial-v3-switchback-stair",
+      "name": "支持柱・踊り場付き折返し鉄骨階段",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 88da9ef",
+      "status": "制作中",
+      "run_id": 45951697520,
+      "source_sha": "88da9effe5a9e87fbc82269595bf02db7907925b",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-v3-switchback-stair/2ab26cecf7f6b71c4fac6d6cf5ad4f34ebba21f8223a44d59d9cc550af09ea37.png",
+          "sha256": "2ab26cecf7f6b71c4fac6d6cf5ad4f34ebba21f8223a44d59d9cc550af09ea37"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-v3-switchback-stair/16ea439597175da6ebbfd6d2a0d4e640e3d202e5df0dd33e08ea748c28c34e9a.png",
+          "sha256": "16ea439597175da6ebbfd6d2a0d4e640e3d202e5df0dd33e08ea748c28c34e9a"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-v3-switchback-stair/05ca44d80c9bed940edb657abcc5c535a6612a508295d5fcd07d89479b146234.png",
+          "sha256": "05ca44d80c9bed940edb657abcc5c535a6612a508295d5fcd07d89479b146234"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-v3-switchback-stair/510962b9a63f92f756d49d32113e52bd9df9353654ed123ba89d5220b0549391.png",
+          "sha256": "510962b9a63f92f756d49d32113e52bd9df9353654ed123ba89d5220b0549391"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-v3-switchback-stair/32684c492d92dfcc160a490e194b7ea62eb35c23383c72579192e7d6892c21d5.png",
+          "sha256": "32684c492d92dfcc160a490e194b7ea62eb35c23383c72579192e7d6892c21d5"
+        }
+      ],
+      "render_updated_at": "2026-11-27T06:55:54.226217+00:00",
+      "render_version": "個別PBR・構造検証 88da9ef",
+      "render_source_sha": "88da9effe5a9e87fbc82269595bf02db7907925b",
+      "render_run_id": 45951697520,
+      "updated_at": "2026-11-27T06:55:54.226217+00:00"
+    },
+    {
+      "id": "f3-industrial-v3-straight-access-stair",
+      "name": "連結踊り場付き直線鉄骨階段",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 5521a06",
+      "status": "制作中",
+      "run_id": 45952971246,
+      "source_sha": "5521a06a94e1ca19d0916fee4b92ef8a70887187",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-v3-straight-access-stair/c66276b00f27787d710904b122fd94143fd0c971557fa6d173da2f426c9a579c.png",
+          "sha256": "c66276b00f27787d710904b122fd94143fd0c971557fa6d173da2f426c9a579c"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-v3-straight-access-stair/87472e2905f3832f769499a53519a54c6172f78a9c8627b17b36c8cf18a43aa7.png",
+          "sha256": "87472e2905f3832f769499a53519a54c6172f78a9c8627b17b36c8cf18a43aa7"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-v3-straight-access-stair/24467917a24c4dd5bcab1d7d61676bf488d5e15fce28ecf3b770e96e4b6f5a2e.png",
+          "sha256": "24467917a24c4dd5bcab1d7d61676bf488d5e15fce28ecf3b770e96e4b6f5a2e"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-v3-straight-access-stair/25109bd4823623161cee4cc13466978204cd7ea81c8a91255c9f2e0027d76157.png",
+          "sha256": "25109bd4823623161cee4cc13466978204cd7ea81c8a91255c9f2e0027d76157"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-v3-straight-access-stair/d71104ab651974edcc4db8fe71718d0ccad5451779505cca88dee131fc64ae99.png",
+          "sha256": "d71104ab651974edcc4db8fe71718d0ccad5451779505cca88dee131fc64ae99"
+        }
+      ],
+      "render_updated_at": "2026-11-27T06:55:54.363507+00:00",
+      "render_version": "個別PBR・構造検証 5521a06",
+      "render_source_sha": "5521a06a94e1ca19d0916fee4b92ef8a70887187",
+      "render_run_id": 45952971246,
+      "updated_at": "2026-11-27T06:55:54.363507+00:00"
+    },
+    {
+      "id": "f3-industrial-v3-catwalk-junction",
+      "name": "支持された歩廊分岐踊り場",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 5521a06",
+      "status": "制作中",
+      "run_id": 45952971246,
+      "source_sha": "5521a06a94e1ca19d0916fee4b92ef8a70887187",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-v3-catwalk-junction/1a4ad32682410b38962ba2e15fa6b8f99c0533c2a56e1cdbb1d11981ff9b8aa8.png",
+          "sha256": "1a4ad32682410b38962ba2e15fa6b8f99c0533c2a56e1cdbb1d11981ff9b8aa8"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-v3-catwalk-junction/b9ad750b363ec7098097a4bc87202451d9674df245de90962298819f04a3940e.png",
+          "sha256": "b9ad750b363ec7098097a4bc87202451d9674df245de90962298819f04a3940e"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-v3-catwalk-junction/6f38a019ebf87ec3cdcbb6e929e652c3e6801d2f64a5d3896b173575408b2cf2.png",
+          "sha256": "6f38a019ebf87ec3cdcbb6e929e652c3e6801d2f64a5d3896b173575408b2cf2"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-v3-catwalk-junction/e592b26e3a48521837df2df2c861986a7e5f56f3e02c48f522c57b972f3f2138.png",
+          "sha256": "e592b26e3a48521837df2df2c861986a7e5f56f3e02c48f522c57b972f3f2138"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-v3-catwalk-junction/59b382cd15bab44cdbac92ac2ebf4da8fc695721fdd47df13dede0242747a9d8.png",
+          "sha256": "59b382cd15bab44cdbac92ac2ebf4da8fc695721fdd47df13dede0242747a9d8"
+        }
+      ],
+      "render_updated_at": "2026-11-27T06:55:54.476424+00:00",
+      "render_version": "個別PBR・構造検証 5521a06",
+      "render_source_sha": "5521a06a94e1ca19d0916fee4b92ef8a70887187",
+      "render_run_id": 45952971246,
+      "updated_at": "2026-11-27T06:55:54.476424+00:00"
+    },
+    {
+      "id": "f3-industrial-v3-deep-window-bay",
+      "name": "奥壁・側壁を持つ凹んだ窓区画",
+      "floor": "第3層 遺跡都市",
+      "version": "個別PBR・構造検証 0d36aa3",
+      "status": "制作中",
+      "run_id": 45953973126,
+      "source_sha": "0d36aa3c09b82734efd8ca445ac3263f28c7bd18",
+      "images": [
+        {
+          "view": "front",
+          "path": "renders/f3-industrial-v3-deep-window-bay/236875faff2da56f4a7051f948ff134b22304722f6bad462c2764f1376551fe2.png",
+          "sha256": "236875faff2da56f4a7051f948ff134b22304722f6bad462c2764f1376551fe2"
+        },
+        {
+          "view": "back",
+          "path": "renders/f3-industrial-v3-deep-window-bay/5fe4c9bcf1fd0b937a9d6b6ba6e98e6eb8c0c1904b1df2afb6d49b5817e0cd71.png",
+          "sha256": "5fe4c9bcf1fd0b937a9d6b6ba6e98e6eb8c0c1904b1df2afb6d49b5817e0cd71"
+        },
+        {
+          "view": "side",
+          "path": "renders/f3-industrial-v3-deep-window-bay/ef18955f57e0dcc90218e86f9b695ceb3ae9a320daecb249911ad6826563b4c8.png",
+          "sha256": "ef18955f57e0dcc90218e86f9b695ceb3ae9a320daecb249911ad6826563b4c8"
+        },
+        {
+          "view": "angle",
+          "path": "renders/f3-industrial-v3-deep-window-bay/d82555fab64c90e43f7c0ca32a577ae6cab78748aa39c3588b7ab41088bb3f1a.png",
+          "sha256": "d82555fab64c90e43f7c0ca32a577ae6cab78748aa39c3588b7ab41088bb3f1a"
+        },
+        {
+          "view": "top",
+          "path": "renders/f3-industrial-v3-deep-window-bay/ed3182dc1d7263ee0f7c240da6a3b585dc9332c5b6f4029b5ddf9351a443afb7.png",
+          "sha256": "ed3182dc1d7263ee0f7c240da6a3b585dc9332c5b6f4029b5ddf9351a443afb7"
+        }
+      ],
+      "render_updated_at": "2026-11-27T06:55:54.641207+00:00",
+      "render_version": "個別PBR・構造検証 0d36aa3",
+      "render_source_sha": "0d36aa3c09b82734efd8ca445ac3263f28c7bd18",
+      "render_run_id": 45953973126,
+      "updated_at": "2026-11-27T06:55:54.641207+00:00"
     }
   ]
 }
