@@ -3,10 +3,10 @@
   "advisory": true,
   "execution": {
     "event": "schedule",
-    "run_id": "46096856969",
+    "run_id": "46137278633",
     "run_attempt": "1",
     "source_sha": "27812b155e3df233dc8d0ed1a9f8b3de282daa28",
-    "evaluated_at": "2026-11-28T02:13:42.304454+00:00",
+    "evaluated_at": "2026-11-28T10:54:39.464294+00:00",
     "registry_sha256": "ea916dfce0469554defc587e0a07ccd0b09021dad031916ecc6332f8372dad49",
     "models": 88,
     "views": 378,
@@ -626,7 +626,7 @@
             "sha256": "95b6100aff73104e85e5741f61c06037e0310b70d04e59458a9091bf4e075e37",
             "scores": {
               "silhouette": 0.4044,
-              "material": 0.3489,
+              "material": 0.3488,
               "lighting": 0.1289
             }
           }
@@ -743,7 +743,7 @@
             "sha256": "20fdcdc5f7b7c728e40f87887fa1ccf6bacc28ffb2529ffc299ed5ac3959cdc4",
             "scores": {
               "silhouette": 0.1993,
-              "material": 0.497,
+              "material": 0.4969,
               "lighting": 0.1657
             }
           }
@@ -898,7 +898,7 @@
             "view": "angle",
             "sha256": "84847954b6a43e4c7e8dcb403729c9e417919498f9af96b00ad514e9238c2367",
             "scores": {
-              "silhouette": 0.2237,
+              "silhouette": 0.2236,
               "material": 0.4315,
               "lighting": 0.1247
             }
@@ -1133,7 +1133,7 @@
             "sha256": "b90178bf37e3b0bea82cc482f80215912da653c6f0060f4bc1c5d61e6d826753",
             "scores": {
               "silhouette": 0.3685,
-              "material": 0.5712,
+              "material": 0.5713,
               "lighting": 0.2032
             }
           }
@@ -1280,7 +1280,7 @@
             "sha256": "a9cb4b89cb3db0a9d62ec90a71c2b601a04496703b1460ce21672cb72dc654c9",
             "scores": {
               "silhouette": 0.4723,
-              "material": 0.2875,
+              "material": 0.2874,
               "lighting": 0.155
             }
           },
@@ -1701,7 +1701,7 @@
             "scores": {
               "silhouette": 0.1361,
               "material": 0.2816,
-              "lighting": 0.0922
+              "lighting": 0.0923
             }
           },
           {
@@ -2173,7 +2173,7 @@
             "view": "angle",
             "sha256": "7ce670d52bfbe28323dcd4931467ce46ecc580aa3159ccb8ddf01b3280eee4b3",
             "scores": {
-              "silhouette": 0.1819,
+              "silhouette": 0.1818,
               "material": 0.1545,
               "lighting": 0.0851
             }
@@ -2779,7 +2779,7 @@
             "view": "front",
             "sha256": "22f1e9a398c0f9f36c277bb2bb1f9f6eb1018456d430fff378ba5892e0589390",
             "scores": {
-              "silhouette": 0.202,
+              "silhouette": 0.2019,
               "material": 0.4546,
               "lighting": 0.243
             }
@@ -3218,7 +3218,7 @@
             "sha256": "8626ac032eeb921eac5ac3fafbfcd82870cfd0eba6d102bc9c3b36fd32ec9394",
             "scores": {
               "silhouette": 0.4468,
-              "material": 0.464,
+              "material": 0.4639,
               "lighting": 0.163
             }
           },
@@ -3566,7 +3566,7 @@
             "sha256": "e936c69755166c98de251bca4f06c898bf9ab5057ed39c9fcc38184ccdf5d537",
             "scores": {
               "silhouette": 0.2201,
-              "material": 0.7476,
+              "material": 0.7475,
               "lighting": 0.3028
             }
           },
@@ -4422,7 +4422,7 @@
             "scores": {
               "silhouette": 0.0886,
               "material": 0.2758,
-              "lighting": 0.3711
+              "lighting": 0.3712
             }
           }
         ],
