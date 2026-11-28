@@ -1,0 +1,774 @@
+{
+  "version": 1,
+  "approval": "候補・未採用",
+  "assets": [
+    {
+      "id": "command",
+      "title": "指令ボタン",
+      "category": "buttons",
+      "screen": "ホーム・戦闘",
+      "size": [
+        192,
+        56
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "buttons/command.svg",
+      "path": "buttons/command.svg",
+      "bytes": 1041,
+      "sha256": "d212323cd0deadf0861586ca41e05adf22cd09241150f374386b76007d72eb57",
+      "variants": {
+        "hover": {
+          "path": "buttons/command-hover.svg",
+          "bytes": 1041,
+          "sha256": "bc02271711ec5eb6514dc17ad0a01c9fd1d47f9c2142fd8b7cdd183323addb6f"
+        },
+        "pressed": {
+          "path": "buttons/command-pressed.svg",
+          "bytes": 1041,
+          "sha256": "01ce0df0f6b8ca1b176668b85482a13f17e168dcca9628b5099a82f771708cc8"
+        },
+        "selected": {
+          "path": "buttons/command-selected.svg",
+          "bytes": 1041,
+          "sha256": "4088d3b664cf884d9cc152a44d3b987765aafef88a98578dcc279750354cf7c5"
+        },
+        "disabled": {
+          "path": "buttons/command-disabled.svg",
+          "bytes": 1041,
+          "sha256": "7a946ee9f887778741e7e29a31ee91d92f6af06721da1bc9a39df75667fc9974"
+        }
+      }
+    },
+    {
+      "id": "section-tab",
+      "title": "項目タブ",
+      "category": "buttons",
+      "screen": "ショップ・図鑑",
+      "size": [
+        192,
+        56
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "buttons/section-tab.svg",
+      "path": "buttons/section-tab.svg",
+      "bytes": 1031,
+      "sha256": "582b76e580097a7c264dbdca6449651909e2a9f84422ad0540fb52d959638982",
+      "variants": {
+        "hover": {
+          "path": "buttons/section-tab-hover.svg",
+          "bytes": 1031,
+          "sha256": "dc6cee0afb227aac8e6e80020263f4b193e63d5f74137388b3de1746d6176386"
+        },
+        "pressed": {
+          "path": "buttons/section-tab-pressed.svg",
+          "bytes": 1031,
+          "sha256": "d84832ab9a8d783d2dbd1847b86b6d62a537ede99078685ba5e8c6eab76069a7"
+        },
+        "selected": {
+          "path": "buttons/section-tab-selected.svg",
+          "bytes": 1031,
+          "sha256": "e4cc692756339332da2235baa0234d548234f11661161d4d1525fa6dead66784"
+        },
+        "disabled": {
+          "path": "buttons/section-tab-disabled.svg",
+          "bytes": 1031,
+          "sha256": "a277cebecd3944a4727f2f6af06d8aa483724d987b22fb6f496202a0bd6c4a85"
+        }
+      }
+    },
+    {
+      "id": "confirm",
+      "title": "決定ボタン",
+      "category": "buttons",
+      "screen": "購入・強化",
+      "size": [
+        192,
+        56
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "buttons/confirm.svg",
+      "path": "buttons/confirm.svg",
+      "bytes": 1035,
+      "sha256": "3becc2f8fa81c1b0018553aa94f6642742ef9e73193f6d77b855f3e04751dbab",
+      "variants": {
+        "hover": {
+          "path": "buttons/confirm-hover.svg",
+          "bytes": 1035,
+          "sha256": "0d337bd0e769ed916623f37470dd549222612e537919445433d944dbd8d4a8b3"
+        },
+        "pressed": {
+          "path": "buttons/confirm-pressed.svg",
+          "bytes": 1035,
+          "sha256": "c7e9ad0ab0384f5099580b826ab7467b34e16398e4cd617272e3542c1562ea57"
+        },
+        "selected": {
+          "path": "buttons/confirm-selected.svg",
+          "bytes": 1035,
+          "sha256": "c2b49152363c5e71a65e0cca08e53367cab5900c00d3294bf8f6f0957af5bef0"
+        },
+        "disabled": {
+          "path": "buttons/confirm-disabled.svg",
+          "bytes": 1035,
+          "sha256": "a09aa7d75a6e3b87df4f64bbaa8efa939cb96f0202e8e6bdd27aaffd704005f4"
+        }
+      }
+    },
+    {
+      "id": "back",
+      "title": "戻るボタン",
+      "category": "buttons",
+      "screen": "共通",
+      "size": [
+        192,
+        56
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "buttons/back.svg",
+      "path": "buttons/back.svg",
+      "bytes": 1038,
+      "sha256": "a0e597c2d619a83b748f11b4144a89eaf244c2aa221281cf14ba42d3f6ae6096",
+      "variants": {
+        "hover": {
+          "path": "buttons/back-hover.svg",
+          "bytes": 1038,
+          "sha256": "c2d9464285c9ff01d7020327bb98ac92e0ba22728ace79f9ae87a41581123031"
+        },
+        "pressed": {
+          "path": "buttons/back-pressed.svg",
+          "bytes": 1038,
+          "sha256": "627a42b6eeb93f45afd5f4669a9ba95eefa3498cf11343c2f50bf8393f62802d"
+        },
+        "selected": {
+          "path": "buttons/back-selected.svg",
+          "bytes": 1038,
+          "sha256": "af7170286ade515c7edd14ddf7fc7ce7815b281aa3a67ec578df948d3e7d5ff8"
+        },
+        "disabled": {
+          "path": "buttons/back-disabled.svg",
+          "bytes": 1038,
+          "sha256": "a21e888f96f4d567a4ebaef31eb542c0bdeb664e2c3ac5335eff78bdc024a69d"
+        }
+      }
+    },
+    {
+      "id": "select",
+      "title": "選択ブラケット",
+      "category": "buttons",
+      "screen": "編成・スキル",
+      "size": [
+        192,
+        56
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "buttons/select.svg",
+      "path": "buttons/select.svg",
+      "bytes": 679,
+      "sha256": "2f0bd9fa4fd437e3d06db11df607ff3a60afb3fe8a4fd95269bca29117b087a7",
+      "variants": {
+        "hover": {
+          "path": "buttons/select-hover.svg",
+          "bytes": 679,
+          "sha256": "2f0bd9fa4fd437e3d06db11df607ff3a60afb3fe8a4fd95269bca29117b087a7"
+        },
+        "pressed": {
+          "path": "buttons/select-pressed.svg",
+          "bytes": 679,
+          "sha256": "2f0bd9fa4fd437e3d06db11df607ff3a60afb3fe8a4fd95269bca29117b087a7"
+        },
+        "selected": {
+          "path": "buttons/select-selected.svg",
+          "bytes": 679,
+          "sha256": "2f0bd9fa4fd437e3d06db11df607ff3a60afb3fe8a4fd95269bca29117b087a7"
+        },
+        "disabled": {
+          "path": "buttons/select-disabled.svg",
+          "bytes": 679,
+          "sha256": "2f0bd9fa4fd437e3d06db11df607ff3a60afb3fe8a4fd95269bca29117b087a7"
+        }
+      }
+    },
+    {
+      "id": "window",
+      "title": "会話ウィンドウ",
+      "category": "panels",
+      "screen": "会話・確認",
+      "size": [
+        320,
+        176
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "panels/window.svg",
+      "path": "panels/window.svg",
+      "bytes": 1091,
+      "sha256": "310a98f05968fc8518e6c87a1dd37748688686df46c79ab0b46069015bf325be",
+      "frame": {
+        "path": "panels/window-frame.svg",
+        "bytes": 691,
+        "sha256": "69a0e13634ff09dab98dddd620a58f9ef9e616edc87d10238c05c1d314a9e624"
+      },
+      "border_slice": 28
+    },
+    {
+      "id": "inspector",
+      "title": "情報パネル",
+      "category": "panels",
+      "screen": "戦闘・ステータス",
+      "size": [
+        320,
+        176
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "panels/inspector.svg",
+      "path": "panels/inspector.svg",
+      "bytes": 1070,
+      "sha256": "6ec2b8db4f1ba4ba8a31fb55693ae656a633337d3f22781bf3fb7d050962a9e7"
+    },
+    {
+      "id": "parchment",
+      "title": "依頼書",
+      "category": "panels",
+      "screen": "クエスト",
+      "size": [
+        320,
+        176
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "panels/parchment.svg",
+      "path": "panels/parchment.svg",
+      "bytes": 1130,
+      "sha256": "30364408d741384a57178f5b0493b40510c7340c58f35a0eed26e7e9dbcaac76"
+    },
+    {
+      "id": "portrait",
+      "title": "キャラクター枠",
+      "category": "panels",
+      "screen": "編成",
+      "size": [
+        320,
+        176
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "panels/portrait.svg",
+      "path": "panels/portrait.svg",
+      "bytes": 1089,
+      "sha256": "6bce42ca4a9a0b8d6c2c07aa8dd2d37dcc1b8a0a7c6276dcdb0e9f9ea01862e8"
+    },
+    {
+      "id": "minimap",
+      "title": "地図外枠",
+      "category": "panels",
+      "screen": "探索",
+      "size": [
+        320,
+        176
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "panels/minimap.svg",
+      "path": "panels/minimap.svg",
+      "bytes": 1086,
+      "sha256": "f5df17e410ef43bcef5e5aea5a088954f666ee3709823ed851dccfabfb14b300"
+    },
+    {
+      "id": "hp",
+      "title": "HP",
+      "category": "gauges",
+      "screen": "戦闘・探索",
+      "size": [
+        224,
+        32
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "gauges/hp.svg",
+      "path": "gauges/hp.svg",
+      "bytes": 342,
+      "sha256": "4b369b2d30a284191309d165df51211beeecf1e01520c13e688377e99a393c12",
+      "fill": {
+        "path": "gauges/hp-fill.svg",
+        "bytes": 622,
+        "sha256": "215f3f026b480a9afb9b617f0359d6119d72f9abef3f2a6da8f505dd95e9e17c"
+      }
+    },
+    {
+      "id": "sp",
+      "title": "SP",
+      "category": "gauges",
+      "screen": "戦闘・探索",
+      "size": [
+        224,
+        32
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "gauges/sp.svg",
+      "path": "gauges/sp.svg",
+      "bytes": 338,
+      "sha256": "fe02e32b50973ebbb4259b152234df4f63c508032af236b5f845ac8d6098fdfd",
+      "fill": {
+        "path": "gauges/sp-fill.svg",
+        "bytes": 618,
+        "sha256": "e036d37b5d5a8d451691347ecd8795974fea086ee4f6102bc6d13f684d9f8b2b"
+      }
+    },
+    {
+      "id": "exp",
+      "title": "経験値",
+      "category": "gauges",
+      "screen": "戦闘・探索",
+      "size": [
+        224,
+        32
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "gauges/exp.svg",
+      "path": "gauges/exp.svg",
+      "bytes": 390,
+      "sha256": "5fab8b26eafba5b60dc461a38550005ec57526e2fa75b19ae3e8c202527d8041",
+      "fill": {
+        "path": "gauges/exp-fill.svg",
+        "bytes": 637,
+        "sha256": "453871fa4a0a0874d485ee98a7d922e5202e887b8d59a94b4bd5ae521d1c55f4"
+      }
+    },
+    {
+      "id": "union",
+      "title": "ユニオン",
+      "category": "gauges",
+      "screen": "戦闘・探索",
+      "size": [
+        224,
+        32
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "gauges/union.svg",
+      "path": "gauges/union.svg",
+      "bytes": 358,
+      "sha256": "523c10227b21fe95fb8d6b9e6314c80b0f801fd206988a939329a65f18da7f24",
+      "fill": {
+        "path": "gauges/union-fill.svg",
+        "bytes": 629,
+        "sha256": "127cb92e9b3a4ce01975db9b71850bcfd9ddb0836a462b17888269085402e5a1"
+      }
+    },
+    {
+      "id": "encounter",
+      "title": "エンカウント",
+      "category": "gauges",
+      "screen": "戦闘・探索",
+      "size": [
+        224,
+        32
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "gauges/encounter.svg",
+      "path": "gauges/encounter.svg",
+      "bytes": 360,
+      "sha256": "310e2340e5e56c70ff90ad91f63297b2644174791c24e23aba5c1ba4f9a3cfc9",
+      "fill": {
+        "path": "gauges/encounter-fill.svg",
+        "bytes": 628,
+        "sha256": "44e3ca8a0f3d0a18b6250e77e5160c6f9544aa28bb4a781802784b0ae1ae995c"
+      }
+    },
+    {
+      "id": "sword",
+      "title": "剣",
+      "category": "icons",
+      "screen": "戦闘・持ち物",
+      "size": [
+        64,
+        64
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "icons/sword.svg",
+      "path": "icons/sword.svg",
+      "bytes": 743,
+      "sha256": "977287f33dbb3e97465f0a7d986547edfbc7685682082641a419c30de566cbf2"
+    },
+    {
+      "id": "shield",
+      "title": "盾",
+      "category": "icons",
+      "screen": "戦闘・持ち物",
+      "size": [
+        64,
+        64
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "icons/shield.svg",
+      "path": "icons/shield.svg",
+      "bytes": 730,
+      "sha256": "bf161868256d4b6561daa88d55d065cb7bcfecf5a83dd1c45e165830e38784dd"
+    },
+    {
+      "id": "staff",
+      "title": "杖",
+      "category": "icons",
+      "screen": "戦闘・持ち物",
+      "size": [
+        64,
+        64
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "icons/staff.svg",
+      "path": "icons/staff.svg",
+      "bytes": 744,
+      "sha256": "a62c8e4959b0b8703e0232e86a7239f94b2c8d0e33ff5d7eda3d8a6370d569e2"
+    },
+    {
+      "id": "potion",
+      "title": "回復薬",
+      "category": "icons",
+      "screen": "戦闘・持ち物",
+      "size": [
+        64,
+        64
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "icons/potion.svg",
+      "path": "icons/potion.svg",
+      "bytes": 739,
+      "sha256": "b8f0e1b7e78b942e935ced90420704f13198b55de82ecd56238f9d5fea4de052"
+    },
+    {
+      "id": "key",
+      "title": "鍵",
+      "category": "icons",
+      "screen": "戦闘・持ち物",
+      "size": [
+        64,
+        64
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "icons/key.svg",
+      "path": "icons/key.svg",
+      "bytes": 775,
+      "sha256": "df768b701c870bd2c0fc2c786726c1749f7fb23169ba31146aeaf70043b09f5a"
+    },
+    {
+      "id": "chest",
+      "title": "宝箱",
+      "category": "icons",
+      "screen": "戦闘・持ち物",
+      "size": [
+        64,
+        64
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "icons/chest.svg",
+      "path": "icons/chest.svg",
+      "bytes": 730,
+      "sha256": "531aa4312f186c6da9467e69104766b26b0ff728f259329f5bc70a9ab06722a7"
+    },
+    {
+      "id": "return-book",
+      "title": "帰還の書",
+      "category": "icons",
+      "screen": "戦闘・持ち物",
+      "size": [
+        64,
+        64
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "icons/return-book.svg",
+      "path": "icons/return-book.svg",
+      "bytes": 734,
+      "sha256": "b9a8251de215f36679562fd5455f1a83140d510ed59c59c4eb2962079043848e"
+    },
+    {
+      "id": "fire",
+      "title": "炎",
+      "category": "icons",
+      "screen": "戦闘・持ち物",
+      "size": [
+        64,
+        64
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "icons/fire.svg",
+      "path": "icons/fire.svg",
+      "bytes": 788,
+      "sha256": "a5512f0a48e86235a828cb5967f2d8377d4e5f7c61a29df4c8b3d9da38443d96"
+    },
+    {
+      "id": "ice",
+      "title": "氷",
+      "category": "icons",
+      "screen": "戦闘・持ち物",
+      "size": [
+        64,
+        64
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "icons/ice.svg",
+      "path": "icons/ice.svg",
+      "bytes": 720,
+      "sha256": "abc6048dcac3f83df6c81128cbe0c6fb31bfd12b6db0f81d02242cae218ddf2e"
+    },
+    {
+      "id": "thunder",
+      "title": "雷",
+      "category": "icons",
+      "screen": "戦闘・持ち物",
+      "size": [
+        64,
+        64
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "icons/thunder.svg",
+      "path": "icons/thunder.svg",
+      "bytes": 691,
+      "sha256": "6d07db6e74dffde54ff5b309a2d0f42e6a9d266d7738170deb65013cbaed421e"
+    },
+    {
+      "id": "stairs",
+      "title": "階段",
+      "category": "map-icons",
+      "screen": "探索",
+      "size": [
+        64,
+        64
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "map-icons/stairs.svg",
+      "path": "map-icons/stairs.svg",
+      "bytes": 738,
+      "sha256": "1da8fcbb1334845bd9b64c26af40e7a0ce408cf068af706b6cea8007ec3f6b67"
+    },
+    {
+      "id": "door",
+      "title": "扉",
+      "category": "map-icons",
+      "screen": "探索",
+      "size": [
+        64,
+        64
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "map-icons/door.svg",
+      "path": "map-icons/door.svg",
+      "bytes": 744,
+      "sha256": "bc8aad031ecbf9b43b6a9069beca81ce87e959f9b01a87e5893d5bacbc482d9d"
+    },
+    {
+      "id": "gather",
+      "title": "採取",
+      "category": "map-icons",
+      "screen": "探索",
+      "size": [
+        64,
+        64
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "map-icons/gather.svg",
+      "path": "map-icons/gather.svg",
+      "bytes": 766,
+      "sha256": "f1c605389e73d8776cdcced00393f515d345bd5e04e90b372a71b21503671977"
+    },
+    {
+      "id": "event",
+      "title": "イベント",
+      "category": "map-icons",
+      "screen": "探索",
+      "size": [
+        64,
+        64
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "map-icons/event.svg",
+      "path": "map-icons/event.svg",
+      "bytes": 735,
+      "sha256": "b5bf2be9ba24e2308d41306b1992c8d7ee74d6742391d430fc5710047a2dc47f"
+    },
+    {
+      "id": "marker",
+      "title": "現在地",
+      "category": "map-icons",
+      "screen": "探索",
+      "size": [
+        64,
+        64
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "map-icons/marker.svg",
+      "path": "map-icons/marker.svg",
+      "bytes": 690,
+      "sha256": "eb11d0fca14069dbc923ce806f79c4709c9cbcbefedc897e545e11d46518cb12"
+    },
+    {
+      "id": "foe",
+      "title": "強敵",
+      "category": "map-icons",
+      "screen": "探索",
+      "size": [
+        64,
+        64
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "map-icons/foe.svg",
+      "path": "map-icons/foe.svg",
+      "bytes": 750,
+      "sha256": "12e1d10329b0e5dbcb8fc235c8f65d0eaeff4a6cffb84d629ed5c85462f367a6"
+    },
+    {
+      "id": "chapter-seal",
+      "title": "章紋章",
+      "category": "ornaments",
+      "screen": "階層タイトル",
+      "size": [
+        144,
+        100
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "ornaments/chapter-seal.svg",
+      "path": "ornaments/chapter-seal.svg",
+      "bytes": 615,
+      "sha256": "fe7802ebdaf69e3ffc5b13ce82d0440bef45a5a5596fc9b8253397bf0055b982"
+    },
+    {
+      "id": "vine-divider",
+      "title": "蔦の区切り",
+      "category": "ornaments",
+      "screen": "ホーム・図鑑",
+      "size": [
+        240,
+        38
+      ],
+      "source": "original",
+      "theme": "紺青と古金",
+      "tool": "SVG / Python",
+      "model": null,
+      "status": "未承認",
+      "editable": "ornaments/vine-divider.svg",
+      "path": "ornaments/vine-divider.svg",
+      "bytes": 492,
+      "sha256": "39264fa0d71bfda034259762679fd7028d0e5e92b7bfd58b30af3cc16bb837d1"
+    }
+  ]
+}
