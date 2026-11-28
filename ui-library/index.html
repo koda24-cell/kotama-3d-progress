@@ -1,0 +1,45 @@
+<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UI素材ライブラリ | コタマのぼうけん</title>
+<style>
+:root{color-scheme:dark;font:16px system-ui,sans-serif;background:#0d1825;color:#efe9db}*{box-sizing:border-box}body{max-width:1180px;margin:auto;padding:clamp(16px,4vw,45px)}a{color:#f1d6a1}h1,h2{font-family:serif}header{border-bottom:1px solid #786648;padding-bottom:12px}.controls{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}input,select,button{font:inherit;color:inherit;background:#203148;border:1px solid #817253;border-radius:5px;padding:9px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}.tile{background:#142438;border:1px solid #43516a;padding:12px;border-radius:8px}.tile button{width:100%;cursor:zoom-in}.check{display:grid;place-items:center;background:repeating-conic-gradient(#293545 0% 25%,#1a2431 0% 50%) 0/20px 20px;min-height:100px}.check img{width:100%;height:85px;object-fit:contain}.tile p{font-size:.83em;margin:8px 0}.scenes{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}.scene{min-height:165px;padding:20px;background:#172b3d;border:1px solid #a88d61;border-radius:8px}.scene span{display:inline-grid;place-items:center;min-height:38px;padding:4px 22px;background:url(buttons/command.svg) center/100% 100%}.scene img{max-width:100%;vertical-align:middle}.scene i{display:block;width:200px;height:29px;background:url(gauges/hp.svg) center/100% 100%;position:relative}.scene i:after{content:"";position:absolute;inset:0;background:url(gauges/hp-fill.svg) center/100% 100%;clip-path:inset(0 28% 0 0)}dialog{max-width:min(640px,94vw);border:1px solid #ae9260;background:#17283a;color:inherit}dialog img{height:auto;max-height:45vh;min-width:min(280px,65vw)}dialog::backdrop{background:#000a}h2{margin-top:26px}
+</style>
+<header><a href="../index.html">制作進捗</a><h1>UI素材ライブラリ</h1><p>紺青と古金 · 第1弾 · 未承認の候補素材</p></header>
+<h2>画面への仮配置</h2><div class="scenes">
+<section class="scene"><strong>ホーム・ショップ</strong><p><span>編成</span> <span>ショップ</span></p><img width="42" src="icons/potion.svg" alt="回復薬"> 回復薬</section>
+<section class="scene"><strong>戦闘</strong><p>前衛　HP 72 / 100</p><i aria-hidden="true"></i><p><img width="31" src="icons/fire.svg" alt="火"> 火属性</p></section>
+<section class="scene"><strong>探索</strong><p>樹海　マップへの手動配置</p><img width="32" src="map-icons/stairs.svg" alt="階段"> <img width="32" src="map-icons/gather.svg" alt="採取"> <img width="32" src="map-icons/marker.svg" alt="現在地"></section>
+</div>
+<h2>素材を探す</h2><div class="controls"><input id="search" type="search" aria-label="素材名・画面・ID" placeholder="素材名・画面・ID"><select id="category" aria-label="分類"><option value="">全分類</option></select></div><p id="count" aria-live="polite"></p><div class="grid" id="grid"></div>
+<dialog id="detail"><form method="dialog"><button>閉じる</button></form><h2 id="title"></h2><div class="check"><img id="zoom" alt=""></div><p id="meta"></p><select id="variant" aria-label="状態差分"></select> <a id="download" download>SVGを保存</a></dialog>
+<script type="module">
+const labels={buttons:'ボタン・タブ',panels:'枠・パネル',gauges:'ゲージ',icons:'装備・アイテム・属性','map-icons':'探索マーカー',ornaments:'装飾'};
+const $=s=>document.querySelector(s);
+try {
+ const response=await fetch('manifest.json');
+ if(!response.ok) throw Error(response.status);
+ const {assets}=await response.json();
+ for(const group of new Set(assets.map(a=>a.category))) $('#category').add(new Option(labels[group],group));
+ function show(a){
+  const options=[['基本',a.path],...Object.entries(a.variants||{}).map(([key,item])=>[key,item.path])];
+  if(a.fill) options.push(['充填',a.fill.path]);
+  if(a.frame) options.push(['独立枠',a.frame.path]);
+  $('#title').textContent=a.title; $('#meta').textContent=a.screen+' · '+a.size.join(' × ')+' · オリジナル · '+a.status;
+  $('#variant').replaceChildren(...options.map(([label,path])=>new Option(label,path)));
+  const update=()=>{$('#zoom').src=$('#variant').value;$('#zoom').alt=a.title;$('#download').href=$('#variant').value;};
+  $('#variant').onchange=update;update();$('#detail').showModal();
+ }
+ function render(){
+  const q=$('#search').value.trim().toLowerCase();
+  const found=assets.filter(a=>(!$('#category').value||a.category===$('#category').value)&&[a.title,a.id,a.screen].join(' ').toLowerCase().includes(q));
+  $('#count').textContent=found.length+'種類';
+  $('#grid').replaceChildren(...found.map(a=>{
+   const card=document.createElement('article');card.className='tile';
+   const button=document.createElement('button');button.className='check';
+   const img=new Image();img.src=a.path;img.alt=a.title;img.loading='lazy';button.append(img);button.onclick=()=>show(a);
+   const title=document.createElement('p');title.textContent=a.title+' · '+a.screen;
+   card.append(button,title);return card;
+  }));
+ }
+ $('#search').oninput=render;$('#category').onchange=render;render();
+} catch(err){$('#count').textContent='素材台帳を読み込めませんでした。';}
+</script></html>
