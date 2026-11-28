@@ -3,10 +3,10 @@
   "advisory": true,
   "execution": {
     "event": "schedule",
-    "run_id": "46058188309",
+    "run_id": "46096856969",
     "run_attempt": "1",
     "source_sha": "27812b155e3df233dc8d0ed1a9f8b3de282daa28",
-    "evaluated_at": "2026-11-27T19:40:52.591190+00:00",
+    "evaluated_at": "2026-11-28T02:13:42.304454+00:00",
     "registry_sha256": "ea916dfce0469554defc587e0a07ccd0b09021dad031916ecc6332f8372dad49",
     "models": 88,
     "views": 378,
